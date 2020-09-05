@@ -1,0 +1,3718 @@
+BCSymbolMap Version: 2.0
+Apple clang version 11.0.3 (clang-1103.0.32.62)
+/Users/lagarnas/Library/Caches/org.carthage.CarthageKit/DerivedData/11.7_11E801a/vk-ios-sdk/1.5.1/Build/Intermediates.noindex/ArchiveIntermediates/Framework/IntermediateBuildFilesPath/VK-ios-sdk.build/Release-iphoneos/VKSdkFramework.build/DerivedSources/VKSdkFramework_vers.c
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk
+-[VKDocs id]
+-[VKDocs setId:]
+-[VKDocs owner_id]
+-[VKDocs setOwner_id:]
+-[VKDocs title]
+-[VKDocs setTitle:]
+-[VKDocs size]
+-[VKDocs setSize:]
+-[VKDocs ext]
+-[VKDocs setExt:]
+-[VKDocs url]
+-[VKDocs setUrl:]
+-[VKDocs photo_100]
+-[VKDocs setPhoto_100:]
+-[VKDocs photo_130]
+-[VKDocs setPhoto_130:]
+-[VKDocs date]
+-[VKDocs setDate:]
+-[VKDocs type]
+-[VKDocs setType:]
+-[VKDocs .cxx_destruct]
+-[VKDocsArray objectClass]
+_OBJC_IVAR_$_VKDocs._id
+_OBJC_IVAR_$_VKDocs._owner_id
+_OBJC_IVAR_$_VKDocs._title
+_OBJC_IVAR_$_VKDocs._size
+_OBJC_IVAR_$_VKDocs._ext
+_OBJC_IVAR_$_VKDocs._url
+_OBJC_IVAR_$_VKDocs._photo_100
+_OBJC_IVAR_$_VKDocs._photo_130
+_OBJC_IVAR_$_VKDocs._date
+_OBJC_IVAR_$_VKDocs._type
+__OBJC_METACLASS_RO_$_VKDocs
+__OBJC_$_INSTANCE_METHODS_VKDocs
+__OBJC_$_INSTANCE_VARIABLES_VKDocs
+__OBJC_$_PROP_LIST_VKDocs
+__OBJC_CLASS_RO_$_VKDocs
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_
+__OBJC_METACLASS_RO_$_VKDocsArray
+__OBJC_$_INSTANCE_METHODS_VKDocsArray
+__OBJC_CLASS_RO_$_VKDocsArray
+_OBJC_LABEL_CLASS_$
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/models/VKDocs.m
+library/Source/API/models/VKDocs.m
+library/Source/API/models/VKDocs.h
++[VKHTTPOperation operationWithRequest:]
++[VKHTTPOperation networkRequestThreadEntryPoint:]
++[VKHTTPOperation networkRequestThread]
+___39+[VKHTTPOperation networkRequestThread]_block_invoke
+___copy_helper_block_e8_
+___destroy_helper_block_e8_
+-[VKHTTPOperation initWithURLRequest:]
+-[VKHTTPOperation dealloc]
+-[VKHTTPOperation outputStream]
+-[VKHTTPOperation setShouldExecuteAsBackgroundTaskWithExpirationHandler:]
+___73-[VKHTTPOperation setShouldExecuteAsBackgroundTaskWithExpirationHandler:]_block_invoke
+___copy_helper_block_e8_32b40s48w
+___destroy_helper_block_e8_32s40s48w
+-[VKHTTPOperation setUploadProgressBlock:]
+-[VKHTTPOperation setDownloadProgressBlock:]
+-[VKHTTPOperation responseString]
+-[VKHTTPOperation responseJson]
+-[VKHTTPOperation responseStringEncoding]
+-[VKHTTPOperation pause]
+-[VKHTTPOperation isPaused]
+-[VKHTTPOperation resume]
+-[VKHTTPOperation start]
+-[VKHTTPOperation operationDidStart]
+-[VKHTTPOperation finish]
+-[VKHTTPOperation cancel]
+-[VKHTTPOperation cancelConnection]
+-[VKHTTPOperation connection:didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite:]
+___90-[VKHTTPOperation connection:didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite:]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+-[VKHTTPOperation connection:didReceiveResponse:]
+-[VKHTTPOperation connection:didReceiveData:]
+___45-[VKHTTPOperation connection:didReceiveData:]_block_invoke
+-[VKHTTPOperation connectionDidFinishLoading:]
+-[VKHTTPOperation connection:didFailWithError:]
+-[VKHTTPOperation initWithCoder:]
+-[VKHTTPOperation encodeWithCoder:]
+-[VKHTTPOperation copyWithZone:]
+-[VKHTTPOperation hasAcceptableStatusCode]
+-[VKHTTPOperation error]
+-[VKHTTPOperation setSuccessCallbackQueue:]
+-[VKHTTPOperation setFailureCallbackQueue:]
+-[VKHTTPOperation setCompletionBlockWithSuccess:failure:]
+___57-[VKHTTPOperation setCompletionBlockWithSuccess:failure:]_block_invoke
+___57-[VKHTTPOperation setCompletionBlockWithSuccess:failure:]_block_invoke_2
+___copy_helper_block_e8_32b40s
+___destroy_helper_block_e8_32s40s
+___57-[VKHTTPOperation setCompletionBlockWithSuccess:failure:]_block_invoke.307
+___copy_helper_block_e8_32s40b48b
+___destroy_helper_block_e8_32s40s48s
+-[VKHTTPOperation loadingRequest]
+-[VKHTTPOperation setLoadingRequest:]
+-[VKHTTPOperation runLoopModes]
+-[VKHTTPOperation setRunLoopModes:]
+-[VKHTTPOperation vkRequest]
+-[VKHTTPOperation setVkRequest:]
+-[VKHTTPOperation request]
+-[VKHTTPOperation setRequest:]
+-[VKHTTPOperation responseData]
+-[VKHTTPOperation setResponseData:]
+-[VKHTTPOperation response]
+-[VKHTTPOperation setResponse:]
+-[VKHTTPOperation successCallbackQueue]
+-[VKHTTPOperation failureCallbackQueue]
+-[VKHTTPOperation isCancelled]
+-[VKHTTPOperation setWasCanceled:]
+-[VKHTTPOperation connection]
+-[VKHTTPOperation setConnection:]
+-[VKHTTPOperation setError:]
+-[VKHTTPOperation setResponseString:]
+-[VKHTTPOperation setResponseJson:]
+-[VKHTTPOperation setResponseStringEncoding:]
+-[VKHTTPOperation totalBytesRead]
+-[VKHTTPOperation setTotalBytesRead:]
+-[VKHTTPOperation backgroundTaskIdentifier]
+-[VKHTTPOperation setBackgroundTaskIdentifier:]
+-[VKHTTPOperation uploadProgress]
+-[VKHTTPOperation setUploadProgress:]
+-[VKHTTPOperation downloadProgress]
+-[VKHTTPOperation setDownloadProgress:]
+-[VKHTTPOperation HTTPError]
+-[VKHTTPOperation setHTTPError:]
+-[VKHTTPOperation setOutputStream:]
+-[VKHTTPOperation JSONError]
+-[VKHTTPOperation setJSONError:]
+-[VKHTTPOperation .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_CLASSLIST_REFERENCES_$_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_CLASSLIST_REFERENCES_$_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_networkRequestThread._networkRequestThread
+_networkRequestThread.oncePredicate
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+___block_descriptor_40_e8__e5_v8?0l
+_OBJC_CLASSLIST_SUP_REFS_$_
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_CLASSLIST_REFERENCES_$_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_CLASSLIST_REFERENCES_$_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_IVAR_$_VKHTTPOperation._backgroundTaskIdentifier
+_OBJC_CLASSLIST_REFERENCES_$_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_IVAR_$_VKHTTPOperation._successCallbackQueue
+_OBJC_IVAR_$_VKHTTPOperation._failureCallbackQueue
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_IVAR_$_VKHTTPOperation._outputStream
+_OBJC_CLASSLIST_REFERENCES_$_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+___block_descriptor_56_e8_32bs40s48w_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_IVAR_$_VKHTTPOperation._responseString
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_CLASSLIST_REFERENCES_$_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_CLASSLIST_REFERENCES_$_.87
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_CLASSLIST_REFERENCES_$_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_IVAR_$_VKHTTPOperation._responseJson
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_CLASSLIST_REFERENCES_$_.111
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_CLASSLIST_REFERENCES_$_.116
+_OBJC_SELECTOR_REFERENCES_.118
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_IVAR_$_VKHTTPOperation._responseStringEncoding
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_SELECTOR_REFERENCES_.154
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_SELECTOR_REFERENCES_.168
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_SELECTOR_REFERENCES_.178
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_CLASSLIST_REFERENCES_$_.187
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_CLASSLIST_REFERENCES_$_.192
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_CLASSLIST_REFERENCES_$_.203
+_OBJC_SELECTOR_REFERENCES_.205
+_OBJC_SELECTOR_REFERENCES_.207
+_OBJC_SELECTOR_REFERENCES_.209
+_OBJC_SELECTOR_REFERENCES_.211
+_OBJC_SELECTOR_REFERENCES_.213
+_OBJC_SELECTOR_REFERENCES_.215
+_OBJC_SELECTOR_REFERENCES_.217
+___block_descriptor_64_e8_32s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.219
+_OBJC_SELECTOR_REFERENCES_.221
+_OBJC_SELECTOR_REFERENCES_.223
+_OBJC_SELECTOR_REFERENCES_.225
+_OBJC_SELECTOR_REFERENCES_.227
+_OBJC_SELECTOR_REFERENCES_.229
+_OBJC_SELECTOR_REFERENCES_.231
+_OBJC_SELECTOR_REFERENCES_.233
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_SELECTOR_REFERENCES_.237
+___block_descriptor_48_e8_32s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_SELECTOR_REFERENCES_.241
+_OBJC_SELECTOR_REFERENCES_.245
+_OBJC_SELECTOR_REFERENCES_.249
+_OBJC_SELECTOR_REFERENCES_.253
+_OBJC_SELECTOR_REFERENCES_.255
+_OBJC_SELECTOR_REFERENCES_.265
+_OBJC_SELECTOR_REFERENCES_.267
+_OBJC_SELECTOR_REFERENCES_.269
+_OBJC_SELECTOR_REFERENCES_.271
+_OBJC_SELECTOR_REFERENCES_.273
+_OBJC_SELECTOR_REFERENCES_.275
+_OBJC_CLASSLIST_REFERENCES_$_.276
+_OBJC_SELECTOR_REFERENCES_.278
+_OBJC_SELECTOR_REFERENCES_.280
+_OBJC_CLASSLIST_REFERENCES_$_.281
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_SELECTOR_REFERENCES_.285
+_OBJC_SELECTOR_REFERENCES_.287
+_OBJC_SELECTOR_REFERENCES_.289
+_OBJC_CLASSLIST_REFERENCES_$_.290
+_OBJC_SELECTOR_REFERENCES_.292
+_OBJC_SELECTOR_REFERENCES_.300
+_OBJC_SELECTOR_REFERENCES_.302
+_OBJC_IVAR_$_VKHTTPOperation._error
+_OBJC_SELECTOR_REFERENCES_.304
+___block_descriptor_48_e8_32bs40s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.306
+___block_descriptor_56_e8_32s40bs48bs_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.309
+_OBJC_IVAR_$_VKHTTPOperation._loadingRequest
+_OBJC_IVAR_$_VKHTTPOperation._runLoopModes
+_OBJC_IVAR_$_VKHTTPOperation._vkRequest
+_OBJC_IVAR_$_VKHTTPOperation._request
+_OBJC_IVAR_$_VKHTTPOperation._responseData
+_OBJC_IVAR_$_VKHTTPOperation._response
+_OBJC_IVAR_$_VKHTTPOperation._wasCanceled
+_OBJC_IVAR_$_VKHTTPOperation._connection
+_OBJC_IVAR_$_VKHTTPOperation._totalBytesRead
+_OBJC_IVAR_$_VKHTTPOperation._uploadProgress
+_OBJC_IVAR_$_VKHTTPOperation._downloadProgress
+_OBJC_IVAR_$_VKHTTPOperation._HTTPError
+_OBJC_IVAR_$_VKHTTPOperation._JSONError
+__OBJC_$_CLASS_METHODS_VKHTTPOperation
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_NSURLConnectionDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLConnectionDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSURLConnectionDelegate
+__OBJC_PROTOCOL_$_NSURLConnectionDelegate
+__OBJC_LABEL_PROTOCOL_$_NSURLConnectionDelegate
+__OBJC_$_PROTOCOL_REFS_NSURLConnectionDataDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLConnectionDataDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSURLConnectionDataDelegate
+__OBJC_PROTOCOL_$_NSURLConnectionDataDelegate
+__OBJC_LABEL_PROTOCOL_$_NSURLConnectionDataDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+__OBJC_PROTOCOL_$_NSCoding
+__OBJC_LABEL_PROTOCOL_$_NSCoding
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+__OBJC_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+__OBJC_CLASS_PROTOCOLS_$_VKHTTPOperation
+__OBJC_METACLASS_RO_$_VKHTTPOperation
+__OBJC_$_INSTANCE_METHODS_VKHTTPOperation
+__OBJC_$_INSTANCE_VARIABLES_VKHTTPOperation
+__OBJC_$_PROP_LIST_VKHTTPOperation
+__OBJC_CLASS_RO_$_VKHTTPOperation
+_OBJC_CLASSLIST_REFERENCES_$_.490
+_OBJC_SELECTOR_REFERENCES_.492
+_OBJC_CLASSLIST_REFERENCES_$_.493
+_OBJC_SELECTOR_REFERENCES_.495
+_OBJC_SELECTOR_REFERENCES_.497
+_OBJC_SELECTOR_REFERENCES_.501
+_OBJC_SELECTOR_REFERENCES_.503
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Core/VKHTTPOperation.m
+library/Source/Core/VKHTTPOperation.m
+library/Source/Core/VKHTTPOperation.h
+__destroy_helper_block_e8_32s40s48s
+__copy_helper_block_e8_32s40b48b
+__57-[VKHTTPOperation setCompletionBlockWithSuccess:failure:]_block_invoke.307
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32b40s
+__57-[VKHTTPOperation setCompletionBlockWithSuccess:failure:]_block_invoke_2
+__57-[VKHTTPOperation setCompletionBlockWithSuccess:failure:]_block_invoke
+__45-[VKHTTPOperation connection:didReceiveData:]_block_invoke
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
+__90-[VKHTTPOperation connection:didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite:]_block_invoke
+VKGetMediaTypeAndSubtypeWithString
+__destroy_helper_block_e8_32s40s48w
+__copy_helper_block_e8_32b40s48w
+__73-[VKHTTPOperation setShouldExecuteAsBackgroundTaskWithExpirationHandler:]_block_invoke
+__destroy_helper_block_e8_
+__copy_helper_block_e8_
+__39+[VKHTTPOperation networkRequestThread]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/usr/include/dispatch/once.h
+-[VKSharedTransitioningObject animationControllerForPresentedController:presentingController:sourceController:]
+-[VKSharedTransitioningObject animationControllerForDismissedController:]
+-[VKSharedTransitioningObject interactionControllerForPresentation:]
+-[VKSharedTransitioningObject interactionControllerForDismissal:]
+-[AnimatedTransitioning transitionDuration:]
+-[AnimatedTransitioning animateTransition:]
+___43-[AnimatedTransitioning animateTransition:]_block_invoke
+___copy_helper_block_e8_32s40s48s
+___43-[AnimatedTransitioning animateTransition:]_block_invoke.84
+-[AnimatedTransitioning isPresenting]
+-[AnimatedTransitioning setIsPresenting:]
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_CLASSLIST_REFERENCES_$_.6
+__OBJC_$_PROTOCOL_REFS_UIViewControllerTransitioningDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIViewControllerTransitioningDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIViewControllerTransitioningDelegate
+__OBJC_PROTOCOL_$_UIViewControllerTransitioningDelegate
+__OBJC_LABEL_PROTOCOL_$_UIViewControllerTransitioningDelegate
+__OBJC_CLASS_PROTOCOLS_$_VKSharedTransitioningObject
+__OBJC_METACLASS_RO_$_VKSharedTransitioningObject
+__OBJC_$_INSTANCE_METHODS_VKSharedTransitioningObject
+__OBJC_$_PROP_LIST_VKSharedTransitioningObject
+__OBJC_CLASS_RO_$_VKSharedTransitioningObject
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_CLASSLIST_REFERENCES_$_.81
+_OBJC_SELECTOR_REFERENCES_.83
+___block_descriptor_56_e8_32s40s48s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.88
+___block_descriptor_56_e8_32s40s48s_e8_v12?0B8l
+__OBJC_$_PROTOCOL_REFS_UIViewControllerAnimatedTransitioning
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_UIViewControllerAnimatedTransitioning
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIViewControllerAnimatedTransitioning
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIViewControllerAnimatedTransitioning
+__OBJC_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+__OBJC_LABEL_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+__OBJC_CLASS_PROTOCOLS_$_AnimatedTransitioning
+__OBJC_METACLASS_RO_$_AnimatedTransitioning
+__OBJC_$_INSTANCE_METHODS_AnimatedTransitioning
+_OBJC_IVAR_$_AnimatedTransitioning._isPresenting
+__OBJC_$_INSTANCE_VARIABLES_AnimatedTransitioning
+__OBJC_$_PROP_LIST_AnimatedTransitioning
+__OBJC_CLASS_RO_$_AnimatedTransitioning
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Views/VKSharedTransitioningObject.m
+library/Source/Views/VKSharedTransitioningObject.m
+__43-[AnimatedTransitioning animateTransition:]_block_invoke.84
+__copy_helper_block_e8_32s40s48s
+__43-[AnimatedTransitioning animateTransition:]_block_invoke
++[VKImageParameters pngImage]
++[VKImageParameters jpegImageWithQuality:]
+-[VKImageParameters fileExtension]
+-[VKImageParameters mimeType]
+-[VKImageParameters imageType]
+-[VKImageParameters setImageType:]
+-[VKImageParameters jpegQuality]
+-[VKImageParameters setJpegQuality:]
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_IVAR_$_VKImageParameters._imageType
+_OBJC_IVAR_$_VKImageParameters._jpegQuality
+__OBJC_$_CLASS_METHODS_VKImageParameters
+__OBJC_METACLASS_RO_$_VKImageParameters
+__OBJC_$_INSTANCE_METHODS_VKImageParameters
+__OBJC_$_INSTANCE_VARIABLES_VKImageParameters
+__OBJC_$_PROP_LIST_VKImageParameters
+__OBJC_CLASS_RO_$_VKImageParameters
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Image/VKImageParameters.m
+library/Source/Image/VKImageParameters.h
+library/Source/Image/VKImageParameters.m
+-[VKAudio id]
+-[VKAudio setId:]
+-[VKAudio owner_id]
+-[VKAudio setOwner_id:]
+-[VKAudio artist]
+-[VKAudio setArtist:]
+-[VKAudio title]
+-[VKAudio setTitle:]
+-[VKAudio duration]
+-[VKAudio setDuration:]
+-[VKAudio url]
+-[VKAudio setUrl:]
+-[VKAudio lyrics_id]
+-[VKAudio setLyrics_id:]
+-[VKAudio album_id]
+-[VKAudio setAlbum_id:]
+-[VKAudio genre_id]
+-[VKAudio setGenre_id:]
+-[VKAudio fromCache]
+-[VKAudio setFromCache:]
+-[VKAudio ignoreCache]
+-[VKAudio setIgnoreCache:]
+-[VKAudio .cxx_destruct]
+-[VKAudios objectClass]
+-[VKAudios parseItems:asClass:]
+-[VKAudios user]
+-[VKAudios setUser:]
+-[VKAudios .cxx_destruct]
+_OBJC_IVAR_$_VKAudio._id
+_OBJC_IVAR_$_VKAudio._owner_id
+_OBJC_IVAR_$_VKAudio._artist
+_OBJC_IVAR_$_VKAudio._title
+_OBJC_IVAR_$_VKAudio._duration
+_OBJC_IVAR_$_VKAudio._url
+_OBJC_IVAR_$_VKAudio._lyrics_id
+_OBJC_IVAR_$_VKAudio._album_id
+_OBJC_IVAR_$_VKAudio._genre_id
+_OBJC_IVAR_$_VKAudio._fromCache
+_OBJC_IVAR_$_VKAudio._ignoreCache
+__OBJC_METACLASS_RO_$_VKAudio
+__OBJC_$_INSTANCE_METHODS_VKAudio
+__OBJC_$_INSTANCE_VARIABLES_VKAudio
+__OBJC_$_PROP_LIST_VKAudio
+__OBJC_CLASS_RO_$_VKAudio
+_OBJC_CLASSLIST_REFERENCES_$_.64
+_OBJC_CLASSLIST_REFERENCES_$_.73
+_OBJC_CLASSLIST_REFERENCES_$_.78
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_IVAR_$_VKAudios._user
+__OBJC_METACLASS_RO_$_VKAudios
+__OBJC_$_INSTANCE_METHODS_VKAudios
+__OBJC_$_INSTANCE_VARIABLES_VKAudios
+__OBJC_$_PROP_LIST_VKAudios
+__OBJC_CLASS_RO_$_VKAudios
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/models/VKAudio.m
+library/Source/API/models/VKAudio.m
+library/Source/API/models/VKAudio.h
+-[VKSchool initWithDictionary:]
+-[VKSchool id]
+-[VKSchool setId:]
+-[VKSchool country]
+-[VKSchool setCountry:]
+-[VKSchool city]
+-[VKSchool setCity:]
+-[VKSchool name]
+-[VKSchool setName:]
+-[VKSchool year_from]
+-[VKSchool setYear_from:]
+-[VKSchool year_to]
+-[VKSchool setYear_to:]
+-[VKSchool year_graduated]
+-[VKSchool setYear_graduated:]
+-[VKSchool Mclass]
+-[VKSchool setMclass:]
+-[VKSchool speciality]
+-[VKSchool setSpeciality:]
+-[VKSchool type]
+-[VKSchool setType:]
+-[VKSchool type_str]
+-[VKSchool setType_str:]
+-[VKSchool .cxx_destruct]
+-[VKSchools objectClass]
+_OBJC_CLASSLIST_REFERENCES_$_.3
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_CLASSLIST_REFERENCES_$_.8
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_IVAR_$_VKSchool._id
+_OBJC_IVAR_$_VKSchool._country
+_OBJC_IVAR_$_VKSchool._city
+_OBJC_IVAR_$_VKSchool._name
+_OBJC_IVAR_$_VKSchool._year_from
+_OBJC_IVAR_$_VKSchool._year_to
+_OBJC_IVAR_$_VKSchool._year_graduated
+_OBJC_IVAR_$_VKSchool._Mclass
+_OBJC_IVAR_$_VKSchool._speciality
+_OBJC_IVAR_$_VKSchool._type
+_OBJC_IVAR_$_VKSchool._type_str
+__OBJC_METACLASS_RO_$_VKSchool
+__OBJC_$_INSTANCE_METHODS_VKSchool
+__OBJC_$_INSTANCE_VARIABLES_VKSchool
+__OBJC_$_PROP_LIST_VKSchool
+__OBJC_CLASS_RO_$_VKSchool
+_OBJC_CLASSLIST_REFERENCES_$_.76
+__OBJC_METACLASS_RO_$_VKSchools
+__OBJC_$_INSTANCE_METHODS_VKSchools
+__OBJC_CLASS_RO_$_VKSchools
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/models/VKSchool.m
+library/Source/API/models/VKSchool.m
+library/Source/API/models/VKSchool.h
+-[VKResponse description]
+-[VKResponse request]
+-[VKResponse setRequest:]
+-[VKResponse json]
+-[VKResponse setJson:]
+-[VKResponse parsedModel]
+-[VKResponse setParsedModel:]
+-[VKResponse responseString]
+-[VKResponse setResponseString:]
+-[VKResponse .cxx_destruct]
+_OBJC_IVAR_$_VKResponse._request
+_OBJC_IVAR_$_VKResponse._json
+_OBJC_IVAR_$_VKResponse._parsedModel
+_OBJC_IVAR_$_VKResponse._responseString
+__OBJC_METACLASS_RO_$_VKResponse
+__OBJC_$_INSTANCE_METHODS_VKResponse
+__OBJC_$_INSTANCE_VARIABLES_VKResponse
+__OBJC_$_PROP_LIST_VKResponse
+__OBJC_CLASS_RO_$_VKResponse
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Core/VKResponse.m
+library/Source/Core/VKResponse.m
+library/Source/Core/VKResponse.h
+-[VKJSONOperation setCompletionBlockWithSuccess:failure:]
+___57-[VKJSONOperation setCompletionBlockWithSuccess:failure:]_block_invoke
+___57-[VKJSONOperation setCompletionBlockWithSuccess:failure:]_block_invoke_2
+___57-[VKJSONOperation setCompletionBlockWithSuccess:failure:]_block_invoke.7
+___copy_helper_block_e8_32b40s48s
+___block_descriptor_56_e8_32bs40s48s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.9
+__OBJC_METACLASS_RO_$_VKJSONOperation
+__OBJC_$_INSTANCE_METHODS_VKJSONOperation
+__OBJC_CLASS_RO_$_VKJSONOperation
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Core/VKJSONOperation.m
+__copy_helper_block_e8_32b40s48s
+__57-[VKJSONOperation setCompletionBlockWithSuccess:failure:]_block_invoke.7
+library/Source/Core/VKJSONOperation.m
+__57-[VKJSONOperation setCompletionBlockWithSuccess:failure:]_block_invoke_2
+__57-[VKJSONOperation setCompletionBlockWithSuccess:failure:]_block_invoke
+-[VKUploadWallPhotoRequest initWithImage:parameters:userId:groupId:]
+-[VKUploadWallPhotoRequest getServerRequest]
+-[VKUploadWallPhotoRequest getSaveRequest:]
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_CLASSLIST_REFERENCES_$_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_CLASSLIST_REFERENCES_$_.22
+__OBJC_METACLASS_RO_$_VKUploadWallPhotoRequest
+__OBJC_$_INSTANCE_METHODS_VKUploadWallPhotoRequest
+__OBJC_CLASS_RO_$_VKUploadWallPhotoRequest
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/upload/VKUploadWallPhotoRequest.m
+library/Source/API/upload/VKUploadWallPhotoRequest.m
+-[VKApiBase init]
+-[VKApiBase getMethodGroup]
+-[VKApiBase setMethodGroup:]
+-[VKApiBase prepareRequestWithMethodName:parameters:]
+-[VKApiBase prepareRequestWithMethodName:parameters:modelClass:]
+-[VKApiBase .cxx_destruct]
+_OBJC_IVAR_$_VKApiBase._methodGroup
+_OBJC_CLASSLIST_REFERENCES_$_.13
+_OBJC_SELECTOR_REFERENCES_.17
+__OBJC_METACLASS_RO_$_VKApiBase
+__OBJC_$_INSTANCE_METHODS_VKApiBase
+__OBJC_$_INSTANCE_VARIABLES_VKApiBase
+__OBJC_CLASS_RO_$_VKApiBase
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/methods/VKApiBase.m
+library/Source/API/methods/VKApiBase.m
++[VKActivity activityCategory]
++[VKActivity vkShareExtensionEnabled]
+-[VKActivity activityType]
+-[VKActivity activityImage]
+-[VKActivity activityTitle]
+-[VKActivity canPerformWithActivityItems:]
+-[VKActivity prepareWithActivityItems:]
+___39-[VKActivity prepareWithActivityItems:]_block_invoke
+___copy_helper_block_e8_32w
+___destroy_helper_block_e8_32w
+-[VKActivity activityViewController]
+-[VKActivity shareDialog]
+-[VKActivity setShareDialog:]
+-[VKActivity .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.4
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_CLASSLIST_REFERENCES_$_.24
+_OBJC_CLASSLIST_REFERENCES_$_.29
+_OBJC_CLASSLIST_REFERENCES_$_.30
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_CLASSLIST_REFERENCES_$_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_CLASSLIST_REFERENCES_$_.40
+_OBJC_CLASSLIST_REFERENCES_$_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_CLASSLIST_REFERENCES_$_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.59
+___block_descriptor_40_e8_32w_e36_v24?0"VKShareDialogController"8q16l
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_IVAR_$_VKActivity._shareDialog
+__OBJC_$_CLASS_METHODS_VKActivity
+__OBJC_METACLASS_RO_$_VKActivity
+__OBJC_$_INSTANCE_METHODS_VKActivity
+__OBJC_$_INSTANCE_VARIABLES_VKActivity
+__OBJC_$_PROP_LIST_VKActivity
+__OBJC_CLASS_RO_$_VKActivity
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Views/VKActivity.m
+library/Source/Views/VKActivity.m
+__destroy_helper_block_e8_32w
+__copy_helper_block_e8_32w
+__39-[VKActivity prepareWithActivityItems:]_block_invoke
+-[VKPropertyHelper initWith:]
+-[VKPropertyHelper propertyName]
+-[VKPropertyHelper setPropertyName:]
+-[VKPropertyHelper propertyClassName]
+-[VKPropertyHelper setPropertyClassName:]
+-[VKPropertyHelper propertyClass]
+-[VKPropertyHelper setPropertyClass:]
+-[VKPropertyHelper isPrimitive]
+-[VKPropertyHelper setIsPrimitive:]
+-[VKPropertyHelper isModelsArray]
+-[VKPropertyHelper setIsModelsArray:]
+-[VKPropertyHelper isModel]
+-[VKPropertyHelper setIsModel:]
+-[VKPropertyHelper property]
+-[VKPropertyHelper setProperty:]
+-[VKPropertyHelper .cxx_destruct]
+-[VKApiObject initWithDictionary:]
+-[VKApiObject parse:]
+___21-[VKApiObject parse:]_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___21-[VKApiObject parse:]_block_invoke.79
+___copy_helper_block_e8_32r
+___destroy_helper_block_e8_32r
+-[VKApiObject enumPropertiesWithBlock:]
+-[VKApiObject ignoredProperties]
+-[VKApiObject serialize]
+___24-[VKApiObject serialize]_block_invoke
+___copy_helper_block_e8_32s40s
++[VKApiObject createWithDictionary:]
++[VKApiObject createWithArray:]
+-[VKApiObject setValue:forUndefinedKey:]
+-[VKApiObject fields]
+-[VKApiObject setFields:]
+-[VKApiObject .cxx_destruct]
+_OBJC_IVAR_$_VKPropertyHelper._property
+_OBJC_IVAR_$_VKPropertyHelper._propertyName
+_OBJC_IVAR_$_VKPropertyHelper._propertyClassName
+_OBJC_IVAR_$_VKPropertyHelper._isPrimitive
+_OBJC_IVAR_$_VKPropertyHelper._propertyClass
+_OBJC_IVAR_$_VKPropertyHelper._isModelsArray
+_OBJC_CLASSLIST_REFERENCES_$_.18
+_OBJC_IVAR_$_VKPropertyHelper._isModel
+__OBJC_METACLASS_RO_$_VKPropertyHelper
+__OBJC_$_INSTANCE_METHODS_VKPropertyHelper
+__OBJC_$_INSTANCE_VARIABLES_VKPropertyHelper
+__OBJC_$_PROP_LIST_VKPropertyHelper
+__OBJC_CLASS_RO_$_VKPropertyHelper
+_OBJC_CLASSLIST_SUP_REFS_$_.68
+_parse:.classesProperties
+_parse:.classSemaphore
+_parse:.onceToken
+___block_descriptor_32_e5_v8?0l
+___block_literal_global
+_OBJC_CLASSLIST_REFERENCES_$_.74
+___block_descriptor_40_e8_32r_e29_v20?0"VKPropertyHelper"8i16l
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_CLASSLIST_REFERENCES_$_.96
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_CLASSLIST_REFERENCES_$_.104
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_CLASSLIST_REFERENCES_$_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_CLASSLIST_REFERENCES_$_.115
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.129
+___block_descriptor_48_e8_32s40s_e29_v20?0"VKPropertyHelper"8i16l
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_IVAR_$_VKApiObject._fields
+__OBJC_$_CLASS_METHODS_VKApiObject
+__OBJC_$_PROTOCOL_REFS_VKApiObject
+__OBJC_$_PROTOCOL_CLASS_METHODS_VKApiObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_VKApiObject
+__OBJC_PROTOCOL_$_VKApiObject
+__OBJC_LABEL_PROTOCOL_$_VKApiObject
+__OBJC_CLASS_PROTOCOLS_$_VKApiObject
+__OBJC_METACLASS_RO_$_VKApiObject
+__OBJC_$_INSTANCE_METHODS_VKApiObject
+__OBJC_$_INSTANCE_VARIABLES_VKApiObject
+__OBJC_$_PROP_LIST_VKApiObject
+__OBJC_CLASS_RO_$_VKApiObject
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_SELECTOR_REFERENCES_.185
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.195
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/models/VKApiObject.m
+library/Source/API/models/VKApiObject.m
+library/Source/API/models/VKApiObject.h
+__copy_helper_block_e8_32s40s
+__24-[VKApiObject serialize]_block_invoke
+__destroy_helper_block_e8_32r
+__copy_helper_block_e8_32r
+__21-[VKApiObject parse:]_block_invoke.79
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__21-[VKApiObject parse:]_block_invoke
+VK_ENSURE_DICT
+library/Source/Utils/VKUtil.h
+getPropertyType
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+getPropertyName
++[VKHTTPClient getClient]
+-[VKHTTPClient init]
+-[VKHTTPClient defaultValueForHeader:]
+-[VKHTTPClient setDefaultHeader:value:]
+-[VKHTTPClient requestWithMethod:path:parameters:secure:]
+-[VKHTTPClient multipartFormRequestWithMethod:path:images:]
+-[VKHTTPClient enqueueOperation:]
+-[VKHTTPClient enqueueBatchOfHTTPRequestOperations:progressBlock:completionBlock:]
+___82-[VKHTTPClient enqueueBatchOfHTTPRequestOperations:progressBlock:completionBlock:]_block_invoke
+___82-[VKHTTPClient enqueueBatchOfHTTPRequestOperations:progressBlock:completionBlock:]_block_invoke_2
+___copy_helper_block_e8_32b40s48r
+___destroy_helper_block_e8_32s40s48r
+___82-[VKHTTPClient enqueueBatchOfHTTPRequestOperations:progressBlock:completionBlock:]_block_invoke.163
+___82-[VKHTTPClient enqueueBatchOfHTTPRequestOperations:progressBlock:completionBlock:]_block_invoke_2.164
+___82-[VKHTTPClient enqueueBatchOfHTTPRequestOperations:progressBlock:completionBlock:]_block_invoke_3
+___copy_helper_block_e8_32b40s48b56r
+___destroy_helper_block_e8_32s40s48s56r
+-[VKHTTPClient encodeWithCoder:]
+-[VKHTTPClient initWithCoder:]
+-[VKHTTPClient operationQueue]
+-[VKHTTPClient setOperationQueue:]
+-[VKHTTPClient defaultHeaders]
+-[VKHTTPClient setDefaultHeaders:]
+-[VKHTTPClient .cxx_destruct]
+___clientInstance
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_CLASSLIST_REFERENCES_$_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_CLASSLIST_REFERENCES_$_.46
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_CLASSLIST_REFERENCES_$_.61
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_CLASSLIST_REFERENCES_$_.99
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_CLASSLIST_REFERENCES_$_.124
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_CLASSLIST_REFERENCES_$_.153
+___block_descriptor_56_e8_32bs40s48r_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_SELECTOR_REFERENCES_.162
+___block_descriptor_32_e15_B32?08Q16^B24l
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_SELECTOR_REFERENCES_.169
+___block_descriptor_64_e8_32bs40s48bs56r_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_IVAR_$_VKHTTPClient._operationQueue
+_OBJC_IVAR_$_VKHTTPClient._defaultHeaders
+__OBJC_$_CLASS_METHODS_VKHTTPClient
+__OBJC_CLASS_PROTOCOLS_$_VKHTTPClient
+__OBJC_METACLASS_RO_$_VKHTTPClient
+__OBJC_$_INSTANCE_METHODS_VKHTTPClient
+__OBJC_$_INSTANCE_VARIABLES_VKHTTPClient
+__OBJC_$_PROP_LIST_VKHTTPClient
+__OBJC_CLASS_RO_$_VKHTTPClient
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Core/VKHTTPClient.m
+library/Source/Core/VKHTTPClient.m
+library/Source/Core/VKHTTPClient.h
+__destroy_helper_block_e8_32s40s48s56r
+__copy_helper_block_e8_32b40s48b56r
+__82-[VKHTTPClient enqueueBatchOfHTTPRequestOperations:progressBlock:completionBlock:]_block_invoke_3
+__82-[VKHTTPClient enqueueBatchOfHTTPRequestOperations:progressBlock:completionBlock:]_block_invoke_2.164
+__82-[VKHTTPClient enqueueBatchOfHTTPRequestOperations:progressBlock:completionBlock:]_block_invoke.163
+__destroy_helper_block_e8_32s40s48r
+__copy_helper_block_e8_32b40s48r
+__82-[VKHTTPClient enqueueBatchOfHTTPRequestOperations:progressBlock:completionBlock:]_block_invoke_2
+__82-[VKHTTPClient enqueueBatchOfHTTPRequestOperations:progressBlock:completionBlock:]_block_invoke
+-[VKAuthorizationResult token]
+-[VKAuthorizationResult setToken:]
+-[VKAuthorizationResult user]
+-[VKAuthorizationResult setUser:]
+-[VKAuthorizationResult error]
+-[VKAuthorizationResult setError:]
+-[VKAuthorizationResult state]
+-[VKAuthorizationResult setState:]
+-[VKAuthorizationResult .cxx_destruct]
+_OBJC_IVAR_$_VKAuthorizationResult._token
+_OBJC_IVAR_$_VKAuthorizationResult._user
+_OBJC_IVAR_$_VKAuthorizationResult._error
+_OBJC_IVAR_$_VKAuthorizationResult._state
+__OBJC_METACLASS_RO_$_VKAuthorizationResult
+__OBJC_$_INSTANCE_METHODS_VKAuthorizationResult
+__OBJC_$_INSTANCE_VARIABLES_VKAuthorizationResult
+__OBJC_$_PROP_LIST_VKAuthorizationResult
+__OBJC_CLASS_RO_$_VKAuthorizationResult
+__OBJC_METACLASS_RO_$_VKMutableAuthorizationResult
+__OBJC_$_PROP_LIST_VKMutableAuthorizationResult
+__OBJC_CLASS_RO_$_VKMutableAuthorizationResult
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/VKAuthorizationResult.m
+library/Source/VKAuthorizationResult.m
+library/Source/VKAuthorizationResult.h
++[VKApi users]
++[VKApi wall]
++[VKApi photos]
++[VKApi friends]
++[VKApi groups]
++[VKApi requestWithMethod:andParameters:]
++[VKApi requestWithMethod:andParameters:andHttpMethod:]
++[VKApi uploadWallPhotoRequest:parameters:userId:groupId:]
++[VKApi uploadAlbumPhotoRequest:parameters:albumId:groupId:]
++[VKApi uploadMessagePhotoRequest:parameters:]
+_OBJC_CLASSLIST_REFERENCES_$_.2
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_CLASSLIST_REFERENCES_$_.14
+__OBJC_$_CLASS_METHODS_VKApi
+__OBJC_METACLASS_RO_$_VKApi
+__OBJC_CLASS_RO_$_VKApi
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/VKApi.m
+library/Source/API/VKApi.m
+-[VKNavigationController preferredStatusBarStyle]
++[VKAuthorizeController presentForAuthorizeWithAppId:andPermissions:revokeAccess:displayType:]
++[VKAuthorizeController presentForValidation:]
++[VKAuthorizeController presentThisController:]
++[VKAuthorizeController buildAuthorizationURLWithContext:]
+-[VKAuthorizeController loadView]
+-[VKAuthorizeController didRotateFromInterfaceOrientation:]
+-[VKAuthorizeController initWith:andPermissions:revokeAccess:displayType:]
+-[VKAuthorizeController viewDidLoad]
+-[VKAuthorizeController startLoading]
+-[VKAuthorizeController webView:decidePolicyForNavigationAction:decisionHandler:]
+___81-[VKAuthorizeController webView:decidePolicyForNavigationAction:decisionHandler:]_block_invoke
+-[VKAuthorizeController webView:didFailNavigation:withError:]
+___61-[VKAuthorizeController webView:didFailNavigation:withError:]_block_invoke
+-[VKAuthorizeController setRightBarButtonActivity]
+-[VKAuthorizeController webView:didFinishNavigation:]
+___53-[VKAuthorizeController webView:didFinishNavigation:]_block_invoke
+-[VKAuthorizeController makeViewport]
+-[VKAuthorizeController cancelAuthorization:]
+___45-[VKAuthorizeController cancelAuthorization:]_block_invoke
+-[VKAuthorizeController dismissWithCompletion:]
+___47-[VKAuthorizeController dismissWithCompletion:]_block_invoke
+___copy_helper_block_e8_32s40b
+___47-[VKAuthorizeController dismissWithCompletion:]_block_invoke.293
+-[VKAuthorizeController preferredStatusBarStyle]
+-[VKAuthorizeController webView]
+-[VKAuthorizeController setWebView:]
+-[VKAuthorizeController appId]
+-[VKAuthorizeController setAppId:]
+-[VKAuthorizeController scope]
+-[VKAuthorizeController setScope:]
+-[VKAuthorizeController redirectUri]
+-[VKAuthorizeController setRedirectUri:]
+-[VKAuthorizeController activityMark]
+-[VKAuthorizeController setActivityMark:]
+-[VKAuthorizeController warningLabel]
+-[VKAuthorizeController setWarningLabel:]
+-[VKAuthorizeController statusBar]
+-[VKAuthorizeController setStatusBar:]
+-[VKAuthorizeController validationError]
+-[VKAuthorizeController setValidationError:]
+-[VKAuthorizeController lastRequest]
+-[VKAuthorizeController setLastRequest:]
+-[VKAuthorizeController internalNavigationController]
+-[VKAuthorizeController setInternalNavigationController:]
+-[VKAuthorizeController finished]
+-[VKAuthorizeController setFinished:]
+-[VKAuthorizeController .cxx_destruct]
++[VKAuthorizationContext contextWithAuthType:clientId:displayType:scope:revoke:]
+-[VKAuthorizationContext clientId]
+-[VKAuthorizationContext setClientId:]
+-[VKAuthorizationContext displayType]
+-[VKAuthorizationContext setDisplayType:]
+-[VKAuthorizationContext scope]
+-[VKAuthorizationContext setScope:]
+-[VKAuthorizationContext revoke]
+-[VKAuthorizationContext setRevoke:]
+-[VKAuthorizationContext authPrefix]
+-[VKAuthorizationContext setAuthPrefix:]
+-[VKAuthorizationContext redirectUri]
+-[VKAuthorizationContext setRedirectUri:]
+-[VKAuthorizationContext responseType]
+-[VKAuthorizationContext setResponseType:]
+-[VKAuthorizationContext usingVkApp]
+-[VKAuthorizationContext setUsingVkApp:]
+-[VKAuthorizationContext .cxx_destruct]
+__OBJC_METACLASS_RO_$_VKNavigationController
+__OBJC_$_INSTANCE_METHODS_VKNavigationController
+__OBJC_CLASS_RO_$_VKNavigationController
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_CLASSLIST_REFERENCES_$_.21
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_CLASSLIST_REFERENCES_$_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_CLASSLIST_REFERENCES_$_.48
+_OBJC_CLASSLIST_REFERENCES_$_.62
+_OBJC_CLASSLIST_REFERENCES_$_.69
+_OBJC_CLASSLIST_REFERENCES_$_.109
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_CLASSLIST_REFERENCES_$_.127
+_OBJC_CLASSLIST_REFERENCES_$_.128
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_CLASSLIST_REFERENCES_$_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_IVAR_$_VKAuthorizeController._activityMark
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_CLASSLIST_REFERENCES_$_.152
+_OBJC_IVAR_$_VKAuthorizeController._warningLabel
+_OBJC_CLASSLIST_REFERENCES_$_.163
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_CLASSLIST_REFERENCES_$_.174
+_OBJC_IVAR_$_VKAuthorizeController._webView
+_OBJC_SELECTOR_REFERENCES_.197
+_OBJC_IVAR_$_VKAuthorizeController._appId
+_OBJC_IVAR_$_VKAuthorizeController._scope
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_CLASSLIST_REFERENCES_$_.200
+_OBJC_SELECTOR_REFERENCES_.204
+_OBJC_IVAR_$_VKAuthorizeController._redirectUri
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_CLASSLIST_REFERENCES_$_.213
+_OBJC_SELECTOR_REFERENCES_.243
+___block_descriptor_48_e8_32s40s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_SELECTOR_REFERENCES_.252
+_OBJC_SELECTOR_REFERENCES_.254
+_OBJC_IVAR_$_VKAuthorizeController._lastRequest
+_OBJC_SELECTOR_REFERENCES_.256
+_OBJC_SELECTOR_REFERENCES_.258
+_OBJC_SELECTOR_REFERENCES_.260
+_OBJC_SELECTOR_REFERENCES_.262
+_OBJC_SELECTOR_REFERENCES_.266
+_OBJC_SELECTOR_REFERENCES_.268
+_OBJC_IVAR_$_VKAuthorizeController._validationError
+___block_descriptor_40_e8_32s_e5_v8?0l
+_OBJC_CLASSLIST_REFERENCES_$_.271
+_OBJC_CLASSLIST_REFERENCES_$_.272
+_OBJC_SELECTOR_REFERENCES_.274
+_OBJC_SELECTOR_REFERENCES_.276
+_OBJC_IVAR_$_VKAuthorizeController._finished
+_OBJC_IVAR_$_VKAuthorizeController._internalNavigationController
+_OBJC_SELECTOR_REFERENCES_.282
+_OBJC_SELECTOR_REFERENCES_.284
+_OBJC_SELECTOR_REFERENCES_.286
+_OBJC_SELECTOR_REFERENCES_.288
+_OBJC_SELECTOR_REFERENCES_.290
+___block_descriptor_48_e8_32s40bs_e5_v8?0l
+_OBJC_IVAR_$_VKAuthorizeController._statusBar
+__OBJC_$_CLASS_METHODS_VKAuthorizeController
+__OBJC_$_PROTOCOL_REFS_WKUIDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_WKUIDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_WKUIDelegate
+__OBJC_PROTOCOL_$_WKUIDelegate
+__OBJC_LABEL_PROTOCOL_$_WKUIDelegate
+__OBJC_$_PROTOCOL_REFS_WKNavigationDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_WKNavigationDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_WKNavigationDelegate
+__OBJC_PROTOCOL_$_WKNavigationDelegate
+__OBJC_LABEL_PROTOCOL_$_WKNavigationDelegate
+__OBJC_CLASS_PROTOCOLS_$_VKAuthorizeController
+__OBJC_METACLASS_RO_$_VKAuthorizeController
+__OBJC_$_INSTANCE_METHODS_VKAuthorizeController
+__OBJC_$_INSTANCE_VARIABLES_VKAuthorizeController
+__OBJC_$_PROP_LIST_VKAuthorizeController
+__OBJC_CLASS_RO_$_VKAuthorizeController
+_OBJC_SELECTOR_REFERENCES_.450
+_OBJC_SELECTOR_REFERENCES_.451
+_OBJC_SELECTOR_REFERENCES_.453
+_OBJC_SELECTOR_REFERENCES_.455
+_OBJC_SELECTOR_REFERENCES_.457
+_OBJC_SELECTOR_REFERENCES_.459
+_OBJC_SELECTOR_REFERENCES_.465
+_OBJC_IVAR_$_VKAuthorizationContext._clientId
+_OBJC_IVAR_$_VKAuthorizationContext._displayType
+_OBJC_IVAR_$_VKAuthorizationContext._scope
+_OBJC_IVAR_$_VKAuthorizationContext._revoke
+_OBJC_IVAR_$_VKAuthorizationContext._authPrefix
+_OBJC_IVAR_$_VKAuthorizationContext._redirectUri
+_OBJC_IVAR_$_VKAuthorizationContext._responseType
+_OBJC_IVAR_$_VKAuthorizationContext._usingVkApp
+__OBJC_$_CLASS_METHODS_VKAuthorizationContext
+__OBJC_METACLASS_RO_$_VKAuthorizationContext
+__OBJC_$_INSTANCE_METHODS_VKAuthorizationContext
+__OBJC_$_INSTANCE_VARIABLES_VKAuthorizationContext
+__OBJC_$_PROP_LIST_VKAuthorizationContext
+__OBJC_CLASS_RO_$_VKAuthorizationContext
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Views/VKAuthorizeController.m
+library/Source/Views/VKAuthorizeController.m
+library/Source/Views/VKAuthorizeController.h
+__47-[VKAuthorizeController dismissWithCompletion:]_block_invoke.293
+__copy_helper_block_e8_32s40b
+__47-[VKAuthorizeController dismissWithCompletion:]_block_invoke
+__45-[VKAuthorizeController cancelAuthorization:]_block_invoke
+__53-[VKAuthorizeController webView:didFinishNavigation:]_block_invoke
+__61-[VKAuthorizeController webView:didFailNavigation:withError:]_block_invoke
+__81-[VKAuthorizeController webView:decidePolicyForNavigationAction:decisionHandler:]_block_invoke
+-[VKUploadMessagesPhotoRequest getServerRequest]
+-[VKUploadMessagesPhotoRequest getSaveRequest:]
+__OBJC_METACLASS_RO_$_VKUploadMessagesPhotoRequest
+__OBJC_$_INSTANCE_METHODS_VKUploadMessagesPhotoRequest
+__OBJC_CLASS_RO_$_VKUploadMessagesPhotoRequest
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/upload/VKUploadMessagesPhotoRequest.m
+library/Source/API/upload/VKUploadMessagesPhotoRequest.m
+-[VKLastSeen time]
+-[VKLastSeen setTime:]
+-[VKLastSeen platform]
+-[VKLastSeen setPlatform:]
+-[VKLastSeen .cxx_destruct]
+-[VKUser description]
+-[VKUser id]
+-[VKUser setId:]
+-[VKUser first_name]
+-[VKUser setFirst_name:]
+-[VKUser last_name]
+-[VKUser setLast_name:]
+-[VKUser first_name_acc]
+-[VKUser setFirst_name_acc:]
+-[VKUser last_name_acc]
+-[VKUser setLast_name_acc:]
+-[VKUser first_name_gen]
+-[VKUser setFirst_name_gen:]
+-[VKUser last_name_gen]
+-[VKUser setLast_name_gen:]
+-[VKUser first_name_dat]
+-[VKUser setFirst_name_dat:]
+-[VKUser last_name_dat]
+-[VKUser setLast_name_dat:]
+-[VKUser first_name_ins]
+-[VKUser setFirst_name_ins:]
+-[VKUser last_name_ins]
+-[VKUser setLast_name_ins:]
+-[VKUser domain]
+-[VKUser setDomain:]
+-[VKUser personal]
+-[VKUser setPersonal:]
+-[VKUser sex]
+-[VKUser setSex:]
+-[VKUser invited_by]
+-[VKUser setInvited_by:]
+-[VKUser online]
+-[VKUser setOnline:]
+-[VKUser bdate]
+-[VKUser setBdate:]
+-[VKUser city]
+-[VKUser setCity:]
+-[VKUser country]
+-[VKUser setCountry:]
+-[VKUser lists]
+-[VKUser setLists:]
+-[VKUser screen_name]
+-[VKUser setScreen_name:]
+-[VKUser has_mobile]
+-[VKUser setHas_mobile:]
+-[VKUser rate]
+-[VKUser setRate:]
+-[VKUser mobile_phone]
+-[VKUser setMobile_phone:]
+-[VKUser home_phone]
+-[VKUser setHome_phone:]
+-[VKUser can_post]
+-[VKUser setCan_post:]
+-[VKUser can_see_all_posts]
+-[VKUser setCan_see_all_posts:]
+-[VKUser status]
+-[VKUser setStatus:]
+-[VKUser status_audio]
+-[VKUser setStatus_audio:]
+-[VKUser status_loaded]
+-[VKUser setStatus_loaded:]
+-[VKUser last_seen]
+-[VKUser setLast_seen:]
+-[VKUser relation]
+-[VKUser setRelation:]
+-[VKUser relation_partner]
+-[VKUser setRelation_partner:]
+-[VKUser counters]
+-[VKUser setCounters:]
+-[VKUser nickname]
+-[VKUser setNickname:]
+-[VKUser exports]
+-[VKUser setExports:]
+-[VKUser wall_comments]
+-[VKUser setWall_comments:]
+-[VKUser can_write_private_message]
+-[VKUser setCan_write_private_message:]
+-[VKUser can_see_audio]
+-[VKUser setCan_see_audio:]
+-[VKUser phone]
+-[VKUser setPhone:]
+-[VKUser online_mobile]
+-[VKUser setOnline_mobile:]
+-[VKUser faculty]
+-[VKUser setFaculty:]
+-[VKUser university]
+-[VKUser setUniversity:]
+-[VKUser universities]
+-[VKUser setUniversities:]
+-[VKUser schools]
+-[VKUser setSchools:]
+-[VKUser graduation]
+-[VKUser setGraduation:]
+-[VKUser friendState]
+-[VKUser setFriendState:]
+-[VKUser common_count]
+-[VKUser setCommon_count:]
+-[VKUser faculty_name]
+-[VKUser setFaculty_name:]
+-[VKUser university_name]
+-[VKUser setUniversity_name:]
+-[VKUser books]
+-[VKUser setBooks:]
+-[VKUser games]
+-[VKUser setGames:]
+-[VKUser interests]
+-[VKUser setInterests:]
+-[VKUser movies]
+-[VKUser setMovies:]
+-[VKUser tv]
+-[VKUser setTv:]
+-[VKUser about]
+-[VKUser setAbout:]
+-[VKUser music]
+-[VKUser setMusic:]
+-[VKUser quoutes]
+-[VKUser setQuoutes:]
+-[VKUser activities]
+-[VKUser setActivities:]
+-[VKUser photo_max]
+-[VKUser setPhoto_max:]
+-[VKUser photo_50]
+-[VKUser setPhoto_50:]
+-[VKUser photo_100]
+-[VKUser setPhoto_100:]
+-[VKUser photo_200]
+-[VKUser setPhoto_200:]
+-[VKUser photo_200_orig]
+-[VKUser setPhoto_200_orig:]
+-[VKUser photo_400_orig]
+-[VKUser setPhoto_400_orig:]
+-[VKUser photo_max_orig]
+-[VKUser setPhoto_max_orig:]
+-[VKUser photos]
+-[VKUser setPhotos:]
+-[VKUser photos_count]
+-[VKUser setPhotos_count:]
+-[VKUser relatives]
+-[VKUser setRelatives:]
+-[VKUser bdateIntervalSort]
+-[VKUser setBdateIntervalSort:]
+-[VKUser verified]
+-[VKUser setVerified:]
+-[VKUser deactivated]
+-[VKUser setDeactivated:]
+-[VKUser site]
+-[VKUser setSite:]
+-[VKUser home_town]
+-[VKUser setHome_town:]
+-[VKUser blacklisted]
+-[VKUser setBlacklisted:]
+-[VKUser blacklisted_by_me]
+-[VKUser setBlacklisted_by_me:]
+-[VKUser twitter]
+-[VKUser setTwitter:]
+-[VKUser skype]
+-[VKUser setSkype:]
+-[VKUser facebook]
+-[VKUser setFacebook:]
+-[VKUser instagram]
+-[VKUser setInstagram:]
+-[VKUser livejournal]
+-[VKUser setLivejournal:]
+-[VKUser wall_default]
+-[VKUser setWall_default:]
+-[VKUser followers_count]
+-[VKUser setFollowers_count:]
+-[VKUser .cxx_destruct]
+-[VKGeoObject id]
+-[VKGeoObject setId:]
+-[VKGeoObject title]
+-[VKGeoObject setTitle:]
+-[VKGeoObject .cxx_destruct]
+-[VKExports twitter]
+-[VKExports setTwitter:]
+-[VKExports facebook]
+-[VKExports setFacebook:]
+-[VKExports livejournal]
+-[VKExports setLivejournal:]
+-[VKExports instagram]
+-[VKExports setInstagram:]
+-[VKExports .cxx_destruct]
+-[VKUsersArray objectClass]
+_OBJC_IVAR_$_VKLastSeen._time
+_OBJC_IVAR_$_VKLastSeen._platform
+__OBJC_METACLASS_RO_$_VKLastSeen
+__OBJC_$_INSTANCE_METHODS_VKLastSeen
+__OBJC_$_INSTANCE_VARIABLES_VKLastSeen
+__OBJC_$_PROP_LIST_VKLastSeen
+__OBJC_CLASS_RO_$_VKLastSeen
+_OBJC_IVAR_$_VKUser._id
+_OBJC_IVAR_$_VKUser._first_name
+_OBJC_IVAR_$_VKUser._last_name
+_OBJC_IVAR_$_VKUser._first_name_acc
+_OBJC_IVAR_$_VKUser._last_name_acc
+_OBJC_IVAR_$_VKUser._first_name_gen
+_OBJC_IVAR_$_VKUser._last_name_gen
+_OBJC_IVAR_$_VKUser._first_name_dat
+_OBJC_IVAR_$_VKUser._last_name_dat
+_OBJC_IVAR_$_VKUser._first_name_ins
+_OBJC_IVAR_$_VKUser._last_name_ins
+_OBJC_IVAR_$_VKUser._domain
+_OBJC_IVAR_$_VKUser._personal
+_OBJC_IVAR_$_VKUser._sex
+_OBJC_IVAR_$_VKUser._invited_by
+_OBJC_IVAR_$_VKUser._online
+_OBJC_IVAR_$_VKUser._bdate
+_OBJC_IVAR_$_VKUser._city
+_OBJC_IVAR_$_VKUser._country
+_OBJC_IVAR_$_VKUser._lists
+_OBJC_IVAR_$_VKUser._screen_name
+_OBJC_IVAR_$_VKUser._has_mobile
+_OBJC_IVAR_$_VKUser._rate
+_OBJC_IVAR_$_VKUser._mobile_phone
+_OBJC_IVAR_$_VKUser._home_phone
+_OBJC_IVAR_$_VKUser._can_post
+_OBJC_IVAR_$_VKUser._can_see_all_posts
+_OBJC_IVAR_$_VKUser._status
+_OBJC_IVAR_$_VKUser._status_audio
+_OBJC_IVAR_$_VKUser._status_loaded
+_OBJC_IVAR_$_VKUser._last_seen
+_OBJC_IVAR_$_VKUser._relation
+_OBJC_IVAR_$_VKUser._relation_partner
+_OBJC_IVAR_$_VKUser._counters
+_OBJC_IVAR_$_VKUser._nickname
+_OBJC_IVAR_$_VKUser._exports
+_OBJC_IVAR_$_VKUser._wall_comments
+_OBJC_IVAR_$_VKUser._can_write_private_message
+_OBJC_IVAR_$_VKUser._can_see_audio
+_OBJC_IVAR_$_VKUser._phone
+_OBJC_IVAR_$_VKUser._online_mobile
+_OBJC_IVAR_$_VKUser._faculty
+_OBJC_IVAR_$_VKUser._university
+_OBJC_IVAR_$_VKUser._universities
+_OBJC_IVAR_$_VKUser._schools
+_OBJC_IVAR_$_VKUser._graduation
+_OBJC_IVAR_$_VKUser._friendState
+_OBJC_IVAR_$_VKUser._common_count
+_OBJC_IVAR_$_VKUser._faculty_name
+_OBJC_IVAR_$_VKUser._university_name
+_OBJC_IVAR_$_VKUser._books
+_OBJC_IVAR_$_VKUser._games
+_OBJC_IVAR_$_VKUser._interests
+_OBJC_IVAR_$_VKUser._movies
+_OBJC_IVAR_$_VKUser._tv
+_OBJC_IVAR_$_VKUser._about
+_OBJC_IVAR_$_VKUser._music
+_OBJC_IVAR_$_VKUser._quoutes
+_OBJC_IVAR_$_VKUser._activities
+_OBJC_IVAR_$_VKUser._photo_max
+_OBJC_IVAR_$_VKUser._photo_50
+_OBJC_IVAR_$_VKUser._photo_100
+_OBJC_IVAR_$_VKUser._photo_200
+_OBJC_IVAR_$_VKUser._photo_200_orig
+_OBJC_IVAR_$_VKUser._photo_400_orig
+_OBJC_IVAR_$_VKUser._photo_max_orig
+_OBJC_IVAR_$_VKUser._photos
+_OBJC_IVAR_$_VKUser._photos_count
+_OBJC_IVAR_$_VKUser._relatives
+_OBJC_IVAR_$_VKUser._bdateIntervalSort
+_OBJC_IVAR_$_VKUser._verified
+_OBJC_IVAR_$_VKUser._deactivated
+_OBJC_IVAR_$_VKUser._site
+_OBJC_IVAR_$_VKUser._home_town
+_OBJC_IVAR_$_VKUser._blacklisted
+_OBJC_IVAR_$_VKUser._blacklisted_by_me
+_OBJC_IVAR_$_VKUser._twitter
+_OBJC_IVAR_$_VKUser._skype
+_OBJC_IVAR_$_VKUser._facebook
+_OBJC_IVAR_$_VKUser._instagram
+_OBJC_IVAR_$_VKUser._livejournal
+_OBJC_IVAR_$_VKUser._wall_default
+_OBJC_IVAR_$_VKUser._followers_count
+__OBJC_METACLASS_RO_$_VKUser
+__OBJC_$_INSTANCE_METHODS_VKUser
+__OBJC_$_INSTANCE_VARIABLES_VKUser
+__OBJC_$_PROP_LIST_VKUser
+__OBJC_CLASS_RO_$_VKUser
+_OBJC_IVAR_$_VKGeoObject._id
+_OBJC_IVAR_$_VKGeoObject._title
+__OBJC_METACLASS_RO_$_VKGeoObject
+__OBJC_$_INSTANCE_METHODS_VKGeoObject
+__OBJC_$_INSTANCE_VARIABLES_VKGeoObject
+__OBJC_$_PROP_LIST_VKGeoObject
+__OBJC_CLASS_RO_$_VKGeoObject
+__OBJC_METACLASS_RO_$_VKCity
+__OBJC_CLASS_RO_$_VKCity
+__OBJC_METACLASS_RO_$_VKCountry
+__OBJC_CLASS_RO_$_VKCountry
+_OBJC_IVAR_$_VKExports._twitter
+_OBJC_IVAR_$_VKExports._facebook
+_OBJC_IVAR_$_VKExports._livejournal
+_OBJC_IVAR_$_VKExports._instagram
+__OBJC_METACLASS_RO_$_VKExports
+__OBJC_$_INSTANCE_METHODS_VKExports
+__OBJC_$_INSTANCE_VARIABLES_VKExports
+__OBJC_$_PROP_LIST_VKExports
+__OBJC_CLASS_RO_$_VKExports
+_OBJC_CLASSLIST_REFERENCES_$_.471
+_OBJC_SELECTOR_REFERENCES_.473
+__OBJC_METACLASS_RO_$_VKUsersArray
+__OBJC_$_INSTANCE_METHODS_VKUsersArray
+__OBJC_CLASS_RO_$_VKUsersArray
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/models/VKUser.m
+library/Source/API/models/VKUser.m
+library/Source/API/models/VKUser.h
++[VKUploadImage uploadImageWithData:andParams:]
++[VKUploadImage uploadImageWithImage:andParams:]
+-[VKUploadImage imageData]
+-[VKUploadImage setImageData:]
+-[VKUploadImage sourceImage]
+-[VKUploadImage setSourceImage:]
+-[VKUploadImage parameters]
+-[VKUploadImage setParameters:]
+-[VKUploadImage .cxx_destruct]
+_OBJC_IVAR_$_VKUploadImage._imageData
+_OBJC_IVAR_$_VKUploadImage._sourceImage
+_OBJC_IVAR_$_VKUploadImage._parameters
+__OBJC_$_CLASS_METHODS_VKUploadImage
+__OBJC_METACLASS_RO_$_VKUploadImage
+__OBJC_$_INSTANCE_METHODS_VKUploadImage
+__OBJC_$_INSTANCE_VARIABLES_VKUploadImage
+__OBJC_$_PROP_LIST_VKUploadImage
+__OBJC_CLASS_RO_$_VKUploadImage
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Image/VKUploadImage.m
+library/Source/Image/VKUploadImage.m
+library/Source/Image/VKUploadImage.h
+-[VKApiGroups getById:]
+__OBJC_METACLASS_RO_$_VKApiGroups
+__OBJC_$_INSTANCE_METHODS_VKApiGroups
+__OBJC_CLASS_RO_$_VKApiGroups
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/methods/VKApiGroups.m
+library/Source/API/methods/VKApiGroups.m
+-[VKApiPhotos getUploadServer:]
+-[VKApiPhotos getUploadServer:andGroupId:]
+-[VKApiPhotos getWallUploadServer]
+-[VKApiPhotos getWallUploadServer:]
+-[VKApiPhotos saveWallPhoto:]
+-[VKApiPhotos save:]
+_OBJC_CLASSLIST_REFERENCES_$_.10
+__OBJC_METACLASS_RO_$_VKApiPhotos
+__OBJC_$_INSTANCE_METHODS_VKApiPhotos
+__OBJC_CLASS_RO_$_VKApiPhotos
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/methods/VKApiPhotos.m
+library/Source/API/methods/VKApiPhotos.m
+-[VKGeoPlace id]
+-[VKGeoPlace setId:]
+-[VKGeoPlace title]
+-[VKGeoPlace setTitle:]
+-[VKGeoPlace latitude]
+-[VKGeoPlace setLatitude:]
+-[VKGeoPlace longitude]
+-[VKGeoPlace setLongitude:]
+-[VKGeoPlace created]
+-[VKGeoPlace setCreated:]
+-[VKGeoPlace icon]
+-[VKGeoPlace setIcon:]
+-[VKGeoPlace group_id]
+-[VKGeoPlace setGroup_id:]
+-[VKGeoPlace group_photo]
+-[VKGeoPlace setGroup_photo:]
+-[VKGeoPlace checkins]
+-[VKGeoPlace setCheckins:]
+-[VKGeoPlace updated]
+-[VKGeoPlace setUpdated:]
+-[VKGeoPlace type]
+-[VKGeoPlace setType:]
+-[VKGeoPlace country]
+-[VKGeoPlace setCountry:]
+-[VKGeoPlace city]
+-[VKGeoPlace setCity:]
+-[VKGeoPlace address]
+-[VKGeoPlace setAddress:]
+-[VKGeoPlace showmap]
+-[VKGeoPlace setShowmap:]
+-[VKGeoPlace .cxx_destruct]
+-[VKGroupContact user_id]
+-[VKGroupContact setUser_id:]
+-[VKGroupContact desc]
+-[VKGroupContact setDesc:]
+-[VKGroupContact email]
+-[VKGroupContact setEmail:]
+-[VKGroupContact .cxx_destruct]
+-[VKGroupContacts objectClass]
+-[VKGroupLink url]
+-[VKGroupLink setUrl:]
+-[VKGroupLink name]
+-[VKGroupLink setName:]
+-[VKGroupLink desc]
+-[VKGroupLink setDesc:]
+-[VKGroupLink photo_50]
+-[VKGroupLink setPhoto_50:]
+-[VKGroupLink photo_100]
+-[VKGroupLink setPhoto_100:]
+-[VKGroupLink .cxx_destruct]
+-[VKGroupLinks objectClass]
+-[VKGroup description]
+-[VKGroup setDescription:]
+-[VKGroup id]
+-[VKGroup setId:]
+-[VKGroup name]
+-[VKGroup setName:]
+-[VKGroup screen_name]
+-[VKGroup setScreen_name:]
+-[VKGroup is_closed]
+-[VKGroup setIs_closed:]
+-[VKGroup type]
+-[VKGroup setType:]
+-[VKGroup is_admin]
+-[VKGroup setIs_admin:]
+-[VKGroup admin_level]
+-[VKGroup setAdmin_level:]
+-[VKGroup is_member]
+-[VKGroup setIs_member:]
+-[VKGroup city]
+-[VKGroup setCity:]
+-[VKGroup country]
+-[VKGroup setCountry:]
+-[VKGroup place]
+-[VKGroup setPlace:]
+-[VKGroup wiki_page]
+-[VKGroup setWiki_page:]
+-[VKGroup members_count]
+-[VKGroup setMembers_count:]
+-[VKGroup counters]
+-[VKGroup setCounters:]
+-[VKGroup start_date]
+-[VKGroup setStart_date:]
+-[VKGroup end_date]
+-[VKGroup setEnd_date:]
+-[VKGroup finish_date]
+-[VKGroup setFinish_date:]
+-[VKGroup can_post]
+-[VKGroup setCan_post:]
+-[VKGroup can_see_all_posts]
+-[VKGroup setCan_see_all_posts:]
+-[VKGroup can_create_topic]
+-[VKGroup setCan_create_topic:]
+-[VKGroup can_upload_doc]
+-[VKGroup setCan_upload_doc:]
+-[VKGroup activity]
+-[VKGroup setActivity:]
+-[VKGroup status]
+-[VKGroup setStatus:]
+-[VKGroup status_audio]
+-[VKGroup setStatus_audio:]
+-[VKGroup contacts]
+-[VKGroup setContacts:]
+-[VKGroup links]
+-[VKGroup setLinks:]
+-[VKGroup fixed_post]
+-[VKGroup setFixed_post:]
+-[VKGroup verified]
+-[VKGroup setVerified:]
+-[VKGroup site]
+-[VKGroup setSite:]
+-[VKGroup photo_50]
+-[VKGroup setPhoto_50:]
+-[VKGroup photo_100]
+-[VKGroup setPhoto_100:]
+-[VKGroup photo_200]
+-[VKGroup setPhoto_200:]
+-[VKGroup photo_max_orig]
+-[VKGroup setPhoto_max_orig:]
+-[VKGroup is_request]
+-[VKGroup setIs_request:]
+-[VKGroup is_invite]
+-[VKGroup setIs_invite:]
+-[VKGroup photos]
+-[VKGroup setPhotos:]
+-[VKGroup photos_count]
+-[VKGroup setPhotos_count:]
+-[VKGroup invited_by]
+-[VKGroup setInvited_by:]
+-[VKGroup invite_state]
+-[VKGroup setInvite_state:]
+-[VKGroup deactivated]
+-[VKGroup setDeactivated:]
+-[VKGroup blacklisted]
+-[VKGroup setBlacklisted:]
+-[VKGroup .cxx_destruct]
+-[VKGroups objectClass]
+_OBJC_IVAR_$_VKGeoPlace._id
+_OBJC_IVAR_$_VKGeoPlace._title
+_OBJC_IVAR_$_VKGeoPlace._latitude
+_OBJC_IVAR_$_VKGeoPlace._longitude
+_OBJC_IVAR_$_VKGeoPlace._created
+_OBJC_IVAR_$_VKGeoPlace._icon
+_OBJC_IVAR_$_VKGeoPlace._group_id
+_OBJC_IVAR_$_VKGeoPlace._group_photo
+_OBJC_IVAR_$_VKGeoPlace._checkins
+_OBJC_IVAR_$_VKGeoPlace._updated
+_OBJC_IVAR_$_VKGeoPlace._type
+_OBJC_IVAR_$_VKGeoPlace._country
+_OBJC_IVAR_$_VKGeoPlace._city
+_OBJC_IVAR_$_VKGeoPlace._address
+_OBJC_IVAR_$_VKGeoPlace._showmap
+__OBJC_METACLASS_RO_$_VKGeoPlace
+__OBJC_$_INSTANCE_METHODS_VKGeoPlace
+__OBJC_$_INSTANCE_VARIABLES_VKGeoPlace
+__OBJC_$_PROP_LIST_VKGeoPlace
+__OBJC_CLASS_RO_$_VKGeoPlace
+_OBJC_IVAR_$_VKGroupContact._user_id
+_OBJC_IVAR_$_VKGroupContact._desc
+_OBJC_IVAR_$_VKGroupContact._email
+__OBJC_METACLASS_RO_$_VKGroupContact
+__OBJC_$_INSTANCE_METHODS_VKGroupContact
+__OBJC_$_INSTANCE_VARIABLES_VKGroupContact
+__OBJC_$_PROP_LIST_VKGroupContact
+__OBJC_CLASS_RO_$_VKGroupContact
+__OBJC_METACLASS_RO_$_VKGroupContacts
+__OBJC_$_INSTANCE_METHODS_VKGroupContacts
+__OBJC_CLASS_RO_$_VKGroupContacts
+_OBJC_IVAR_$_VKGroupLink._url
+_OBJC_IVAR_$_VKGroupLink._name
+_OBJC_IVAR_$_VKGroupLink._desc
+_OBJC_IVAR_$_VKGroupLink._photo_50
+_OBJC_IVAR_$_VKGroupLink._photo_100
+__OBJC_METACLASS_RO_$_VKGroupLink
+__OBJC_$_INSTANCE_METHODS_VKGroupLink
+__OBJC_$_INSTANCE_VARIABLES_VKGroupLink
+__OBJC_$_PROP_LIST_VKGroupLink
+__OBJC_CLASS_RO_$_VKGroupLink
+_OBJC_CLASSLIST_REFERENCES_$_.123
+__OBJC_METACLASS_RO_$_VKGroupLinks
+__OBJC_$_INSTANCE_METHODS_VKGroupLinks
+__OBJC_CLASS_RO_$_VKGroupLinks
+_OBJC_IVAR_$_VKGroup._description
+_OBJC_IVAR_$_VKGroup._id
+_OBJC_IVAR_$_VKGroup._name
+_OBJC_IVAR_$_VKGroup._screen_name
+_OBJC_IVAR_$_VKGroup._is_closed
+_OBJC_IVAR_$_VKGroup._type
+_OBJC_IVAR_$_VKGroup._is_admin
+_OBJC_IVAR_$_VKGroup._admin_level
+_OBJC_IVAR_$_VKGroup._is_member
+_OBJC_IVAR_$_VKGroup._city
+_OBJC_IVAR_$_VKGroup._country
+_OBJC_IVAR_$_VKGroup._place
+_OBJC_IVAR_$_VKGroup._wiki_page
+_OBJC_IVAR_$_VKGroup._members_count
+_OBJC_IVAR_$_VKGroup._counters
+_OBJC_IVAR_$_VKGroup._start_date
+_OBJC_IVAR_$_VKGroup._end_date
+_OBJC_IVAR_$_VKGroup._finish_date
+_OBJC_IVAR_$_VKGroup._can_post
+_OBJC_IVAR_$_VKGroup._can_see_all_posts
+_OBJC_IVAR_$_VKGroup._can_create_topic
+_OBJC_IVAR_$_VKGroup._can_upload_doc
+_OBJC_IVAR_$_VKGroup._activity
+_OBJC_IVAR_$_VKGroup._status
+_OBJC_IVAR_$_VKGroup._status_audio
+_OBJC_IVAR_$_VKGroup._contacts
+_OBJC_IVAR_$_VKGroup._links
+_OBJC_IVAR_$_VKGroup._fixed_post
+_OBJC_IVAR_$_VKGroup._verified
+_OBJC_IVAR_$_VKGroup._site
+_OBJC_IVAR_$_VKGroup._photo_50
+_OBJC_IVAR_$_VKGroup._photo_100
+_OBJC_IVAR_$_VKGroup._photo_200
+_OBJC_IVAR_$_VKGroup._photo_max_orig
+_OBJC_IVAR_$_VKGroup._is_request
+_OBJC_IVAR_$_VKGroup._is_invite
+_OBJC_IVAR_$_VKGroup._photos
+_OBJC_IVAR_$_VKGroup._photos_count
+_OBJC_IVAR_$_VKGroup._invited_by
+_OBJC_IVAR_$_VKGroup._invite_state
+_OBJC_IVAR_$_VKGroup._deactivated
+_OBJC_IVAR_$_VKGroup._blacklisted
+__OBJC_METACLASS_RO_$_VKGroup
+__OBJC_$_INSTANCE_METHODS_VKGroup
+__OBJC_$_INSTANCE_VARIABLES_VKGroup
+__OBJC_$_PROP_LIST_VKGroup
+__OBJC_CLASS_RO_$_VKGroup
+_OBJC_CLASSLIST_REFERENCES_$_.316
+__OBJC_METACLASS_RO_$_VKGroups
+__OBJC_$_INSTANCE_METHODS_VKGroups
+__OBJC_CLASS_RO_$_VKGroups
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/models/VKGroup.m
+library/Source/API/models/VKGroup.m
+library/Source/API/models/VKGroup.h
+-[VKUniversity id]
+-[VKUniversity setId:]
+-[VKUniversity country]
+-[VKUniversity setCountry:]
+-[VKUniversity city]
+-[VKUniversity setCity:]
+-[VKUniversity name]
+-[VKUniversity setName:]
+-[VKUniversity faculty]
+-[VKUniversity setFaculty:]
+-[VKUniversity faculty_name]
+-[VKUniversity setFaculty_name:]
+-[VKUniversity chair]
+-[VKUniversity setChair:]
+-[VKUniversity chair_name]
+-[VKUniversity setChair_name:]
+-[VKUniversity graduation]
+-[VKUniversity setGraduation:]
+-[VKUniversity education_form]
+-[VKUniversity setEducation_form:]
+-[VKUniversity education_status]
+-[VKUniversity setEducation_status:]
+-[VKUniversity .cxx_destruct]
+-[VKUniversities objectClass]
+_OBJC_IVAR_$_VKUniversity._id
+_OBJC_IVAR_$_VKUniversity._country
+_OBJC_IVAR_$_VKUniversity._city
+_OBJC_IVAR_$_VKUniversity._name
+_OBJC_IVAR_$_VKUniversity._faculty
+_OBJC_IVAR_$_VKUniversity._faculty_name
+_OBJC_IVAR_$_VKUniversity._chair
+_OBJC_IVAR_$_VKUniversity._chair_name
+_OBJC_IVAR_$_VKUniversity._graduation
+_OBJC_IVAR_$_VKUniversity._education_form
+_OBJC_IVAR_$_VKUniversity._education_status
+__OBJC_METACLASS_RO_$_VKUniversity
+__OBJC_$_INSTANCE_METHODS_VKUniversity
+__OBJC_$_INSTANCE_VARIABLES_VKUniversity
+__OBJC_$_PROP_LIST_VKUniversity
+__OBJC_CLASS_RO_$_VKUniversity
+__OBJC_METACLASS_RO_$_VKUniversities
+__OBJC_$_INSTANCE_METHODS_VKUniversities
+__OBJC_CLASS_RO_$_VKUniversities
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/models/VKUniversity.m
+library/Source/API/models/VKUniversity.m
+library/Source/API/models/VKUniversity.h
+-[VKApiWall post:]
+__OBJC_METACLASS_RO_$_VKApiWall
+__OBJC_$_INSTANCE_METHODS_VKApiWall
+__OBJC_CLASS_RO_$_VKApiWall
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/methods/VKApiWall.m
+library/Source/API/methods/VKApiWall.m
++[VKBundle vkLibraryResourcesBundle]
+___36+[VKBundle vkLibraryResourcesBundle]_block_invoke
++[VKBundle vkLibraryImageNamed:]
++[VKBundle localizedString:]
+_vkLibraryResourcesBundle.onceToken
+_vkLibraryResourcesBundle.myLibraryResourcesBundle
+_OBJC_CLASSLIST_REFERENCES_$_.12
+_OBJC_CLASSLIST_REFERENCES_$_.23
+__OBJC_$_CLASS_METHODS_VKBundle
+__OBJC_METACLASS_RO_$_VKBundle
+__OBJC_CLASS_RO_$_VKBundle
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/VKBundle.m
+library/Source/VKBundle.m
+__36+[VKBundle vkLibraryResourcesBundle]_block_invoke
+-[VKApiDocs get]
+-[VKApiDocs get:]
+-[VKApiDocs get:andOffset:]
+-[VKApiDocs get:andOffset:andOwnerID:]
+-[VKApiDocs getByID:]
+-[VKApiDocs getUploadServer]
+-[VKApiDocs getUploadServer:]
+-[VKApiDocs getWallUploadServer]
+-[VKApiDocs getWallUploadServer:]
+-[VKApiDocs save:]
+-[VKApiDocs save:andTitle:]
+-[VKApiDocs save:andTitle:andTags:]
+-[VKApiDocs delete:andDocID:]
+-[VKApiDocs add:andDocID:]
+-[VKApiDocs add:andDocID:andAccessKey:]
+-[VKApiDocs search:]
+-[VKApiDocs search:count:]
+-[VKApiDocs search:count:andOffset:]
+-[VKApiDocs edit:title:]
+-[VKApiDocs edit:title:tags:]
+-[VKApiDocs edit:docID:title:]
+-[VKApiDocs edit:docID:title:tags:]
+__OBJC_METACLASS_RO_$_VKApiDocs
+__OBJC_$_INSTANCE_METHODS_VKApiDocs
+__OBJC_CLASS_RO_$_VKApiDocs
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/methods/VKApiDocs.m
+library/Source/API/methods/VKApiDocs.m
+-[VKPhotoSize src]
+-[VKPhotoSize setSrc:]
+-[VKPhotoSize width]
+-[VKPhotoSize setWidth:]
+-[VKPhotoSize height]
+-[VKPhotoSize setHeight:]
+-[VKPhotoSize type]
+-[VKPhotoSize setType:]
+-[VKPhotoSize .cxx_destruct]
+-[VKPhotoSizes objectClass]
+-[VKPhotoSizes initWithArray:]
+-[VKPhotoSizes photoSizeWithType:]
+-[VKPhotoSizes .cxx_destruct]
+_OBJC_IVAR_$_VKPhotoSize._src
+_OBJC_IVAR_$_VKPhotoSize._width
+_OBJC_IVAR_$_VKPhotoSize._height
+_OBJC_IVAR_$_VKPhotoSize._type
+__OBJC_METACLASS_RO_$_VKPhotoSize
+__OBJC_$_INSTANCE_METHODS_VKPhotoSize
+__OBJC_$_INSTANCE_VARIABLES_VKPhotoSize
+__OBJC_$_PROP_LIST_VKPhotoSize
+__OBJC_CLASS_RO_$_VKPhotoSize
+_OBJC_CLASSLIST_REFERENCES_$_.28
+_OBJC_IVAR_$_VKPhotoSizes.sizesDictionary
+__OBJC_METACLASS_RO_$_VKPhotoSizes
+__OBJC_$_INSTANCE_METHODS_VKPhotoSizes
+__OBJC_$_INSTANCE_VARIABLES_VKPhotoSizes
+__OBJC_CLASS_RO_$_VKPhotoSizes
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/models/VKPhotoSize.m
+library/Source/API/models/VKPhotoSize.m
+library/Source/API/models/VKPhotoSize.h
+-[VKUploadPhotoRequest initWithImage:parameters:albumId:groupId:]
+-[VKUploadPhotoRequest getServerRequest]
+-[VKUploadPhotoRequest getSaveRequest:]
+__OBJC_METACLASS_RO_$_VKUploadPhotoRequest
+__OBJC_$_INSTANCE_METHODS_VKUploadPhotoRequest
+__OBJC_CLASS_RO_$_VKUploadPhotoRequest
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/upload/VKUploadPhotoRequest.m
+library/Source/API/upload/VKUploadPhotoRequest.m
++[VKAccessToken tokenWithToken:secret:userId:]
++[VKAccessToken tokenFromUrlString:]
+-[VKAccessToken initWithToken:secret:userId:]
+-[VKAccessToken initWithCoder:]
+-[VKAccessToken encodeWithCoder:]
+-[VKAccessToken restorePermissions:]
+-[VKAccessToken initWithUrlString:]
+-[VKAccessToken initWithVKAccessToken:]
++[VKAccessToken savedToken:]
+-[VKAccessToken isExpired]
+-[VKAccessToken checkIfExpired]
+-[VKAccessToken accessToken]
+-[VKAccessToken saveTokenToDefaults:]
+-[VKAccessToken copy]
+-[VKAccessToken mutableCopy]
++[VKAccessToken getKeychainQuery:]
++[VKAccessToken save:data:]
++[VKAccessToken load:]
++[VKAccessToken delete:]
+-[VKAccessToken userId]
+-[VKAccessToken secret]
+-[VKAccessToken permissions]
+-[VKAccessToken email]
+-[VKAccessToken expiresIn]
+-[VKAccessToken httpsRequired]
+-[VKAccessToken created]
+-[VKAccessToken localUser]
+-[VKAccessToken setAccessToken:]
+-[VKAccessToken .cxx_destruct]
+-[VKAccessTokenMutable setAccessToken:]
+-[VKAccessTokenMutable setExpiresIn:]
+-[VKAccessTokenMutable setUserId:]
+-[VKAccessTokenMutable setSecret:]
+-[VKAccessTokenMutable setPermissions:]
+-[VKAccessTokenMutable setHttpsRequired:]
+-[VKAccessTokenMutable setLocalUser:]
+_OBJC_IVAR_$_VKAccessToken._email
+_OBJC_IVAR_$_VKAccessToken._created
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_CLASSLIST_REFERENCES_$_.75
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_CLASSLIST_REFERENCES_$_.93
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_CLASSLIST_REFERENCES_$_.102
+_OBJC_CLASSLIST_REFERENCES_$_.107
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_CLASSLIST_REFERENCES_$_.126
+_OBJC_CLASSLIST_REFERENCES_$_.129
+_OBJC_CLASSLIST_REFERENCES_$_.130
+_OBJC_CLASSLIST_REFERENCES_$_.137
+_OBJC_SELECTOR_REFERENCES_.139
+_OBJC_CLASSLIST_REFERENCES_$_.142
+__OBJC_$_CLASS_METHODS_VKAccessToken
+__OBJC_CLASS_PROTOCOLS_$_VKAccessToken
+__OBJC_METACLASS_RO_$_VKAccessToken
+__OBJC_$_INSTANCE_METHODS_VKAccessToken
+__OBJC_$_INSTANCE_VARIABLES_VKAccessToken
+__OBJC_$_PROP_LIST_VKAccessToken
+__OBJC_CLASS_RO_$_VKAccessToken
+__OBJC_METACLASS_RO_$_VKAccessTokenMutable
+__OBJC_$_INSTANCE_METHODS_VKAccessTokenMutable
+__OBJC_$_PROP_LIST_VKAccessTokenMutable
+__OBJC_CLASS_RO_$_VKAccessTokenMutable
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/VKAccessToken.m
+library/Source/VKAccessToken.m
+library/Source/VKAccessToken.h
+-[NSString(VKSMD5) vks_md5]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_VKSMD5
+__OBJC_$_CATEGORY_NSString_$_VKSMD5
+_OBJC_LABEL_CATEGORY_$
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Utils/NSString+MD5.m
+library/Source/Utils/NSString+MD5.m
+-[VKRequestTiming description]
+-[VKRequestTiming started]
+-[VKRequestTiming loaded]
+-[VKRequestTiming parseStarted]
+-[VKRequestTiming parseFinished]
+-[VKRequestTiming finished]
+-[VKRequestTiming totalTime]
+-[VKRequestTiming startTime]
+-[VKRequestTiming setStartTime:]
+-[VKRequestTiming finishTime]
+-[VKRequestTiming setFinishTime:]
+-[VKRequestTiming loadTime]
+-[VKRequestTiming setLoadTime:]
+-[VKRequestTiming parseTime]
+-[VKRequestTiming setParseTime:]
+-[VKRequestTiming .cxx_destruct]
+-[VKRequest dealloc]
++[VKRequest processingQueue]
++[VKRequest requestWithMethod:andParameters:andHttpMethod:]
++[VKRequest requestWithMethod:andParameters:]
++[VKRequest requestWithMethod:andParameters:andHttpMethod:classOfModel:]
++[VKRequest requestWithMethod:andParameters:modelClass:]
++[VKRequest requestWithMethod:parameters:]
++[VKRequest requestWithMethod:parameters:modelClass:]
++[VKRequest photoRequestWithPostUrl:withPhotos:]
+-[VKRequest init]
+-[VKRequest debugDescription]
+-[VKRequest executeWithResultBlock:errorBlock:]
+-[VKRequest executeAfter:withResultBlock:errorBlock:]
+-[VKRequest addPostRequest:]
+-[VKRequest getPreparedRequest]
+-[VKRequest createExecutionOperation]
+___37-[VKRequest createExecutionOperation]_block_invoke
+___37-[VKRequest createExecutionOperation]_block_invoke.204
+___37-[VKRequest createExecutionOperation]_block_invoke_2
+-[VKRequest start]
+-[VKRequest operationDidStart:]
+-[VKRequest provideResponse:responseString:]
+-[VKRequest provideError:]
+-[VKRequest finishRequest]
+___26-[VKRequest finishRequest]_block_invoke
+___26-[VKRequest finishRequest]_block_invoke_2
+-[VKRequest repeat]
+-[VKRequest cancel]
+-[VKRequest setupProgress:]
+___27-[VKRequest setupProgress:]_block_invoke
+___27-[VKRequest setupProgress:]_block_invoke.303
+-[VKRequest addExtraParameters:]
+-[VKRequest generateSig:token:]
+-[VKRequest processCommonError:]
+___32-[VKRequest processCommonError:]_block_invoke
+___32-[VKRequest processCommonError:]_block_invoke_2
+___32-[VKRequest processCommonError:]_block_invoke_3
+___32-[VKRequest processCommonError:]_block_invoke_4
+-[VKRequest language]
+___21-[VKRequest language]_block_invoke
+-[VKRequest responseQueue]
+-[VKRequest setPreferredLang:]
+-[VKRequest isExecuting]
+-[VKRequest progressBlock]
+-[VKRequest setProgressBlock:]
+-[VKRequest completeBlock]
+-[VKRequest setCompleteBlock:]
+-[VKRequest errorBlock]
+-[VKRequest setErrorBlock:]
+-[VKRequest attempts]
+-[VKRequest setAttempts:]
+-[VKRequest secure]
+-[VKRequest setSecure:]
+-[VKRequest useSystemLanguage]
+-[VKRequest setUseSystemLanguage:]
+-[VKRequest parseModel]
+-[VKRequest setParseModel:]
+-[VKRequest debugTiming]
+-[VKRequest setDebugTiming:]
+-[VKRequest requestTimeout]
+-[VKRequest setRequestTimeout:]
+-[VKRequest setResponseQueue:]
+-[VKRequest waitUntilDone]
+-[VKRequest setWaitUntilDone:]
+-[VKRequest methodName]
+-[VKRequest setMethodName:]
+-[VKRequest httpMethod]
+-[VKRequest setHttpMethod:]
+-[VKRequest methodParameters]
+-[VKRequest setMethodParameters:]
+-[VKRequest executionOperation]
+-[VKRequest setExecutionOperation:]
+-[VKRequest requestTiming]
+-[VKRequest setRequestTiming:]
+-[VKRequest preventThisErrorsHandling]
+-[VKRequest setPreventThisErrorsHandling:]
+-[VKRequest preparedParameters]
+-[VKRequest setPreparedParameters:]
+-[VKRequest uploadUrl]
+-[VKRequest setUploadUrl:]
+-[VKRequest postRequestsQueue]
+-[VKRequest setPostRequestsQueue:]
+-[VKRequest modelClass]
+-[VKRequest setModelClass:]
+-[VKRequest photoObjects]
+-[VKRequest setPhotoObjects:]
+-[VKRequest attemptsUsed]
+-[VKRequest setAttemptsUsed:]
+-[VKRequest response]
+-[VKRequest setResponse:]
+-[VKRequest error]
+-[VKRequest setError:]
+-[VKRequest requestLang]
+-[VKRequest setRequestLang:]
+-[VKRequest specialToken]
+-[VKRequest setSpecialToken:]
+-[VKRequest .cxx_destruct]
+_OBJC_IVAR_$_VKRequestTiming._loadTime
+_OBJC_IVAR_$_VKRequestTiming._parseTime
+_OBJC_IVAR_$_VKRequestTiming._startTime
+_OBJC_IVAR_$_VKRequestTiming._parseStartTime
+_OBJC_IVAR_$_VKRequestTiming._finishTime
+__OBJC_METACLASS_RO_$_VKRequestTiming
+__OBJC_$_INSTANCE_METHODS_VKRequestTiming
+__OBJC_$_INSTANCE_VARIABLES_VKRequestTiming
+__OBJC_$_PROP_LIST_VKRequestTiming
+__OBJC_CLASS_RO_$_VKRequestTiming
+_OBJC_CLASSLIST_REFERENCES_$_.47
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_IVAR_$_VKRequest._waitMultiplier
+_OBJC_CLASSLIST_REFERENCES_$_.106
+_OBJC_IVAR_$_VKRequest._postRequestsQueue
+_OBJC_IVAR_$_VKRequest._preparedParameters
+_OBJC_IVAR_$_VKRequest._uploadUrl
+_OBJC_CLASSLIST_REFERENCES_$_.118
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_CLASSLIST_REFERENCES_$_.140
+_OBJC_IVAR_$_VKRequest._photoObjects
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_CLASSLIST_REFERENCES_$_.178
+_OBJC_IVAR_$_VKRequest._debugTiming
+_OBJC_CLASSLIST_REFERENCES_$_.181
+_OBJC_IVAR_$_VKRequest._requestTiming
+_OBJC_IVAR_$_VKRequest._executionOperation
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_CLASSLIST_REFERENCES_$_.189
+_OBJC_CLASSLIST_REFERENCES_$_.194
+___block_descriptor_40_e8_32s_e28_v24?0"VKHTTPOperation"816l
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_IVAR_$_VKRequest._completeBlock
+_OBJC_IVAR_$_VKRequest._errorBlock
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.226
+___block_descriptor_40_e8_32s_e37_v24?0"VKHTTPOperation"8"NSError"16l
+_OBJC_CLASSLIST_REFERENCES_$_.230
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_SELECTOR_REFERENCES_.236
+_OBJC_SELECTOR_REFERENCES_.238
+_OBJC_SELECTOR_REFERENCES_.240
+_OBJC_SELECTOR_REFERENCES_.242
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_IVAR_$_VKRequest._waitUntilDoneSemaphore
+_OBJC_SELECTOR_REFERENCES_.263
+_OBJC_CLASSLIST_REFERENCES_$_.264
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_IVAR_$_VKRequest._modelClass
+_OBJC_SELECTOR_REFERENCES_.277
+_OBJC_SELECTOR_REFERENCES_.279
+_OBJC_SELECTOR_REFERENCES_.281
+_OBJC_IVAR_$_VKRequest._attemptsUsed
+_OBJC_SELECTOR_REFERENCES_.294
+_OBJC_CLASSLIST_REFERENCES_$_.295
+_OBJC_SELECTOR_REFERENCES_.297
+_OBJC_SELECTOR_REFERENCES_.299
+___block_descriptor_40_e8_32s_e14_v32?0Q8q16q24l
+_OBJC_SELECTOR_REFERENCES_.305
+_OBJC_IVAR_$_VKRequest._methodParameters
+_OBJC_SELECTOR_REFERENCES_.307
+_OBJC_SELECTOR_REFERENCES_.311
+_OBJC_SELECTOR_REFERENCES_.315
+_OBJC_IVAR_$_VKRequest._methodName
+_OBJC_SELECTOR_REFERENCES_.321
+_OBJC_SELECTOR_REFERENCES_.323
+_OBJC_SELECTOR_REFERENCES_.325
+_OBJC_SELECTOR_REFERENCES_.327
+_OBJC_SELECTOR_REFERENCES_.329
+_OBJC_CLASSLIST_REFERENCES_$_.330
+_OBJC_SELECTOR_REFERENCES_.332
+_OBJC_SELECTOR_REFERENCES_.334
+_OBJC_SELECTOR_REFERENCES_.336
+_OBJC_SELECTOR_REFERENCES_.338
+_OBJC_SELECTOR_REFERENCES_.340
+_OBJC_SELECTOR_REFERENCES_.342
+_OBJC_CLASSLIST_REFERENCES_$_.343
+_OBJC_SELECTOR_REFERENCES_.345
+_OBJC_SELECTOR_REFERENCES_.347
+_OBJC_SELECTOR_REFERENCES_.349
+_language.sysLang
+_language.onceToken
+_OBJC_CLASSLIST_REFERENCES_$_.350
+_OBJC_SELECTOR_REFERENCES_.352
+_OBJC_SELECTOR_REFERENCES_.354
+_OBJC_CLASSLIST_REFERENCES_$_.355
+_OBJC_SELECTOR_REFERENCES_.357
+_OBJC_SELECTOR_REFERENCES_.359
+_OBJC_SELECTOR_REFERENCES_.361
+_OBJC_SELECTOR_REFERENCES_.375
+_OBJC_IVAR_$_VKRequest._responseQueue
+_OBJC_SELECTOR_REFERENCES_.377
+_OBJC_IVAR_$_VKRequest._progressBlock
+_OBJC_IVAR_$_VKRequest._attempts
+_OBJC_IVAR_$_VKRequest._secure
+_OBJC_IVAR_$_VKRequest._useSystemLanguage
+_OBJC_IVAR_$_VKRequest._parseModel
+_OBJC_IVAR_$_VKRequest._requestTimeout
+_OBJC_IVAR_$_VKRequest._waitUntilDone
+_OBJC_IVAR_$_VKRequest._httpMethod
+_OBJC_IVAR_$_VKRequest._preventThisErrorsHandling
+_OBJC_IVAR_$_VKRequest._response
+_OBJC_IVAR_$_VKRequest._error
+_OBJC_IVAR_$_VKRequest._requestLang
+_OBJC_IVAR_$_VKRequest._specialToken
+__OBJC_$_CLASS_METHODS_VKRequest
+__OBJC_METACLASS_RO_$_VKRequest
+__OBJC_$_INSTANCE_METHODS_VKRequest
+__OBJC_$_INSTANCE_VARIABLES_VKRequest
+__OBJC_$_PROP_LIST_VKRequest
+__OBJC_CLASS_RO_$_VKRequest
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Core/VKRequest.m
+library/Source/Core/VKRequest.m
+library/Source/Core/VKRequest.h
+__21-[VKRequest language]_block_invoke
+__32-[VKRequest processCommonError:]_block_invoke_4
+__32-[VKRequest processCommonError:]_block_invoke_3
+__32-[VKRequest processCommonError:]_block_invoke_2
+__32-[VKRequest processCommonError:]_block_invoke
+__27-[VKRequest setupProgress:]_block_invoke.303
+__27-[VKRequest setupProgress:]_block_invoke
+__26-[VKRequest finishRequest]_block_invoke_2
+__26-[VKRequest finishRequest]_block_invoke
+__37-[VKRequest createExecutionOperation]_block_invoke_2
+__37-[VKRequest createExecutionOperation]_block_invoke.204
+__37-[VKRequest createExecutionOperation]_block_invoke
+vksdk_dispatch_on_main_queue_now
+-[VKCaptchaView dealloc]
+-[VKCaptchaView initWithFrame:andError:]
+___40-[VKCaptchaView initWithFrame:andError:]_block_invoke
+___40-[VKCaptchaView initWithFrame:andError:]_block_invoke.72
+-[VKCaptchaView deviceDidRotate:]
+___33-[VKCaptchaView deviceDidRotate:]_block_invoke
+-[VKCaptchaView doneButtonPressed:]
+-[VKCaptchaView didMoveToSuperview]
+-[VKCaptchaView textFieldShouldReturn:]
+-[VKCaptchaView .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_IVAR_$_VKCaptchaView._error
+_OBJC_IVAR_$_VKCaptchaView._imageLoadingActivity
+_OBJC_IVAR_$_VKCaptchaView._captchaImage
+_OBJC_IVAR_$_VKCaptchaView._captchaTextField
+_OBJC_CLASSLIST_REFERENCES_$_.53
+___block_descriptor_32_e37_v24?0"VKHTTPOperation"8"NSError"16l
+_OBJC_IVAR_$_VKCaptchaView._doneButton
+_OBJC_IVAR_$_VKCaptchaView._infoLabel
+__OBJC_$_PROTOCOL_REFS_UITextFieldDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITextFieldDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UITextFieldDelegate
+__OBJC_PROTOCOL_$_UITextFieldDelegate
+__OBJC_LABEL_PROTOCOL_$_UITextFieldDelegate
+__OBJC_CLASS_PROTOCOLS_$_VKCaptchaView
+__OBJC_METACLASS_RO_$_VKCaptchaView
+__OBJC_$_INSTANCE_METHODS_VKCaptchaView
+__OBJC_$_INSTANCE_VARIABLES_VKCaptchaView
+__OBJC_$_PROP_LIST_VKCaptchaView
+__OBJC_CLASS_RO_$_VKCaptchaView
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Views/VKCaptchaView.m
+library/Source/Views/VKCaptchaView.m
+__33-[VKCaptchaView deviceDidRotate:]_block_invoke
+__40-[VKCaptchaView initWithFrame:andError:]_block_invoke.72
+__40-[VKCaptchaView initWithFrame:andError:]_block_invoke
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/methods/VKApiConst.m
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/VKPermissions.m
+VKParseVkPermissionsFromInteger
+library/Source/VKPermissions.m
+-[VKPhoto attachmentString]
+-[VKPhoto id]
+-[VKPhoto setId:]
+-[VKPhoto album_id]
+-[VKPhoto setAlbum_id:]
+-[VKPhoto owner_id]
+-[VKPhoto setOwner_id:]
+-[VKPhoto photo_75]
+-[VKPhoto setPhoto_75:]
+-[VKPhoto photo_130]
+-[VKPhoto setPhoto_130:]
+-[VKPhoto photo_604]
+-[VKPhoto setPhoto_604:]
+-[VKPhoto photo_807]
+-[VKPhoto setPhoto_807:]
+-[VKPhoto photo_1280]
+-[VKPhoto setPhoto_1280:]
+-[VKPhoto photo_2560]
+-[VKPhoto setPhoto_2560:]
+-[VKPhoto width]
+-[VKPhoto setWidth:]
+-[VKPhoto height]
+-[VKPhoto setHeight:]
+-[VKPhoto text]
+-[VKPhoto setText:]
+-[VKPhoto date]
+-[VKPhoto setDate:]
+-[VKPhoto sizes]
+-[VKPhoto setSizes:]
+-[VKPhoto .cxx_destruct]
+-[VKPhotoArray initWithDictionary:]
+_OBJC_IVAR_$_VKPhoto._owner_id
+_OBJC_IVAR_$_VKPhoto._id
+_OBJC_IVAR_$_VKPhoto._album_id
+_OBJC_IVAR_$_VKPhoto._photo_75
+_OBJC_IVAR_$_VKPhoto._photo_130
+_OBJC_IVAR_$_VKPhoto._photo_604
+_OBJC_IVAR_$_VKPhoto._photo_807
+_OBJC_IVAR_$_VKPhoto._photo_1280
+_OBJC_IVAR_$_VKPhoto._photo_2560
+_OBJC_IVAR_$_VKPhoto._width
+_OBJC_IVAR_$_VKPhoto._height
+_OBJC_IVAR_$_VKPhoto._text
+_OBJC_IVAR_$_VKPhoto._date
+_OBJC_IVAR_$_VKPhoto._sizes
+__OBJC_METACLASS_RO_$_VKPhoto
+__OBJC_$_INSTANCE_METHODS_VKPhoto
+__OBJC_$_INSTANCE_VARIABLES_VKPhoto
+__OBJC_$_PROP_LIST_VKPhoto
+__OBJC_CLASS_RO_$_VKPhoto
+_OBJC_CLASSLIST_REFERENCES_$_.80
+__OBJC_METACLASS_RO_$_VKPhotoArray
+__OBJC_$_INSTANCE_METHODS_VKPhotoArray
+__OBJC_CLASS_RO_$_VKPhotoArray
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/models/VKPhoto.m
+library/Source/API/models/VKPhoto.m
+library/Source/API/models/VKPhoto.h
+-[VKApiUsers get]
+-[VKApiUsers get:]
+-[VKApiUsers search:]
+-[VKApiUsers isAppUser]
+-[VKApiUsers isAppUser:]
+-[VKApiUsers getSubscriptions]
+-[VKApiUsers getSubscriptions:]
+-[VKApiUsers getFollowers]
+-[VKApiUsers getFollowers:]
+__OBJC_METACLASS_RO_$_VKApiUsers
+__OBJC_$_INSTANCE_METHODS_VKApiUsers
+__OBJC_CLASS_RO_$_VKApiUsers
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/methods/VKApiUsers.m
+library/Source/API/methods/VKApiUsers.m
+-[VKBatchRequest initWithRequests:]
+-[VKBatchRequest initWithRequestsArray:]
+-[VKBatchRequest executeWithResultBlock:errorBlock:]
+___52-[VKBatchRequest executeWithResultBlock:errorBlock:]_block_invoke
+___52-[VKBatchRequest executeWithResultBlock:errorBlock:]_block_invoke.28
+-[VKBatchRequest cancel]
+-[VKBatchRequest provideResponse:]
+-[VKBatchRequest provideError:]
+-[VKBatchRequest completeBlock]
+-[VKBatchRequest setCompleteBlock:]
+-[VKBatchRequest errorBlock]
+-[VKBatchRequest setErrorBlock:]
+-[VKBatchRequest .cxx_destruct]
+_OBJC_IVAR_$_VKBatchRequest._requests
+_OBJC_IVAR_$_VKBatchRequest._responses
+___block_descriptor_48_e8_32s40bs_e20_v16?0"VKResponse"8l
+___block_descriptor_48_e8_32s40bs_e17_v16?0"NSError"8l
+_OBJC_IVAR_$_VKBatchRequest._canceled
+_OBJC_CLASSLIST_REFERENCES_$_.41
+_OBJC_CLASSLIST_REFERENCES_$_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_IVAR_$_VKBatchRequest._completeBlock
+_OBJC_IVAR_$_VKBatchRequest._errorBlock
+__OBJC_METACLASS_RO_$_VKBatchRequest
+__OBJC_$_INSTANCE_METHODS_VKBatchRequest
+__OBJC_$_INSTANCE_VARIABLES_VKBatchRequest
+__OBJC_$_PROP_LIST_VKBatchRequest
+__OBJC_CLASS_RO_$_VKBatchRequest
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/VKBatchRequest.m
+library/Source/VKBatchRequest.m
+library/Source/VKBatchRequest.h
+__52-[VKBatchRequest executeWithResultBlock:errorBlock:]_block_invoke.28
+__52-[VKBatchRequest executeWithResultBlock:errorBlock:]_block_invoke
+-[VKRelative id]
+-[VKRelative setId:]
+-[VKRelative type]
+-[VKRelative setType:]
+-[VKRelative .cxx_destruct]
+-[VKRelativities objectClass]
+_OBJC_IVAR_$_VKRelative._id
+_OBJC_IVAR_$_VKRelative._type
+__OBJC_METACLASS_RO_$_VKRelative
+__OBJC_$_INSTANCE_METHODS_VKRelative
+__OBJC_$_INSTANCE_VARIABLES_VKRelative
+__OBJC_$_PROP_LIST_VKRelative
+__OBJC_CLASS_RO_$_VKRelative
+__OBJC_METACLASS_RO_$_VKRelativities
+__OBJC_$_INSTANCE_METHODS_VKRelativities
+__OBJC_CLASS_RO_$_VKRelativities
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/models/VKRelative.m
+library/Source/API/models/VKRelative.m
+library/Source/API/models/VKRelative.h
+-[VKCounters friends]
+-[VKCounters setFriends:]
+-[VKCounters messages]
+-[VKCounters setMessages:]
+-[VKCounters photos]
+-[VKCounters setPhotos:]
+-[VKCounters videos]
+-[VKCounters setVideos:]
+-[VKCounters notifications]
+-[VKCounters setNotifications:]
+-[VKCounters groups]
+-[VKCounters setGroups:]
+-[VKCounters gifts]
+-[VKCounters setGifts:]
+-[VKCounters events]
+-[VKCounters setEvents:]
+-[VKCounters albums]
+-[VKCounters setAlbums:]
+-[VKCounters audios]
+-[VKCounters setAudios:]
+-[VKCounters online_friends]
+-[VKCounters setOnline_friends:]
+-[VKCounters mutual_friends]
+-[VKCounters setMutual_friends:]
+-[VKCounters user_videos]
+-[VKCounters setUser_videos:]
+-[VKCounters followers]
+-[VKCounters setFollowers:]
+-[VKCounters user_photos]
+-[VKCounters setUser_photos:]
+-[VKCounters subscriptions]
+-[VKCounters setSubscriptions:]
+-[VKCounters documents]
+-[VKCounters setDocuments:]
+-[VKCounters topics]
+-[VKCounters setTopics:]
+-[VKCounters pages]
+-[VKCounters setPages:]
+-[VKCounters .cxx_destruct]
+_OBJC_IVAR_$_VKCounters._friends
+_OBJC_IVAR_$_VKCounters._messages
+_OBJC_IVAR_$_VKCounters._photos
+_OBJC_IVAR_$_VKCounters._videos
+_OBJC_IVAR_$_VKCounters._notifications
+_OBJC_IVAR_$_VKCounters._groups
+_OBJC_IVAR_$_VKCounters._gifts
+_OBJC_IVAR_$_VKCounters._events
+_OBJC_IVAR_$_VKCounters._albums
+_OBJC_IVAR_$_VKCounters._audios
+_OBJC_IVAR_$_VKCounters._online_friends
+_OBJC_IVAR_$_VKCounters._mutual_friends
+_OBJC_IVAR_$_VKCounters._user_videos
+_OBJC_IVAR_$_VKCounters._followers
+_OBJC_IVAR_$_VKCounters._user_photos
+_OBJC_IVAR_$_VKCounters._subscriptions
+_OBJC_IVAR_$_VKCounters._documents
+_OBJC_IVAR_$_VKCounters._topics
+_OBJC_IVAR_$_VKCounters._pages
+__OBJC_METACLASS_RO_$_VKCounters
+__OBJC_$_INSTANCE_METHODS_VKCounters
+__OBJC_$_INSTANCE_VARIABLES_VKCounters
+__OBJC_$_PROP_LIST_VKCounters
+__OBJC_CLASS_RO_$_VKCounters
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/models/VKCounters.m
+library/Source/API/models/VKCounters.m
+library/Source/API/models/VKCounters.h
++[VKCaptchaViewController captchaControllerWithError:]
+-[VKCaptchaViewController loadView]
+-[VKCaptchaViewController captchaDidAnswered]
+-[VKCaptchaViewController captchaFrameForScreenSize:]
+-[VKCaptchaViewController willAnimateRotationToInterfaceOrientation:duration:]
+-[VKCaptchaViewController presentIn:]
+___37-[VKCaptchaViewController presentIn:]_block_invoke
+-[VKCaptchaViewController preferredStatusBarStyle]
+-[VKCaptchaViewController preferredContentSize]
+-[VKCaptchaViewController dealloc]
+-[VKCaptchaViewController captchaView]
+-[VKCaptchaViewController setCaptchaView:]
+-[VKCaptchaViewController .cxx_destruct]
+_OBJC_IVAR_$_VKCaptchaViewController._captchaError
+_OBJC_CLASSLIST_REFERENCES_$_.67
+_OBJC_CLASSLIST_REFERENCES_$_.70
+_OBJC_IVAR_$_VKCaptchaViewController._transitionDelegate
+_OBJC_IVAR_$_VKCaptchaViewController._captchaView
+__OBJC_$_CLASS_METHODS_VKCaptchaViewController
+__OBJC_METACLASS_RO_$_VKCaptchaViewController
+__OBJC_$_INSTANCE_METHODS_VKCaptchaViewController
+__OBJC_$_INSTANCE_VARIABLES_VKCaptchaViewController
+__OBJC_$_PROP_LIST_VKCaptchaViewController
+__OBJC_CLASS_RO_$_VKCaptchaViewController
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Views/VKCaptchaViewController.m
+library/Source/Views/VKCaptchaViewController.m
+__37-[VKCaptchaViewController presentIn:]_block_invoke
+UIInterfaceOrientationIsLandscape
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h
++[VKError errorWithCode:]
++[VKError errorWithJson:]
++[VKError errorWithQuery:]
+-[VKError answerCaptcha:]
+-[VKError description]
+-[VKError httpError]
+-[VKError setHttpError:]
+-[VKError apiError]
+-[VKError setApiError:]
+-[VKError request]
+-[VKError setRequest:]
+-[VKError errorCode]
+-[VKError setErrorCode:]
+-[VKError errorMessage]
+-[VKError setErrorMessage:]
+-[VKError errorReason]
+-[VKError setErrorReason:]
+-[VKError errorText]
+-[VKError setErrorText:]
+-[VKError requestParams]
+-[VKError setRequestParams:]
+-[VKError captchaSid]
+-[VKError setCaptchaSid:]
+-[VKError captchaImg]
+-[VKError setCaptchaImg:]
+-[VKError redirectUri]
+-[VKError setRedirectUri:]
+-[VKError json]
+-[VKError setJson:]
+-[VKError .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.37
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_IVAR_$_VKError._httpError
+_OBJC_IVAR_$_VKError._apiError
+_OBJC_IVAR_$_VKError._request
+_OBJC_IVAR_$_VKError._errorCode
+_OBJC_IVAR_$_VKError._errorMessage
+_OBJC_IVAR_$_VKError._errorReason
+_OBJC_IVAR_$_VKError._errorText
+_OBJC_IVAR_$_VKError._requestParams
+_OBJC_IVAR_$_VKError._captchaSid
+_OBJC_IVAR_$_VKError._captchaImg
+_OBJC_IVAR_$_VKError._redirectUri
+_OBJC_IVAR_$_VKError._json
+__OBJC_$_CLASS_METHODS_VKError
+__OBJC_METACLASS_RO_$_VKError
+__OBJC_$_INSTANCE_METHODS_VKError
+__OBJC_$_INSTANCE_VARIABLES_VKError
+__OBJC_$_PROP_LIST_VKError
+__OBJC_CLASS_RO_$_VKError
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Core/VKError.m
+library/Source/Core/VKError.m
+library/Source/Core/VKError.h
+-[OrderedDictionary init]
+-[OrderedDictionary initWithCapacity:]
+-[OrderedDictionary copy]
+-[OrderedDictionary setObject:forKey:]
+-[OrderedDictionary removeObjectForKey:]
+-[OrderedDictionary count]
+-[OrderedDictionary objectForKey:]
+-[OrderedDictionary keyEnumerator]
+-[OrderedDictionary reverseKeyEnumerator]
+-[OrderedDictionary insertObject:forKey:atIndex:]
+-[OrderedDictionary keyAtIndex:]
+-[OrderedDictionary descriptionWithLocale:indent:]
+-[OrderedDictionary .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.16
+_OBJC_CLASSLIST_REFERENCES_$_.39
+__OBJC_METACLASS_RO_$_OrderedDictionary
+__OBJC_$_INSTANCE_METHODS_OrderedDictionary
+__OBJC_$_INSTANCE_VARIABLES_OrderedDictionary
+__OBJC_CLASS_RO_$_OrderedDictionary
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Utils/OrderedDictionary.m
+library/Source/Utils/OrderedDictionary.m
+VKDescriptionForObject
+-[VKLikes count]
+-[VKLikes setCount:]
+-[VKLikes user_likes]
+-[VKLikes setUser_likes:]
+-[VKLikes can_like]
+-[VKLikes setCan_like:]
+-[VKLikes can_publish]
+-[VKLikes setCan_publish:]
+-[VKLikes .cxx_destruct]
+_OBJC_IVAR_$_VKLikes._count
+_OBJC_IVAR_$_VKLikes._user_likes
+_OBJC_IVAR_$_VKLikes._can_like
+_OBJC_IVAR_$_VKLikes._can_publish
+__OBJC_METACLASS_RO_$_VKLikes
+__OBJC_$_INSTANCE_METHODS_VKLikes
+__OBJC_$_INSTANCE_VARIABLES_VKLikes
+__OBJC_$_PROP_LIST_VKLikes
+__OBJC_CLASS_RO_$_VKLikes
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/models/VKLikes.m
+library/Source/API/models/VKLikes.m
+library/Source/API/models/VKLikes.h
+-[VKPhotoAttachmentCell initWithFrame:]
+-[VKPhotoAttachmentCell setProgress:]
+-[VKPhotoAttachmentCell hideProgress]
+-[VKPhotoAttachmentCell progressView]
+-[VKPhotoAttachmentCell setProgressView:]
+-[VKPhotoAttachmentCell activity]
+-[VKPhotoAttachmentCell setActivity:]
+-[VKPhotoAttachmentCell attachImageView]
+-[VKPhotoAttachmentCell setAttachImageView:]
+-[VKPhotoAttachmentCell .cxx_destruct]
+-[VKUploadingAttachment isDownloading]
+-[VKUploadingAttachment setIsDownloading:]
+-[VKUploadingAttachment attachSize]
+-[VKUploadingAttachment setAttachSize:]
+-[VKUploadingAttachment attachmentString]
+-[VKUploadingAttachment setAttachmentString:]
+-[VKUploadingAttachment preview]
+-[VKUploadingAttachment setPreview:]
+-[VKUploadingAttachment uploadingRequest]
+-[VKUploadingAttachment setUploadingRequest:]
+-[VKUploadingAttachment .cxx_destruct]
+-[VKPostSettings friendsOnly]
+-[VKPostSettings setFriendsOnly:]
+-[VKPostSettings exportTwitter]
+-[VKPostSettings setExportTwitter:]
+-[VKPostSettings exportFacebook]
+-[VKPostSettings setExportFacebook:]
+-[VKPostSettings exportLivejournal]
+-[VKPostSettings setExportLivejournal:]
+-[VKPostSettings .cxx_destruct]
++[VKShareDialogController initialize]
+-[VKShareDialogController init]
+-[VKShareDialogController loadView]
+-[VKShareDialogController viewWillLayoutSubviews]
+-[VKShareDialogController preferredContentSize]
+-[VKShareDialogController viewWillAppear:]
+-[VKShareDialogController willAnimateRotationToInterfaceOrientation:duration:]
+-[VKShareDialogController rotateToInterfaceOrientation:appear:]
+-[VKShareDialogController shouldAutorotate]
+-[VKShareDialogController shouldAutorotateToInterfaceOrientation:]
+-[VKShareDialogController preferredStatusBarStyle]
+-[VKShareDialogController supportedInterfaceOrientations]
+-[VKShareDialogController viewDidLoad]
+-[VKShareDialogController setUploadImages:]
+___43-[VKShareDialogController setUploadImages:]_block_invoke
+-[VKShareDialogController viewDidAppear:]
+-[VKShareDialogController uploadImages]
+-[VKShareDialogController vkImages]
+-[VKShareDialogController setVkImages:]
+-[VKShareDialogController shareLink]
+-[VKShareDialogController setShareLink:]
+-[VKShareDialogController text]
+-[VKShareDialogController setText:]
+-[VKShareDialogController requestedScope]
+-[VKShareDialogController setRequestedScope:]
+-[VKShareDialogController completionHandler]
+-[VKShareDialogController setCompletionHandler:]
+-[VKShareDialogController dismissAutomatically]
+-[VKShareDialogController setDismissAutomatically:]
+-[VKShareDialogController postId]
+-[VKShareDialogController setPostId:]
+-[VKShareDialogController internalNavigation]
+-[VKShareDialogController transitionDelegate]
+-[VKShareDialogController targetShareDialog]
+-[VKShareDialogController .cxx_destruct]
+-[VKPlaceholderTextView dealloc]
+-[VKPlaceholderTextView awakeFromNib]
+-[VKPlaceholderTextView initWithFrame:]
+-[VKPlaceholderTextView textChanged:]
+-[VKPlaceholderTextView setText:]
+-[VKPlaceholderTextView setPlaceholder:]
+-[VKPlaceholderTextView measureHeightOfUITextView]
+-[VKPlaceholderTextView layoutSubviews]
+-[VKPlaceholderTextView placeholder]
+-[VKPlaceholderTextView placeholderColor]
+-[VKPlaceholderTextView setPlaceholderColor:]
+-[VKPlaceholderTextView placeholderLabel]
+-[VKPlaceholderTextView setPlaceholderLabel:]
+-[VKPlaceholderTextView .cxx_destruct]
+-[VKPrivacyButton initWithFrame:]
+-[VKPrivacyButton setHighlighted:]
+-[VKPrivacyButton imageRectForContentRect:]
+-[VKPrivacyButton titleRectForContentRect:]
+-[VKLinkAttachView initWithFrame:]
+-[VKLinkAttachView sizeToFit]
+-[VKLinkAttachView setTargetLink:]
+-[VKLinkAttachView linkTitle]
+-[VKLinkAttachView setLinkTitle:]
+-[VKLinkAttachView linkHost]
+-[VKLinkAttachView setLinkHost:]
+-[VKLinkAttachView .cxx_destruct]
+-[VKShareDialogView initWithFrame:]
+-[VKShareDialogView layoutSubviews]
+-[VKShareDialogView positionSubviews]
+-[VKShareDialogView textViewDidChange:]
+___39-[VKShareDialogView textViewDidChange:]_block_invoke
+-[VKShareDialogView textView:shouldChangeTextInRange:replacementText:]
+-[VKShareDialogView setShareLink:]
+-[VKShareDialogView notAuthorizedView]
+-[VKShareDialogView setNotAuthorizedView:]
+-[VKShareDialogView notAuthorizedLabel]
+-[VKShareDialogView setNotAuthorizedLabel:]
+-[VKShareDialogView notAuthorizedButton]
+-[VKShareDialogView setNotAuthorizedButton:]
+-[VKShareDialogView contentScrollView]
+-[VKShareDialogView setContentScrollView:]
+-[VKShareDialogView privacyButton]
+-[VKShareDialogView setPrivacyButton:]
+-[VKShareDialogView attachmentsCollection]
+-[VKShareDialogView setAttachmentsCollection:]
+-[VKShareDialogView textView]
+-[VKShareDialogView setTextView:]
+-[VKShareDialogView linkAttachView]
+-[VKShareDialogView setLinkAttachView:]
+-[VKShareDialogView activityIndicator]
+-[VKShareDialogView setActivityIndicator:]
+-[VKShareDialogView .cxx_destruct]
+-[VKShareDialogControllerInternal dealloc]
+-[VKShareDialogControllerInternal init]
+-[VKShareDialogControllerInternal loadView]
+-[VKShareDialogControllerInternal attachmentsScrollView]
+-[VKShareDialogControllerInternal viewDidLoad]
+-[VKShareDialogControllerInternal viewWillDisappear:]
+-[VKShareDialogControllerInternal viewWillAppear:]
+___50-[VKShareDialogControllerInternal viewWillAppear:]_block_invoke
+-[VKShareDialogControllerInternal setAuthorizationState:]
+-[VKShareDialogControllerInternal willAnimateRotationToInterfaceOrientation:duration:]
+-[VKShareDialogControllerInternal prepare]
+___42-[VKShareDialogControllerInternal prepare]_block_invoke
+-[VKShareDialogControllerInternal rightBarButtonItems]
+-[VKShareDialogControllerInternal close:]
+-[VKShareDialogControllerInternal sendMessage:]
+___47-[VKShareDialogControllerInternal sendMessage:]_block_invoke
+___47-[VKShareDialogControllerInternal sendMessage:]_block_invoke.881
+-[VKShareDialogControllerInternal openSettings:]
+-[VKShareDialogControllerInternal authorize:]
+-[VKShareDialogControllerInternal vkSdkNeedCaptchaEnter:]
+-[VKShareDialogControllerInternal vkSdkShouldPresentViewController:]
+-[VKShareDialogControllerInternal vkSdkAccessAuthorizationFinishedWithResult:]
+-[VKShareDialogControllerInternal vkSdkAuthorizationStateUpdatedWithResult:]
+-[VKShareDialogControllerInternal vkSdkUserAuthorizationFailed]
+-[VKShareDialogControllerInternal createAttachments]
+___52-[VKShareDialogControllerInternal createAttachments]_block_invoke
+___52-[VKShareDialogControllerInternal createAttachments]_block_invoke.949
+___52-[VKShareDialogControllerInternal createAttachments]_block_invoke.979
+___52-[VKShareDialogControllerInternal createAttachments]_block_invoke_2
+___52-[VKShareDialogControllerInternal createAttachments]_block_invoke_3
+___52-[VKShareDialogControllerInternal createAttachments]_block_invoke_4
+___52-[VKShareDialogControllerInternal createAttachments]_block_invoke.1022
+___52-[VKShareDialogControllerInternal createAttachments]_block_invoke.1033
+___52-[VKShareDialogControllerInternal createAttachments]_block_invoke.1040
+-[VKShareDialogControllerInternal collectionView:numberOfItemsInSection:]
+-[VKShareDialogControllerInternal collectionView:layout:sizeForItemAtIndexPath:]
+-[VKShareDialogControllerInternal collectionView:cellForItemAtIndexPath:]
+___73-[VKShareDialogControllerInternal collectionView:cellForItemAtIndexPath:]_block_invoke
+-[VKShareDialogControllerInternal removeAttachIfExists:]
+-[VKShareDialogControllerInternal textViewDidChange:]
+-[VKShareDialogControllerInternal parent]
+-[VKShareDialogControllerInternal setParent:]
+-[VKShareDialogControllerInternal sendButton]
+-[VKShareDialogControllerInternal setSendButton:]
+-[VKShareDialogControllerInternal attachmentsArray]
+-[VKShareDialogControllerInternal setAttachmentsArray:]
+-[VKShareDialogControllerInternal postSettings]
+-[VKShareDialogControllerInternal setPostSettings:]
+-[VKShareDialogControllerInternal prepared]
+-[VKShareDialogControllerInternal setPrepared:]
+-[VKShareDialogControllerInternal oldDelegate]
+-[VKShareDialogControllerInternal setOldDelegate:]
+-[VKShareDialogControllerInternal .cxx_destruct]
+-[VKShareSettingsController initWithPostSettings:]
+-[VKShareSettingsController viewDidLoad]
+-[VKShareSettingsController tableView:numberOfRowsInSection:]
+-[VKShareSettingsController tableView:cellForRowAtIndexPath:]
+-[VKShareSettingsController switchChanged:]
+-[VKShareSettingsController currentSettings]
+-[VKShareSettingsController setCurrentSettings:]
+-[VKShareSettingsController rows]
+-[VKShareSettingsController setRows:]
+-[VKShareSettingsController .cxx_destruct]
+-[VKShareLink initWithTitle:link:]
+-[VKShareLink title]
+-[VKShareLink setTitle:]
+-[VKShareLink link]
+-[VKShareLink setLink:]
+-[VKShareLink .cxx_destruct]
+_OBJC_IVAR_$_VKPhotoAttachmentCell._progressView
+_OBJC_IVAR_$_VKPhotoAttachmentCell._activity
+_OBJC_IVAR_$_VKPhotoAttachmentCell._attachImageView
+__OBJC_METACLASS_RO_$_VKPhotoAttachmentCell
+__OBJC_$_INSTANCE_METHODS_VKPhotoAttachmentCell
+__OBJC_$_INSTANCE_VARIABLES_VKPhotoAttachmentCell
+__OBJC_$_PROP_LIST_VKPhotoAttachmentCell
+__OBJC_CLASS_RO_$_VKPhotoAttachmentCell
+_OBJC_IVAR_$_VKUploadingAttachment._isDownloading
+_OBJC_IVAR_$_VKUploadingAttachment._attachSize
+_OBJC_IVAR_$_VKUploadingAttachment._attachmentString
+_OBJC_IVAR_$_VKUploadingAttachment._preview
+_OBJC_IVAR_$_VKUploadingAttachment._uploadingRequest
+__OBJC_METACLASS_RO_$_VKUploadingAttachment
+__OBJC_$_INSTANCE_METHODS_VKUploadingAttachment
+__OBJC_$_INSTANCE_VARIABLES_VKUploadingAttachment
+__OBJC_$_PROP_LIST_VKUploadingAttachment
+__OBJC_CLASS_RO_$_VKUploadingAttachment
+_OBJC_IVAR_$_VKPostSettings._friendsOnly
+_OBJC_IVAR_$_VKPostSettings._exportTwitter
+_OBJC_IVAR_$_VKPostSettings._exportFacebook
+_OBJC_IVAR_$_VKPostSettings._exportLivejournal
+__OBJC_METACLASS_RO_$_VKPostSettings
+__OBJC_$_INSTANCE_METHODS_VKPostSettings
+__OBJC_$_INSTANCE_VARIABLES_VKPostSettings
+__OBJC_$_PROP_LIST_VKPostSettings
+__OBJC_CLASS_RO_$_VKPostSettings
+_OBJC_CLASSLIST_REFERENCES_$_.117
+_OBJC_CLASSLIST_REFERENCES_$_.119
+_OBJC_CLASSLIST_SUP_REFS_$_.135
+_OBJC_CLASSLIST_REFERENCES_$_.138
+_OBJC_IVAR_$_VKShareDialogController._targetShareDialog
+_OBJC_IVAR_$_VKShareDialogController._internalNavigation
+_OBJC_CLASSLIST_REFERENCES_$_.149
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_CLASSLIST_REFERENCES_$_.156
+_OBJC_IVAR_$_VKShareDialogController._requestedScope
+_OBJC_CLASSLIST_REFERENCES_$_.159
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_CLASSLIST_REFERENCES_$_.162
+_OBJC_IVAR_$_VKShareDialogController._transitionDelegate
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_CLASSLIST_REFERENCES_$_.169
+_OBJC_CLASSLIST_REFERENCES_$_.175
+_OBJC_CLASSLIST_REFERENCES_$_.182
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_CLASSLIST_REFERENCES_$_.242
+___block_descriptor_32_e25_B24?08"NSDictionary"16l
+_OBJC_CLASSLIST_REFERENCES_$_.243
+_OBJC_IVAR_$_VKShareDialogController._uploadImages
+_OBJC_IVAR_$_VKShareDialogController.defaultBarStyle
+_OBJC_IVAR_$_VKShareDialogController._vkImages
+_OBJC_IVAR_$_VKShareDialogController._shareLink
+_OBJC_IVAR_$_VKShareDialogController._text
+_OBJC_IVAR_$_VKShareDialogController._completionHandler
+_OBJC_IVAR_$_VKShareDialogController._dismissAutomatically
+_OBJC_IVAR_$_VKShareDialogController._postId
+__OBJC_$_CLASS_METHODS_VKShareDialogController
+__OBJC_METACLASS_RO_$_VKShareDialogController
+__OBJC_$_INSTANCE_METHODS_VKShareDialogController
+__OBJC_$_INSTANCE_VARIABLES_VKShareDialogController
+__OBJC_$_PROP_LIST_VKShareDialogController
+__OBJC_CLASS_RO_$_VKShareDialogController
+_OBJC_CLASSLIST_REFERENCES_$_.329
+_OBJC_SELECTOR_REFERENCES_.331
+_OBJC_SELECTOR_REFERENCES_.333
+_OBJC_CLASSLIST_SUP_REFS_$_.334
+_OBJC_SELECTOR_REFERENCES_.344
+_OBJC_SELECTOR_REFERENCES_.346
+_OBJC_SELECTOR_REFERENCES_.348
+_OBJC_SELECTOR_REFERENCES_.350
+_OBJC_SELECTOR_REFERENCES_.356
+_OBJC_SELECTOR_REFERENCES_.358
+_OBJC_SELECTOR_REFERENCES_.360
+_OBJC_SELECTOR_REFERENCES_.362
+_OBJC_SELECTOR_REFERENCES_.363
+_OBJC_SELECTOR_REFERENCES_.364
+_OBJC_IVAR_$_VKPlaceholderTextView._placeholder
+_OBJC_SELECTOR_REFERENCES_.366
+_OBJC_SELECTOR_REFERENCES_.368
+_OBJC_CLASSLIST_REFERENCES_$_.369
+_OBJC_SELECTOR_REFERENCES_.371
+_OBJC_SELECTOR_REFERENCES_.373
+_OBJC_SELECTOR_REFERENCES_.379
+_OBJC_SELECTOR_REFERENCES_.381
+_OBJC_SELECTOR_REFERENCES_.383
+_OBJC_SELECTOR_REFERENCES_.385
+_OBJC_SELECTOR_REFERENCES_.387
+_OBJC_SELECTOR_REFERENCES_.389
+_OBJC_SELECTOR_REFERENCES_.393
+_OBJC_CLASSLIST_REFERENCES_$_.394
+_OBJC_SELECTOR_REFERENCES_.398
+_OBJC_CLASSLIST_REFERENCES_$_.399
+_OBJC_CLASSLIST_REFERENCES_$_.400
+_OBJC_SELECTOR_REFERENCES_.402
+_OBJC_SELECTOR_REFERENCES_.404
+_OBJC_SELECTOR_REFERENCES_.406
+_OBJC_SELECTOR_REFERENCES_.408
+_OBJC_SELECTOR_REFERENCES_.410
+_OBJC_IVAR_$_VKPlaceholderTextView._placeholderColor
+_OBJC_IVAR_$_VKPlaceholderTextView._placeholderLabel
+__OBJC_METACLASS_RO_$_VKPlaceholderTextView
+__OBJC_$_INSTANCE_METHODS_VKPlaceholderTextView
+__OBJC_$_INSTANCE_VARIABLES_VKPlaceholderTextView
+__OBJC_$_PROP_LIST_VKPlaceholderTextView
+__OBJC_CLASS_RO_$_VKPlaceholderTextView
+_OBJC_CLASSLIST_SUP_REFS_$_.426
+_OBJC_SELECTOR_REFERENCES_.428
+_OBJC_SELECTOR_REFERENCES_.430
+_OBJC_CLASSLIST_REFERENCES_$_.431
+_OBJC_SELECTOR_REFERENCES_.435
+_OBJC_SELECTOR_REFERENCES_.437
+_OBJC_SELECTOR_REFERENCES_.439
+_OBJC_SELECTOR_REFERENCES_.441
+_OBJC_SELECTOR_REFERENCES_.443
+_OBJC_SELECTOR_REFERENCES_.445
+__OBJC_METACLASS_RO_$_VKPrivacyButton
+__OBJC_$_INSTANCE_METHODS_VKPrivacyButton
+__OBJC_CLASS_RO_$_VKPrivacyButton
+_OBJC_CLASSLIST_SUP_REFS_$_.448
+_OBJC_IVAR_$_VKLinkAttachView._linkTitle
+_OBJC_CLASSLIST_REFERENCES_$_.449
+_OBJC_IVAR_$_VKLinkAttachView._linkHost
+_OBJC_CLASSLIST_REFERENCES_$_.458
+_OBJC_SELECTOR_REFERENCES_.460
+_OBJC_SELECTOR_REFERENCES_.462
+_OBJC_SELECTOR_REFERENCES_.464
+_OBJC_SELECTOR_REFERENCES_.466
+__OBJC_METACLASS_RO_$_VKLinkAttachView
+__OBJC_$_INSTANCE_METHODS_VKLinkAttachView
+__OBJC_$_INSTANCE_VARIABLES_VKLinkAttachView
+__OBJC_$_PROP_LIST_VKLinkAttachView
+__OBJC_CLASS_RO_$_VKLinkAttachView
+_OBJC_CLASSLIST_SUP_REFS_$_.478
+_OBJC_IVAR_$_VKShareDialogView._notAuthorizedView
+_OBJC_IVAR_$_VKShareDialogView._notAuthorizedLabel
+_OBJC_SELECTOR_REFERENCES_.482
+_OBJC_SELECTOR_REFERENCES_.484
+_OBJC_CLASSLIST_REFERENCES_$_.485
+_OBJC_IVAR_$_VKShareDialogView._notAuthorizedButton
+_OBJC_SELECTOR_REFERENCES_.489
+_OBJC_SELECTOR_REFERENCES_.491
+_OBJC_SELECTOR_REFERENCES_.493
+_OBJC_SELECTOR_REFERENCES_.499
+_OBJC_IVAR_$_VKShareDialogView._activityIndicator
+_OBJC_SELECTOR_REFERENCES_.505
+_OBJC_SELECTOR_REFERENCES_.507
+_OBJC_CLASSLIST_REFERENCES_$_.508
+_OBJC_IVAR_$_VKShareDialogView._contentScrollView
+_OBJC_SELECTOR_REFERENCES_.510
+_OBJC_SELECTOR_REFERENCES_.512
+_OBJC_CLASSLIST_REFERENCES_$_.513
+_OBJC_IVAR_$_VKShareDialogView._privacyButton
+_OBJC_SELECTOR_REFERENCES_.515
+_OBJC_SELECTOR_REFERENCES_.519
+_OBJC_SELECTOR_REFERENCES_.521
+_OBJC_CLASSLIST_REFERENCES_$_.522
+_OBJC_IVAR_$_VKShareDialogView._textView
+_OBJC_SELECTOR_REFERENCES_.524
+_OBJC_SELECTOR_REFERENCES_.526
+_OBJC_SELECTOR_REFERENCES_.528
+_OBJC_CLASSLIST_REFERENCES_$_.531
+_OBJC_SELECTOR_REFERENCES_.533
+_OBJC_SELECTOR_REFERENCES_.535
+_OBJC_CLASSLIST_REFERENCES_$_.536
+_OBJC_SELECTOR_REFERENCES_.538
+_OBJC_IVAR_$_VKShareDialogView._attachmentsCollection
+_OBJC_SELECTOR_REFERENCES_.540
+_OBJC_CLASSLIST_REFERENCES_$_.541
+_OBJC_SELECTOR_REFERENCES_.545
+_OBJC_SELECTOR_REFERENCES_.547
+_OBJC_SELECTOR_REFERENCES_.549
+_OBJC_SELECTOR_REFERENCES_.551
+_OBJC_SELECTOR_REFERENCES_.553
+_OBJC_SELECTOR_REFERENCES_.555
+_OBJC_SELECTOR_REFERENCES_.556
+_OBJC_SELECTOR_REFERENCES_.558
+_OBJC_IVAR_$_VKShareDialogView.lastTextViewHeight
+_OBJC_SELECTOR_REFERENCES_.560
+_OBJC_SELECTOR_REFERENCES_.562
+_OBJC_SELECTOR_REFERENCES_.564
+_OBJC_SELECTOR_REFERENCES_.566
+_OBJC_SELECTOR_REFERENCES_.568
+_OBJC_SELECTOR_REFERENCES_.571
+_OBJC_SELECTOR_REFERENCES_.573
+_OBJC_SELECTOR_REFERENCES_.575
+_OBJC_CLASSLIST_REFERENCES_$_.576
+_OBJC_SELECTOR_REFERENCES_.578
+_OBJC_SELECTOR_REFERENCES_.579
+_OBJC_SELECTOR_REFERENCES_.581
+_OBJC_IVAR_$_VKShareDialogView._linkAttachView
+__OBJC_$_PROTOCOL_REFS_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIScrollViewDelegate
+__OBJC_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_REFS_UITextViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITextViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UITextViewDelegate
+__OBJC_PROTOCOL_$_UITextViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UITextViewDelegate
+__OBJC_CLASS_PROTOCOLS_$_VKShareDialogView
+__OBJC_METACLASS_RO_$_VKShareDialogView
+__OBJC_$_INSTANCE_METHODS_VKShareDialogView
+__OBJC_$_INSTANCE_VARIABLES_VKShareDialogView
+__OBJC_$_PROP_LIST_VKShareDialogView
+__OBJC_CLASS_RO_$_VKShareDialogView
+_OBJC_SELECTOR_REFERENCES_.715
+_OBJC_SELECTOR_REFERENCES_.717
+_OBJC_CLASSLIST_SUP_REFS_$_.718
+_OBJC_SELECTOR_REFERENCES_.720
+_OBJC_IVAR_$_VKShareDialogControllerInternal.imageProcessingQueue
+_OBJC_CLASSLIST_REFERENCES_$_.721
+_OBJC_SELECTOR_REFERENCES_.723
+_OBJC_SELECTOR_REFERENCES_.725
+_OBJC_SELECTOR_REFERENCES_.727
+_OBJC_SELECTOR_REFERENCES_.728
+_OBJC_SELECTOR_REFERENCES_.730
+_OBJC_SELECTOR_REFERENCES_.734
+_OBJC_SELECTOR_REFERENCES_.736
+_OBJC_SELECTOR_REFERENCES_.738
+_OBJC_SELECTOR_REFERENCES_.740
+_OBJC_SELECTOR_REFERENCES_.742
+_OBJC_SELECTOR_REFERENCES_.744
+_OBJC_SELECTOR_REFERENCES_.746
+_OBJC_SELECTOR_REFERENCES_.748
+_OBJC_SELECTOR_REFERENCES_.750
+_OBJC_SELECTOR_REFERENCES_.752
+_OBJC_SELECTOR_REFERENCES_.754
+_OBJC_SELECTOR_REFERENCES_.755
+_OBJC_SELECTOR_REFERENCES_.757
+_OBJC_SELECTOR_REFERENCES_.758
+_OBJC_SELECTOR_REFERENCES_.760
+___block_descriptor_40_e8_32s_e20_v24?0Q8"NSError"16l
+_OBJC_SELECTOR_REFERENCES_.763
+_OBJC_SELECTOR_REFERENCES_.765
+_OBJC_SELECTOR_REFERENCES_.767
+_OBJC_SELECTOR_REFERENCES_.768
+_OBJC_SELECTOR_REFERENCES_.772
+_OBJC_CLASSLIST_REFERENCES_$_.773
+_OBJC_SELECTOR_REFERENCES_.775
+_OBJC_SELECTOR_REFERENCES_.777
+_OBJC_CLASSLIST_REFERENCES_$_.778
+_OBJC_SELECTOR_REFERENCES_.780
+_OBJC_SELECTOR_REFERENCES_.784
+_OBJC_SELECTOR_REFERENCES_.786
+_OBJC_SELECTOR_REFERENCES_.788
+_OBJC_CLASSLIST_REFERENCES_$_.789
+_OBJC_SELECTOR_REFERENCES_.791
+_OBJC_SELECTOR_REFERENCES_.793
+_OBJC_SELECTOR_REFERENCES_.794
+_OBJC_SELECTOR_REFERENCES_.796
+_OBJC_SELECTOR_REFERENCES_.798
+_OBJC_SELECTOR_REFERENCES_.799
+_OBJC_SELECTOR_REFERENCES_.801
+_OBJC_SELECTOR_REFERENCES_.802
+_OBJC_SELECTOR_REFERENCES_.804
+_OBJC_SELECTOR_REFERENCES_.805
+___block_descriptor_40_e8_32s_e20_v16?0"VKResponse"8l
+_OBJC_SELECTOR_REFERENCES_.808
+_OBJC_SELECTOR_REFERENCES_.810
+_OBJC_SELECTOR_REFERENCES_.812
+_OBJC_SELECTOR_REFERENCES_.816
+_OBJC_SELECTOR_REFERENCES_.818
+_OBJC_SELECTOR_REFERENCES_.820
+_OBJC_SELECTOR_REFERENCES_.821
+_OBJC_SELECTOR_REFERENCES_.822
+_OBJC_SELECTOR_REFERENCES_.824
+_OBJC_SELECTOR_REFERENCES_.826
+_OBJC_SELECTOR_REFERENCES_.828
+_OBJC_SELECTOR_REFERENCES_.830
+_OBJC_SELECTOR_REFERENCES_.832
+_OBJC_SELECTOR_REFERENCES_.834
+_OBJC_CLASSLIST_REFERENCES_$_.835
+_OBJC_IVAR_$_VKShareDialogControllerInternal._attachmentsArray
+_OBJC_SELECTOR_REFERENCES_.837
+_OBJC_SELECTOR_REFERENCES_.839
+_OBJC_SELECTOR_REFERENCES_.840
+_OBJC_SELECTOR_REFERENCES_.842
+_OBJC_SELECTOR_REFERENCES_.844
+_OBJC_SELECTOR_REFERENCES_.845
+_OBJC_SELECTOR_REFERENCES_.847
+_OBJC_SELECTOR_REFERENCES_.849
+_OBJC_SELECTOR_REFERENCES_.853
+_OBJC_SELECTOR_REFERENCES_.855
+_OBJC_SELECTOR_REFERENCES_.856
+_OBJC_SELECTOR_REFERENCES_.858
+_OBJC_SELECTOR_REFERENCES_.860
+_OBJC_SELECTOR_REFERENCES_.861
+_OBJC_SELECTOR_REFERENCES_.864
+_OBJC_SELECTOR_REFERENCES_.867
+_OBJC_SELECTOR_REFERENCES_.871
+_OBJC_SELECTOR_REFERENCES_.875
+_OBJC_SELECTOR_REFERENCES_.879
+_OBJC_SELECTOR_REFERENCES_.880
+___block_descriptor_48_e8_32s40s_e20_v16?0"VKResponse"8l
+_OBJC_SELECTOR_REFERENCES_.883
+_OBJC_SELECTOR_REFERENCES_.885
+_OBJC_CLASSLIST_REFERENCES_$_.886
+_OBJC_SELECTOR_REFERENCES_.890
+_OBJC_CLASSLIST_REFERENCES_$_.891
+_OBJC_SELECTOR_REFERENCES_.895
+_OBJC_SELECTOR_REFERENCES_.897
+_OBJC_SELECTOR_REFERENCES_.899
+___block_descriptor_48_e8_32s40s_e17_v16?0"NSError"8l
+_OBJC_CLASSLIST_REFERENCES_$_.901
+_OBJC_SELECTOR_REFERENCES_.903
+_OBJC_SELECTOR_REFERENCES_.905
+_OBJC_SELECTOR_REFERENCES_.907
+_OBJC_SELECTOR_REFERENCES_.909
+_OBJC_CLASSLIST_REFERENCES_$_.910
+_OBJC_SELECTOR_REFERENCES_.912
+_OBJC_CLASSLIST_REFERENCES_$_.913
+_OBJC_CLASSLIST_REFERENCES_$_.914
+_OBJC_SELECTOR_REFERENCES_.916
+_OBJC_SELECTOR_REFERENCES_.918
+_OBJC_SELECTOR_REFERENCES_.920
+_OBJC_SELECTOR_REFERENCES_.922
+_OBJC_SELECTOR_REFERENCES_.924
+_OBJC_SELECTOR_REFERENCES_.925
+_OBJC_SELECTOR_REFERENCES_.927
+_OBJC_SELECTOR_REFERENCES_.929
+_OBJC_CLASSLIST_REFERENCES_$_.930
+_OBJC_SELECTOR_REFERENCES_.931
+_OBJC_SELECTOR_REFERENCES_.933
+_OBJC_SELECTOR_REFERENCES_.934
+_OBJC_SELECTOR_REFERENCES_.936
+_OBJC_SELECTOR_REFERENCES_.938
+_OBJC_SELECTOR_REFERENCES_.940
+_OBJC_SELECTOR_REFERENCES_.941
+_OBJC_SELECTOR_REFERENCES_.942
+_OBJC_SELECTOR_REFERENCES_.944
+_OBJC_SELECTOR_REFERENCES_.946
+___block_descriptor_56_e8_32s40s48s_e20_v16?0"VKResponse"8l
+_OBJC_SELECTOR_REFERENCES_.948
+_OBJC_SELECTOR_REFERENCES_.953
+_OBJC_SELECTOR_REFERENCES_.955
+___block_descriptor_56_e8_32s40s48s_e17_v16?0"NSError"8l
+_OBJC_SELECTOR_REFERENCES_.957
+_OBJC_SELECTOR_REFERENCES_.959
+_OBJC_SELECTOR_REFERENCES_.960
+_OBJC_CLASSLIST_REFERENCES_$_.961
+_OBJC_SELECTOR_REFERENCES_.965
+_OBJC_SELECTOR_REFERENCES_.966
+_OBJC_SELECTOR_REFERENCES_.968
+_OBJC_CLASSLIST_REFERENCES_$_.969
+_OBJC_CLASSLIST_REFERENCES_$_.976
+_OBJC_SELECTOR_REFERENCES_.978
+_OBJC_SELECTOR_REFERENCES_.987
+_OBJC_SELECTOR_REFERENCES_.989
+_OBJC_SELECTOR_REFERENCES_.991
+_OBJC_SELECTOR_REFERENCES_.993
+_OBJC_SELECTOR_REFERENCES_.995
+_OBJC_SELECTOR_REFERENCES_.997
+_OBJC_CLASSLIST_REFERENCES_$_.998
+_OBJC_CLASSLIST_REFERENCES_$_.999
+_OBJC_CLASSLIST_REFERENCES_$_.1000
+_OBJC_SELECTOR_REFERENCES_.1002
+_OBJC_SELECTOR_REFERENCES_.1004
+_OBJC_SELECTOR_REFERENCES_.1006
+_OBJC_CLASSLIST_REFERENCES_$_.1007
+_OBJC_SELECTOR_REFERENCES_.1009
+_OBJC_SELECTOR_REFERENCES_.1011
+_OBJC_SELECTOR_REFERENCES_.1013
+_OBJC_CLASSLIST_REFERENCES_$_.1014
+_OBJC_SELECTOR_REFERENCES_.1016
+_OBJC_SELECTOR_REFERENCES_.1018
+_OBJC_SELECTOR_REFERENCES_.1020
+___block_descriptor_48_e8_32s40s_e28_v24?0"VKHTTPOperation"816l
+___block_descriptor_48_e8_32s40s_e37_v24?0"VKHTTPOperation"8"NSError"16l
+_OBJC_SELECTOR_REFERENCES_.1025
+_OBJC_SELECTOR_REFERENCES_.1027
+_OBJC_CLASSLIST_REFERENCES_$_.1028
+_OBJC_SELECTOR_REFERENCES_.1030
+_OBJC_SELECTOR_REFERENCES_.1032
+_OBJC_SELECTOR_REFERENCES_.1035
+_OBJC_SELECTOR_REFERENCES_.1037
+_OBJC_SELECTOR_REFERENCES_.1039
+___block_descriptor_32_e17_v16?0"NSError"8l
+___block_literal_global.1041
+_OBJC_SELECTOR_REFERENCES_.1044
+_OBJC_SELECTOR_REFERENCES_.1046
+_OBJC_SELECTOR_REFERENCES_.1047
+_OBJC_SELECTOR_REFERENCES_.1049
+_OBJC_SELECTOR_REFERENCES_.1050
+_OBJC_SELECTOR_REFERENCES_.1052
+_OBJC_SELECTOR_REFERENCES_.1053
+___block_descriptor_40_e8_32w_e14_v32?0q8q16q24l
+_OBJC_SELECTOR_REFERENCES_.1056
+_OBJC_SELECTOR_REFERENCES_.1057
+_OBJC_SELECTOR_REFERENCES_.1058
+_OBJC_SELECTOR_REFERENCES_.1060
+_OBJC_IVAR_$_VKShareDialogControllerInternal._parent
+_OBJC_IVAR_$_VKShareDialogControllerInternal._sendButton
+_OBJC_IVAR_$_VKShareDialogControllerInternal._postSettings
+_OBJC_IVAR_$_VKShareDialogControllerInternal._prepared
+_OBJC_IVAR_$_VKShareDialogControllerInternal._oldDelegate
+__OBJC_$_PROTOCOL_REFS_UICollectionViewDataSource
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_UICollectionViewDataSource
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UICollectionViewDataSource
+__OBJC_$_PROTOCOL_METHOD_TYPES_UICollectionViewDataSource
+__OBJC_PROTOCOL_$_UICollectionViewDataSource
+__OBJC_LABEL_PROTOCOL_$_UICollectionViewDataSource
+__OBJC_$_PROTOCOL_REFS_UICollectionViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UICollectionViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UICollectionViewDelegate
+__OBJC_PROTOCOL_$_UICollectionViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegate
+__OBJC_$_PROTOCOL_REFS_UICollectionViewDelegateFlowLayout
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UICollectionViewDelegateFlowLayout
+__OBJC_$_PROTOCOL_METHOD_TYPES_UICollectionViewDelegateFlowLayout
+__OBJC_PROTOCOL_$_UICollectionViewDelegateFlowLayout
+__OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegateFlowLayout
+__OBJC_$_PROTOCOL_REFS_VKSdkDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_VKSdkDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_VKSdkDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_VKSdkDelegate
+__OBJC_PROTOCOL_$_VKSdkDelegate
+__OBJC_LABEL_PROTOCOL_$_VKSdkDelegate
+__OBJC_$_PROTOCOL_REFS_VKSdkUIDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_VKSdkUIDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_VKSdkUIDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_VKSdkUIDelegate
+__OBJC_PROTOCOL_$_VKSdkUIDelegate
+__OBJC_LABEL_PROTOCOL_$_VKSdkUIDelegate
+__OBJC_CLASS_PROTOCOLS_$_VKShareDialogControllerInternal
+__OBJC_METACLASS_RO_$_VKShareDialogControllerInternal
+__OBJC_$_INSTANCE_METHODS_VKShareDialogControllerInternal
+__OBJC_$_INSTANCE_VARIABLES_VKShareDialogControllerInternal
+__OBJC_$_PROP_LIST_VKShareDialogControllerInternal
+__OBJC_CLASS_RO_$_VKShareDialogControllerInternal
+_OBJC_CLASSLIST_SUP_REFS_$_.1207
+_OBJC_SELECTOR_REFERENCES_.1209
+_OBJC_SELECTOR_REFERENCES_.1211
+_OBJC_SELECTOR_REFERENCES_.1213
+_OBJC_SELECTOR_REFERENCES_.1215
+_OBJC_SELECTOR_REFERENCES_.1217
+_OBJC_SELECTOR_REFERENCES_.1219
+_OBJC_SELECTOR_REFERENCES_.1223
+_OBJC_CLASSLIST_REFERENCES_$_.1224
+_OBJC_SELECTOR_REFERENCES_.1226
+_OBJC_SELECTOR_REFERENCES_.1228
+_OBJC_CLASSLIST_REFERENCES_$_.1229
+_OBJC_SELECTOR_REFERENCES_.1231
+_OBJC_SELECTOR_REFERENCES_.1233
+_OBJC_SELECTOR_REFERENCES_.1235
+_OBJC_SELECTOR_REFERENCES_.1237
+_OBJC_SELECTOR_REFERENCES_.1239
+_OBJC_SELECTOR_REFERENCES_.1240
+_OBJC_SELECTOR_REFERENCES_.1242
+_OBJC_SELECTOR_REFERENCES_.1244
+_OBJC_SELECTOR_REFERENCES_.1246
+_OBJC_SELECTOR_REFERENCES_.1248
+_OBJC_SELECTOR_REFERENCES_.1250
+_OBJC_SELECTOR_REFERENCES_.1252
+_OBJC_IVAR_$_VKShareSettingsController._currentSettings
+_OBJC_IVAR_$_VKShareSettingsController._rows
+__OBJC_METACLASS_RO_$_VKShareSettingsController
+__OBJC_$_INSTANCE_METHODS_VKShareSettingsController
+__OBJC_$_INSTANCE_VARIABLES_VKShareSettingsController
+__OBJC_$_PROP_LIST_VKShareSettingsController
+__OBJC_CLASS_RO_$_VKShareSettingsController
+_OBJC_CLASSLIST_SUP_REFS_$_.1263
+_OBJC_SELECTOR_REFERENCES_.1267
+_OBJC_SELECTOR_REFERENCES_.1269
+_OBJC_IVAR_$_VKShareLink._title
+_OBJC_IVAR_$_VKShareLink._link
+__OBJC_METACLASS_RO_$_VKShareLink
+__OBJC_$_INSTANCE_METHODS_VKShareLink
+__OBJC_$_INSTANCE_VARIABLES_VKShareLink
+__OBJC_$_PROP_LIST_VKShareLink
+__OBJC_CLASS_RO_$_VKShareLink
+__OBJC_METACLASS_RO_$_VKHelperNavigationController
+__OBJC_CLASS_RO_$_VKHelperNavigationController
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Views/VKShareDialogController.m
+library/Source/Views/VKShareDialogController.m
+library/Source/Views/VKShareDialogController.h
+__73-[VKShareDialogControllerInternal collectionView:cellForItemAtIndexPath:]_block_invoke
+__52-[VKShareDialogControllerInternal createAttachments]_block_invoke.1040
+__52-[VKShareDialogControllerInternal createAttachments]_block_invoke.1033
+__52-[VKShareDialogControllerInternal createAttachments]_block_invoke.1022
+__52-[VKShareDialogControllerInternal createAttachments]_block_invoke_4
+__52-[VKShareDialogControllerInternal createAttachments]_block_invoke_3
+__52-[VKShareDialogControllerInternal createAttachments]_block_invoke_2
+__52-[VKShareDialogControllerInternal createAttachments]_block_invoke.979
+__52-[VKShareDialogControllerInternal createAttachments]_block_invoke.949
+__52-[VKShareDialogControllerInternal createAttachments]_block_invoke
+__47-[VKShareDialogControllerInternal sendMessage:]_block_invoke.881
+__47-[VKShareDialogControllerInternal sendMessage:]_block_invoke
+VK_ENSURE_NUM
+__42-[VKShareDialogControllerInternal prepare]_block_invoke
+__50-[VKShareDialogControllerInternal viewWillAppear:]_block_invoke
+__39-[VKShareDialogView textViewDidChange:]_block_invoke
+__43-[VKShareDialogController setUploadImages:]_block_invoke
+UIInterfaceOrientationIsPortrait
+-[VKApiFriends get]
+-[VKApiFriends get:]
+__OBJC_METACLASS_RO_$_VKApiFriends
+__OBJC_$_INSTANCE_METHODS_VKApiFriends
+__OBJC_CLASS_RO_$_VKApiFriends
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/methods/VKApiFriends.m
+library/Source/API/methods/VKApiFriends.m
++[NSError(VKError) errorWithVkError:]
+-[NSError(VKError) copyWithVkError:]
+-[NSError(VKError) vkError]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSError_$_VKError
+__OBJC_$_CATEGORY_CLASS_METHODS_NSError_$_VKError
+__OBJC_$_PROP_LIST_NSError_$_VKError
+__OBJC_$_CATEGORY_NSError_$_VKError
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Core/NSError+VKError.m
+library/Source/Core/NSError+VKError.m
+-[VKUploadPhotoBase initWithImage:parameters:]
+-[VKUploadPhotoBase createExecutionOperation]
+-[VKUploadPhotoBase getServerRequest]
+-[VKUploadPhotoBase getSaveRequest:]
+-[VKUploadPhotoBase methodName]
+-[VKUploadPhotoBase albumId]
+-[VKUploadPhotoBase setAlbumId:]
+-[VKUploadPhotoBase groupId]
+-[VKUploadPhotoBase setGroupId:]
+-[VKUploadPhotoBase userId]
+-[VKUploadPhotoBase setUserId:]
+-[VKUploadPhotoBase imageParameters]
+-[VKUploadPhotoBase setImageParameters:]
+-[VKUploadPhotoBase image]
+-[VKUploadPhotoBase setImage:]
+-[VKUploadPhotoBase .cxx_destruct]
++[VKUploadImageOperation operationWithUploadRequest:]
+-[VKUploadImageOperation start]
+___31-[VKUploadImageOperation start]_block_invoke
+___copy_helper_block_e8_32b40w
+___destroy_helper_block_e8_32s40w
+___31-[VKUploadImageOperation start]_block_invoke.78
+___31-[VKUploadImageOperation start]_block_invoke_2
+___31-[VKUploadImageOperation start]_block_invoke_3
+___copy_helper_block_e8_32s40w
+-[VKUploadImageOperation finish]
+-[VKUploadImageOperation cancel]
+-[VKUploadImageOperation uploadRequest]
+-[VKUploadImageOperation setUploadRequest:]
+-[VKUploadImageOperation lastLoadingRequest]
+-[VKUploadImageOperation setLastLoadingRequest:]
+-[VKUploadImageOperation .cxx_destruct]
+_OBJC_IVAR_$_VKUploadPhotoBase._albumId
+_OBJC_IVAR_$_VKUploadPhotoBase._groupId
+_OBJC_IVAR_$_VKUploadPhotoBase._userId
+_OBJC_IVAR_$_VKUploadPhotoBase._imageParameters
+_OBJC_IVAR_$_VKUploadPhotoBase._image
+__OBJC_METACLASS_RO_$_VKUploadPhotoBase
+__OBJC_$_INSTANCE_METHODS_VKUploadPhotoBase
+__OBJC_$_INSTANCE_VARIABLES_VKUploadPhotoBase
+__OBJC_$_PROP_LIST_VKUploadPhotoBase
+__OBJC_CLASS_RO_$_VKUploadPhotoBase
+_OBJC_IVAR_$_VKUploadImageOperation._uploadRequest
+___block_descriptor_48_e8_32bs40w_e17_v16?0"NSError"8l
+_OBJC_CLASSLIST_REFERENCES_$_.85
+_OBJC_CLASSLIST_REFERENCES_$_.95
+___block_descriptor_48_e8_32s40w_e20_v16?0"VKResponse"8l
+_OBJC_CLASSLIST_SUP_REFS_$_.118
+_OBJC_IVAR_$_VKUploadImageOperation._lastLoadingRequest
+__OBJC_$_CLASS_METHODS_VKUploadImageOperation
+__OBJC_METACLASS_RO_$_VKUploadImageOperation
+__OBJC_$_INSTANCE_METHODS_VKUploadImageOperation
+__OBJC_$_INSTANCE_VARIABLES_VKUploadImageOperation
+__OBJC_$_PROP_LIST_VKUploadImageOperation
+__OBJC_CLASS_RO_$_VKUploadImageOperation
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/upload/VKUploadPhotoBase.m
+library/Source/API/upload/VKUploadPhotoBase.m
+__copy_helper_block_e8_32s40w
+__31-[VKUploadImageOperation start]_block_invoke_3
+__31-[VKUploadImageOperation start]_block_invoke_2
+__31-[VKUploadImageOperation start]_block_invoke.78
+__destroy_helper_block_e8_32s40w
+__copy_helper_block_e8_32b40w
+__31-[VKUploadImageOperation start]_block_invoke
+library/Source/API/upload/VKUploadPhotoBase.h
+-[VKOperation init]
+-[VKOperation setState:]
+-[VKOperation isReady]
+-[VKOperation isExecuting]
+-[VKOperation isFinished]
+-[VKOperation isConcurrent]
+-[VKOperation cancel]
+-[VKOperation setCompletionBlock:]
+___34-[VKOperation setCompletionBlock:]_block_invoke
+-[VKOperation state]
+-[VKOperation lock]
+-[VKOperation setLock:]
+-[VKOperation responseQueue]
+-[VKOperation setResponseQueue:]
+-[VKOperation isCancelled]
+-[VKOperation setWasCancelled:]
+-[VKOperation .cxx_destruct]
+_OBJC_IVAR_$_VKOperation._state
+_OBJC_IVAR_$_VKOperation._wasCancelled
+___block_descriptor_48_e8_32bs40w_e5_v8?0l
+_OBJC_IVAR_$_VKOperation._lock
+_OBJC_IVAR_$_VKOperation._responseQueue
+__OBJC_METACLASS_RO_$_VKOperation
+__OBJC_$_INSTANCE_METHODS_VKOperation
+__OBJC_$_INSTANCE_VARIABLES_VKOperation
+__OBJC_$_PROP_LIST_VKOperation
+__OBJC_CLASS_RO_$_VKOperation
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Core/VKOperation.m
+library/Source/Core/VKOperation.m
+library/Source/Core/VKOperation.h
+__34-[VKOperation setCompletionBlock:]_block_invoke
+VKKeyPathFromOperationState
+VKStateTransitionIsValid
++[VKUtil explodeQueryString:]
++[VKUtil generateGUID]
++[VKUtil parseNumberString:]
+___28+[VKUtil parseNumberString:]_block_invoke
++[VKUtil colorWithRGB:]
++[VKUtil escapeString:]
++[VKUtil queryStringFromParams:]
++[VKUtil isOperatingSystemAtLeastVersion:]
++[VKUtil isOperatingSystemAtLeastIOS7]
++[VKUtil isOperatingSystemAtLeastIOS8]
+-[UIImage(RoundedImage) vks_addRoundedRectToPath:rect:width:height:toCorners:]
+-[UIImage(RoundedImage) vks_roundCornersImage:resultSize:]
+_parseNumberString:.onceToken
+_parseNumberString:.semaphore
+_parseNumberString:.formatter
+_OBJC_CLASSLIST_REFERENCES_$_.27
+_OBJC_CLASSLIST_REFERENCES_$_.32
+__OBJC_$_CLASS_METHODS_VKUtil
+__OBJC_METACLASS_RO_$_VKUtil
+__OBJC_CLASS_RO_$_VKUtil
+_OBJC_CLASSLIST_REFERENCES_$_.66
+__OBJC_$_CATEGORY_INSTANCE_METHODS_UIImage_$_RoundedImage
+__OBJC_$_CATEGORY_UIImage_$_RoundedImage
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Utils/VKUtil.m
+library/Source/Utils/VKUtil.m
+__28+[VKUtil parseNumberString:]_block_invoke
++[VKRequestsScheduler instance]
+___31+[VKRequestsScheduler instance]_block_invoke
+-[VKRequestsScheduler init]
+-[VKRequestsScheduler setEnabled:]
+-[VKRequestsScheduler currentAvailableInterval]
+-[VKRequestsScheduler scheduleRequest:]
+___39-[VKRequestsScheduler scheduleRequest:]_block_invoke
+___39-[VKRequestsScheduler scheduleRequest:]_block_invoke_2
+-[VKRequestsScheduler .cxx_destruct]
+_instance.sInstance
+_instance.onceToken
+_OBJC_IVAR_$_VKRequestsScheduler._currentLimitPerSecond
+_OBJC_IVAR_$_VKRequestsScheduler._schedulerQueue
+_OBJC_IVAR_$_VKRequestsScheduler._enabled
+_OBJC_IVAR_$_VKRequestsScheduler._scheduleDict
+__OBJC_$_CLASS_METHODS_VKRequestsScheduler
+__OBJC_METACLASS_RO_$_VKRequestsScheduler
+__OBJC_$_INSTANCE_METHODS_VKRequestsScheduler
+__OBJC_$_INSTANCE_VARIABLES_VKRequestsScheduler
+__OBJC_CLASS_RO_$_VKRequestsScheduler
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Core/VKRequestsScheduler.m
+library/Source/Core/VKRequestsScheduler.m
+__39-[VKRequestsScheduler scheduleRequest:]_block_invoke_2
+__39-[VKRequestsScheduler scheduleRequest:]_block_invoke
+__31+[VKRequestsScheduler instance]_block_invoke
++[VKSdk initialize]
++[VKSdk instance]
++[VKSdk initialized]
++[VKSdk initializeWithAppId:]
++[VKSdk initializeWithAppId:apiVersion:]
+___40+[VKSdk initializeWithAppId:apiVersion:]_block_invoke
+-[VKSdk registerDelegate:]
+-[VKSdk unregisterDelegate:]
++[VKSdk authorize:]
++[VKSdk authorize:withOptions:]
+___31+[VKSdk authorize:withOptions:]_block_invoke
++[VKSdk vkAppMayExists]
++[VKSdk setAccessToken:]
++[VKSdk accessToken]
++[VKSdk processOpenURL:validation:]
+___35+[VKSdk processOpenURL:validation:]_block_invoke
+___35+[VKSdk processOpenURL:validation:]_block_invoke_2
+___35+[VKSdk processOpenURL:validation:]_block_invoke.153
+___35+[VKSdk processOpenURL:validation:]_block_invoke_2.156
+___copy_helper_block_e8_32s40s56s64b
+___destroy_helper_block_e8_32s40s56s64s
+___copy_helper_block_e8_40s48b
+___destroy_helper_block_e8_40s48s
+___35+[VKSdk processOpenURL:validation:]_block_invoke.189
+___copy_helper_block_e8_32s40b48s
++[VKSdk processOpenURL:fromApplication:]
++[VKSdk processOpenInternalURL:validation:]
++[VKSdk forceLogout]
++[VKSdk isLoggedIn]
++[VKSdk wakeUpSession:completeBlock:]
+___37+[VKSdk wakeUpSession:completeBlock:]_block_invoke
+___copy_helper_block_e8_32s40s48s64b
+___destroy_helper_block_e8_32s40s48s64s
+-[VKSdk hasPermissions:]
+-[VKSdk updatePermissions:]
++[VKSdk setSchedulerEnabled:]
+-[VKSdk initUniqueInstance]
+-[VKSdk dealloc]
+-[VKSdk handleDidBecomeActive]
+___30-[VKSdk handleDidBecomeActive]_block_invoke
+-[VKSdk currentAppId]
+-[VKSdk requestSdkState:trackVisitor:token:]
+___44-[VKSdk requestSdkState:trackVisitor:token:]_block_invoke
+___copy_helper_block_e8_32b
+___44-[VKSdk requestSdkState:trackVisitor:token:]_block_invoke.321
+-[VKSdk notifyUserAuthorizationFailed:]
+-[VKSdk resetSdkState]
+-[VKSdk notifyDelegate:obj:]
+-[VKSdk setAccessToken:]
+-[VKSdk safariViewControllerDidFinish:]
+-[VKSdk uiDelegate]
+-[VKSdk setUiDelegate:]
+-[VKSdk apiVersion]
+-[VKSdk setApiVersion:]
+-[VKSdk sdkDelegates]
+-[VKSdk authState]
+-[VKSdk setAuthState:]
+-[VKSdk lastKnownOptions]
+-[VKSdk setLastKnownOptions:]
+-[VKSdk setCurrentAppId:]
+-[VKSdk accessToken]
+-[VKSdk presentedSafariViewController]
+-[VKSdk setPresentedSafariViewController:]
+-[VKSdk permissions]
+-[VKSdk setPermissions:]
+-[VKSdk .cxx_destruct]
++[VKWeakDelegate with:]
+-[VKWeakDelegate initWithObject:]
+-[VKWeakDelegate methodSignatureForSelector:]
+-[VKWeakDelegate forwardInvocation:]
+-[VKWeakDelegate isEqualTarget:]
+-[VKWeakDelegate weakTarget]
+-[VKWeakDelegate setWeakTarget:]
+-[VKWeakDelegate .cxx_destruct]
+-[VKAccessToken(Private) setAccessTokenRequiredHTTPS]
+-[VKAccessToken(Private) notifyTokenExpired]
+-[VKError(CaptchaRequest) notifyCaptchaRequired]
+-[VKError(CaptchaRequest) notifyAuthorizationFailed]
+-[UIViewController(VKController) vks_presentViewControllerThroughDelegate]
+-[UIViewController(VKController) vks_viewControllerWillDismiss]
+-[UIViewController(VKController) vks_viewControllerDidDismiss]
+_vkSdkInstance
+_kSpecialPermissions
+_initializeWithAppId:apiVersion:.onceToken
+_OBJC_CLASSLIST_REFERENCES_$_.26
+_OBJC_CLASSLIST_REFERENCES_$_.50
+_OBJC_CLASSLIST_REFERENCES_$_.88
+_OBJC_CLASSLIST_REFERENCES_$_.91
+___block_descriptor_32_e8_v12?0B8l
+_OBJC_CLASSLIST_REFERENCES_$_.100
+_OBJC_CLASSLIST_REFERENCES_$_.101
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_CLASSLIST_REFERENCES_$_.114
+_OBJC_CLASSLIST_REFERENCES_$_.125
+_OBJC_CLASSLIST_REFERENCES_$_.132
+_OBJC_CLASSLIST_REFERENCES_$_.161
+_OBJC_SELECTOR_REFERENCES_.163
+___block_descriptor_80_e8_32s40s56s64bs_e31_v32?0"VKUser"8q16"NSError"24l
+___block_descriptor_56_e8_40s48bs_e35_v24?0"VKAccessToken"8"VKError"16l
+_OBJC_CLASSLIST_REFERENCES_$_.180
+___block_descriptor_57_e8_32s40bs48s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.201
+_OBJC_CLASSLIST_REFERENCES_$_.210
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_CLASSLIST_REFERENCES_$_.247
+_OBJC_SELECTOR_REFERENCES_.251
+_OBJC_SELECTOR_REFERENCES_.257
+_OBJC_SELECTOR_REFERENCES_.259
+_OBJC_SELECTOR_REFERENCES_.261
+___block_descriptor_72_e8_32s40s48s64bs_e31_v32?0"VKUser"8q16"NSError"24l
+_OBJC_CLASSLIST_REFERENCES_$_.269
+_OBJC_CLASSLIST_SUP_REFS_$_.274
+_OBJC_CLASSLIST_REFERENCES_$_.277
+_OBJC_CLASSLIST_REFERENCES_$_.296
+_OBJC_SELECTOR_REFERENCES_.308
+_OBJC_CLASSLIST_REFERENCES_$_.309
+_OBJC_SELECTOR_REFERENCES_.319
+___block_descriptor_40_e8_32bs_e20_v16?0"VKResponse"8l
+___block_descriptor_40_e8_32bs_e17_v16?0"NSError"8l
+_OBJC_SELECTOR_REFERENCES_.324
+_OBJC_SELECTOR_REFERENCES_.326
+_OBJC_SELECTOR_REFERENCES_.328
+_OBJC_SELECTOR_REFERENCES_.330
+__OBJC_$_CLASS_METHODS_VKSdk
+__OBJC_$_PROTOCOL_REFS_SFSafariViewControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SFSafariViewControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_SFSafariViewControllerDelegate
+__OBJC_PROTOCOL_$_SFSafariViewControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_SFSafariViewControllerDelegate
+__OBJC_CLASS_PROTOCOLS_$_VKSdk
+__OBJC_METACLASS_RO_$_VKSdk
+__OBJC_$_INSTANCE_METHODS_VKSdk
+_OBJC_IVAR_$_VKSdk._uiDelegate
+_OBJC_IVAR_$_VKSdk._apiVersion
+_OBJC_IVAR_$_VKSdk._sdkDelegates
+_OBJC_IVAR_$_VKSdk._authState
+_OBJC_IVAR_$_VKSdk._lastKnownOptions
+_OBJC_IVAR_$_VKSdk._currentAppId
+_OBJC_IVAR_$_VKSdk._accessToken
+_OBJC_IVAR_$_VKSdk._presentedSafariViewController
+_OBJC_IVAR_$_VKSdk._permissions
+__OBJC_$_INSTANCE_VARIABLES_VKSdk
+__OBJC_$_PROP_LIST_VKSdk
+__OBJC_CLASS_RO_$_VKSdk
+_OBJC_SELECTOR_REFERENCES_.448
+_OBJC_IVAR_$_VKWeakDelegate.objectClass
+_OBJC_SELECTOR_REFERENCES_.452
+_OBJC_SELECTOR_REFERENCES_.454
+_OBJC_SELECTOR_REFERENCES_.456
+_OBJC_IVAR_$_VKWeakDelegate._weakTarget
+__OBJC_$_CLASS_METHODS_VKWeakDelegate
+__OBJC_CLASS_PROTOCOLS_$_VKWeakDelegate
+__OBJC_METACLASS_RO_$_VKWeakDelegate
+__OBJC_$_INSTANCE_METHODS_VKWeakDelegate
+__OBJC_$_INSTANCE_VARIABLES_VKWeakDelegate
+__OBJC_$_PROP_LIST_VKWeakDelegate
+__OBJC_CLASS_RO_$_VKWeakDelegate
+_OBJC_SELECTOR_REFERENCES_.471
+__OBJC_$_CATEGORY_INSTANCE_METHODS_VKAccessToken_$_Private
+__OBJC_$_CATEGORY_VKAccessToken_$_Private
+_OBJC_SELECTOR_REFERENCES_.475
+_OBJC_SELECTOR_REFERENCES_.477
+_OBJC_SELECTOR_REFERENCES_.478
+__OBJC_$_CATEGORY_INSTANCE_METHODS_VKError_$_CaptchaRequest
+__OBJC_$_CATEGORY_VKError_$_CaptchaRequest
+_OBJC_SELECTOR_REFERENCES_.483
+_OBJC_SELECTOR_REFERENCES_.485
+_OBJC_SELECTOR_REFERENCES_.487
+__OBJC_$_CATEGORY_INSTANCE_METHODS_UIViewController_$_VKController
+__OBJC_$_CATEGORY_UIViewController_$_VKController
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/VKSdk.m
+library/Source/VKSdk.m
+library/Source/VKSdk.h
+__44-[VKSdk requestSdkState:trackVisitor:token:]_block_invoke.321
+__copy_helper_block_e8_32b
+__44-[VKSdk requestSdkState:trackVisitor:token:]_block_invoke
+__30-[VKSdk handleDidBecomeActive]_block_invoke
+__destroy_helper_block_e8_32s40s48s64s
+__copy_helper_block_e8_32s40s48s64b
+__37+[VKSdk wakeUpSession:completeBlock:]_block_invoke
+__copy_helper_block_e8_32s40b48s
+__35+[VKSdk processOpenURL:validation:]_block_invoke.189
+__destroy_helper_block_e8_40s48s
+__copy_helper_block_e8_40s48b
+__destroy_helper_block_e8_32s40s56s64s
+__copy_helper_block_e8_32s40s56s64b
+__35+[VKSdk processOpenURL:validation:]_block_invoke_2.156
+__35+[VKSdk processOpenURL:validation:]_block_invoke.153
+__35+[VKSdk processOpenURL:validation:]_block_invoke_2
+__35+[VKSdk processOpenURL:validation:]_block_invoke
+__31+[VKSdk authorize:withOptions:]_block_invoke
+__40+[VKSdk initializeWithAppId:apiVersion:]_block_invoke
+__OBJC_METACLASS_RO_$_VKObject
+__OBJC_CLASS_RO_$_VKObject
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/Core/VKObject.m
+-[VKApiObjectArray initWithDictionary:]
+-[VKApiObjectArray initWithDictionary:objectClass:]
+-[VKApiObjectArray initWithArray:objectClass:]
+-[VKApiObjectArray initWithArray:]
+-[VKApiObjectArray parseItems:asClass:]
+-[VKApiObjectArray countByEnumeratingWithState:objects:count:]
+-[VKApiObjectArray objectAtIndex:]
+-[VKApiObjectArray objectAtIndexedSubscript:]
+-[VKApiObjectArray objectEnumerator]
+-[VKApiObjectArray reverseObjectEnumerator]
+-[VKApiObjectArray addObject:]
+-[VKApiObjectArray removeObject:]
+-[VKApiObjectArray insertObject:atIndex:]
+-[VKApiObjectArray firstObject]
+-[VKApiObjectArray lastObject]
+-[VKApiObjectArray serialize]
+-[VKApiObjectArray serializeTo:withName:]
+-[VKApiObjectArray objectClass]
++[VKApiObjectArray createWithDictionary:]
++[VKApiObjectArray createWithArray:]
+-[VKApiObjectArray count]
+-[VKApiObjectArray setCount:]
+-[VKApiObjectArray items]
+-[VKApiObjectArray setItems:]
+-[VKApiObjectArray .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.57
+_OBJC_IVAR_$_VKApiObjectArray._count
+_OBJC_IVAR_$_VKApiObjectArray._items
+__OBJC_$_CLASS_METHODS_VKApiObjectArray
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSFastEnumeration
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSFastEnumeration
+__OBJC_PROTOCOL_$_NSFastEnumeration
+__OBJC_LABEL_PROTOCOL_$_NSFastEnumeration
+__OBJC_CLASS_PROTOCOLS_$_VKApiObjectArray
+__OBJC_METACLASS_RO_$_VKApiObjectArray
+__OBJC_$_INSTANCE_METHODS_VKApiObjectArray
+__OBJC_$_INSTANCE_VARIABLES_VKApiObjectArray
+__OBJC_$_PROP_LIST_VKApiObjectArray
+__OBJC_CLASS_RO_$_VKApiObjectArray
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/models/VKApiObjectArray.m
+library/Source/API/models/VKApiObjectArray.m
+library/Source/API/models/VKApiObjectArray.h
+VK_ENSURE_ARRAY
+-[VKApiCaptcha force]
+__OBJC_METACLASS_RO_$_VKApiCaptcha
+__OBJC_$_INSTANCE_METHODS_VKApiCaptcha
+__OBJC_CLASS_RO_$_VKApiCaptcha
+/Users/lagarnas/Desktop/swift/swiftbook.ru Курсы/VK News Feed App/VkNewsFeed/Carthage/Checkouts/vk-ios-sdk/library/Source/API/methods/VKApiCaptcha.m
+library/Source/API/methods/VKApiCaptcha.m
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=arm64-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -Wno-objc-signed-char-bool-implicit-int-conversion -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -mlinker-version=556.6
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
