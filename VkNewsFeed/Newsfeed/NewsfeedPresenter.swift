@@ -49,13 +49,13 @@ class NewsfeedPresenter: NewsfeedPresentationLogic {
     
     let profile = self.profile(for: feedItem.sourceId, profiles: profiles, groups: groups)
     
-    let photoAttachment = self.photoAttachment(feedItem: feedItem)
+    let photoAttachments = self.photoAttachments(feedItem: feedItem)
     let date = Date(timeIntervalSince1970: feedItem.date)
     let dateTitle = dateFormatter.string(from: date)
     
     let isFullSized = revealdedPostIds.contains(feedItem.postId)
     
-    let sizes = cellLayoutCalculator.sizes(postText: feedItem.text, photoAttachment: photoAttachment, isFullSizedPost: isFullSized)
+    let sizes = cellLayoutCalculator.sizes(postText: feedItem.text, photoAttachments: photoAttachments, isFullSizedPost: isFullSized)
     
     let countViewsText = (feedItem.views?.count ?? 0) >= 10000 ? String((feedItem.views?.count ?? 0) / 1000) + "K" :  String(feedItem.views?.count ?? 0)
     
@@ -68,7 +68,7 @@ class NewsfeedPresenter: NewsfeedPresentationLogic {
                               comments: String(feedItem.comments?.count ?? 0),
                               shares: String(feedItem.reposts?.count ?? 0),
                               views: countViewsText,
-                              photoAttachment: photoAttachment,
+                              photoAttachments: photoAttachments,
                               sizes: sizes
     )
   }
@@ -87,5 +87,15 @@ class NewsfeedPresenter: NewsfeedPresentationLogic {
     return FeedViewModel.FeedCellPhotoAttachment(photoUrlString: firstPhoto.srcBIG,
                                                  width: firstPhoto.widht,
                                                  height: firstPhoto.height)
+  }
+  private func photoAttachments(feedItem: FeedItem) -> [FeedViewModel.FeedCellPhotoAttachment] {
+    guard let attachments = feedItem.attachments else { return []}
+    return attachments.compactMap { attachment -> FeedViewModel.FeedCellPhotoAttachment? in
+      guard let photo = attachment.photo else  { return nil }
+      return FeedViewModel.FeedCellPhotoAttachment(photoUrlString: photo.srcBIG,
+                                                   width: photo.widht,
+                                                   height: photo.height)
+      
+    }
   }
 }
