@@ -9,7 +9,9 @@
 import Foundation
 import UIKit
 
-class NewsfeedCellGalleryCollectionView: UICollectionView{
+class NewsfeedCellGalleryCollectionView: UICollectionView {
+  
+  var photos = [FeedCellPhotoAttachmentViewModel]()
   
   init() {
     let layout = UICollectionViewFlowLayout()
@@ -17,6 +19,13 @@ class NewsfeedCellGalleryCollectionView: UICollectionView{
     super.init(frame: .zero, collectionViewLayout: layout)
     delegate = self
     dataSource = self
+    
+    register(NewsfeedCellGalleryCollectionViewCell.self, forCellWithReuseIdentifier: NewsfeedCellGalleryCollectionViewCell.reuseID)
+  }
+  
+  func set(photos: [FeedCellPhotoAttachmentViewModel]) {
+    self.photos = photos
+    reloadData()
   }
   
   required init?(coder: NSCoder) {
@@ -28,11 +37,13 @@ class NewsfeedCellGalleryCollectionView: UICollectionView{
 
 extension NewsfeedCellGalleryCollectionView: UICollectionViewDelegate, UICollectionViewDataSource {
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-    2
+    photos.count
   }
   
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let cell = dequeueReusableCell(withReuseIdentifier:  NewsfeedCellGalleryCollectionViewCell.reuseID, for: indexPath) as! NewsfeedCellGalleryCollectionViewCell
+    cell.configure(imageUrl: photos[indexPath.row].photoUrlString)
+    
     return cell
   }
   
