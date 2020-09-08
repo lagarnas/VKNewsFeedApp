@@ -14,18 +14,22 @@ class NewsfeedCellGalleryCollectionView: UICollectionView {
   var photos = [FeedCellPhotoAttachmentViewModel]()
   
   init() {
-    let layout = UICollectionViewFlowLayout()
-    layout.scrollDirection = .horizontal
     let rowLayout = RowLayout()
     super.init(frame: .zero, collectionViewLayout: rowLayout)
     delegate = self
     dataSource = self
+    
+    backgroundColor = .white
+    
+    showsHorizontalScrollIndicator = false
+    showsVerticalScrollIndicator = false
     
     register(NewsfeedCellGalleryCollectionViewCell.self, forCellWithReuseIdentifier: NewsfeedCellGalleryCollectionViewCell.reuseID)
   }
   
   func set(photos: [FeedCellPhotoAttachmentViewModel]) {
     self.photos = photos
+    contentOffset = CGPoint.zero
     reloadData()
   }
   
@@ -36,7 +40,7 @@ class NewsfeedCellGalleryCollectionView: UICollectionView {
 }
 
 
-extension NewsfeedCellGalleryCollectionView: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension NewsfeedCellGalleryCollectionView: UICollectionViewDelegate, UICollectionViewDataSource {
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     photos.count
   }
@@ -47,10 +51,14 @@ extension NewsfeedCellGalleryCollectionView: UICollectionViewDelegate, UICollect
     
     return cell
   }
-  
-  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-    CGSize(width: frame.width, height: frame.height)
-  }
 }
 
-
+extension NewsfeedCellGalleryCollectionView: RowLayoutDelegate {
+  func collectionView(_ collectionView: UICollectionView, photoAddIndexPath indexPath: IndexPath) -> CGSize {
+    let width = photos[indexPath.row].width
+    let height = photos[indexPath.row].height
+    return CGSize(width: width, height: height)
+  }
+  
+  
+}
