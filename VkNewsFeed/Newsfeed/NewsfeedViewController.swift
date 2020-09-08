@@ -20,6 +20,8 @@ class NewsfeedViewController: UIViewController, NewsfeedDisplayLogic {
   
   private var feedViewModel = FeedViewModel(cells: [])
   
+  private var titleView = TitleView()
+  
   // MARK: Setup
   
   private func setup() {
@@ -42,6 +44,7 @@ class NewsfeedViewController: UIViewController, NewsfeedDisplayLogic {
   override func viewDidLoad() {
     super.viewDidLoad()
     setup()
+    setupTopBars() 
     
     //    tableVIew.register(UINib(nibName: "NewsfeedCell", bundle: nil), forCellReuseIdentifier: NewsfeedCell.reuseId)
     
@@ -51,6 +54,12 @@ class NewsfeedViewController: UIViewController, NewsfeedDisplayLogic {
     view.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
     
     interactor?.makeRequest(request: .getNewsFeed)
+  }
+  
+  private func setupTopBars() {
+    self.navigationController?.hidesBarsOnSwipe = true
+    self.navigationController?.navigationBar.shadowImage = UIImage()
+    self.navigationItem.titleView = titleView
   }
   
   func displayData(viewModel: Newsfeed.Model.ViewModel.ViewModelData) {

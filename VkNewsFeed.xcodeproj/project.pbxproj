@@ -38,6 +38,9 @@
 		88E6BBB42502A61E00E30795 /* UIViewController + Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E6BBB32502A61E00E30795 /* UIViewController + Storyboard.swift */; };
 		88E6BBB62502ACB200E30795 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E6BBB52502ACB200E30795 /* Constants.swift */; };
 		88E7B60525076BB20050EFA8 /* RowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E7B60425076BB20050EFA8 /* RowLayout.swift */; };
+		88E7B6082507975F0050EFA8 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E7B6072507975F0050EFA8 /* TitleView.swift */; };
+		88E7B60A250798090050EFA8 /* InsetableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E7B609250798090050EFA8 /* InsetableTextField.swift */; };
+		88E7B60C25079E930050EFA8 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E7B60B25079E930050EFA8 /* UserResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -87,6 +90,9 @@
 		88E6BBB32502A61E00E30795 /* UIViewController + Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Storyboard.swift"; sourceTree = "<group>"; };
 		88E6BBB52502ACB200E30795 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		88E7B60425076BB20050EFA8 /* RowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowLayout.swift; sourceTree = "<group>"; };
+		88E7B6072507975F0050EFA8 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		88E7B609250798090050EFA8 /* InsetableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetableTextField.swift; sourceTree = "<group>"; };
+		88E7B60B25079E930050EFA8 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				8882841A2500CC6400691FF7 /* FeedResponse.swift */,
+				88E7B60B25079E930050EFA8 /* UserResponse.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -184,6 +191,7 @@
 		88E6BB922500D92100E30795 /* Newsfeed */ = {
 			isa = PBXGroup;
 			children = (
+				88E7B6062507970F0050EFA8 /* TitleView */,
 				883D19E92506172100B2EE62 /* NewsfeedCellGalleryView */,
 				88E6BBA32500FC4500E30795 /* NewsfeedCell */,
 				88E6BBA12500F16300E30795 /* NewsfeedViewController.storyboard */,
@@ -217,6 +225,15 @@
 				88E6BBB32502A61E00E30795 /* UIViewController + Storyboard.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		88E7B6062507970F0050EFA8 /* TitleView */ = {
+			isa = PBXGroup;
+			children = (
+				88E7B6072507975F0050EFA8 /* TitleView.swift */,
+				88E7B609250798090050EFA8 /* InsetableTextField.swift */,
+			);
+			path = TitleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E7B60A250798090050EFA8 /* InsetableTextField.swift in Sources */,
 				8882841B2500CC6400691FF7 /* FeedResponse.swift in Sources */,
 				88E6BBB62502ACB200E30795 /* Constants.swift in Sources */,
 				88E6BBAE25027CF100E30795 /* String + Height.swift in Sources */,
@@ -325,7 +343,9 @@
 				88E6BB9C2500D96000E30795 /* NewsfeedRouter.swift in Sources */,
 				881B3A3924FFE04E000E6E06 /* SceneDelegate.swift in Sources */,
 				888284162500BBCC00691FF7 /* NetworkService.swift in Sources */,
+				88E7B60C25079E930050EFA8 /* UserResponse.swift in Sources */,
 				88E6BB9D2500D96000E30795 /* NewsfeedModels.swift in Sources */,
+				88E7B6082507975F0050EFA8 /* TitleView.swift in Sources */,
 				88E6BBAC250220B700E30795 /* NewsfeedCellLayoutCalculator.swift in Sources */,
 				88E6BBB025029CA100E30795 /* NewsfeedCodeCell.swift in Sources */,
 				88E6BBB22502A0F200E30795 /* Constraints.swift in Sources */,
