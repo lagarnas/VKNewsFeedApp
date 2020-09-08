@@ -30,7 +30,6 @@ class NewsfeedPresenter: NewsfeedPresentationLogic {
     switch response {
     case .presentNewsFeed(let feedResponse, let revealdedPostIds):
       
-      print(revealdedPostIds)
       let cells = feedResponse.items.map {
         cellViewModel(from: $0,
                       profiles: feedResponse.profiles,
@@ -42,6 +41,9 @@ class NewsfeedPresenter: NewsfeedPresentationLogic {
       
       
       viewController?.displayData(viewModel: Newsfeed.Model.ViewModel.ViewModelData.dispayNewsFeed(feedViewModel: feedViewModel))
+    case .presentUserInfo(userResponse: let userResponse):
+      let userViewModel = UserViewModel(photoUrlString: userResponse?.photo100)
+      viewController?.displayData(viewModel: Newsfeed.Model.ViewModel.ViewModelData.displayUser(userViewModel: userViewModel))
     }
   }
   

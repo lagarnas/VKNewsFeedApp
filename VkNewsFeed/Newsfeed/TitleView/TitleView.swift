@@ -9,6 +9,10 @@
 import Foundation
 import UIKit
 
+protocol TitleViewViewModel {
+  var photoUrlString: String? { get }
+}
+
 class TitleView: UIView {
   
   private var textField = InsetableTextField()
@@ -28,6 +32,10 @@ class TitleView: UIView {
     addSubview(textField)
     addSubview(avatarView)
     makeConstraints()
+  }
+  
+  func set(userViewModel: TitleViewViewModel) {
+    avatarView.set(imageURL: userViewModel.photoUrlString)
   }
   
   private func makeConstraints() {

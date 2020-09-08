@@ -54,6 +54,7 @@ class NewsfeedViewController: UIViewController, NewsfeedDisplayLogic {
     view.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
     
     interactor?.makeRequest(request: .getNewsFeed)
+    interactor?.makeRequest(request: .getUser)
   }
   
   private func setupTopBars() {
@@ -68,6 +69,8 @@ class NewsfeedViewController: UIViewController, NewsfeedDisplayLogic {
     case .dispayNewsFeed(feedViewModel: let feedViewModel):
       self.feedViewModel = feedViewModel
       tableVIew.reloadData()
+    case .displayUser(userViewModel: let userViewModel):
+      titleView.set(userViewModel: userViewModel)
     }
   }
 }
