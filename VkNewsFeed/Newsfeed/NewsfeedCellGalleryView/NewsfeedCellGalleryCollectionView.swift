@@ -25,6 +25,10 @@ class NewsfeedCellGalleryCollectionView: UICollectionView {
     showsVerticalScrollIndicator = false
     
     register(NewsfeedCellGalleryCollectionViewCell.self, forCellWithReuseIdentifier: NewsfeedCellGalleryCollectionViewCell.reuseID)
+    
+    if let rowLayout = collectionViewLayout as? RowLayout {
+        rowLayout.delegate = self
+    }
   }
   
   func set(photos: [FeedCellPhotoAttachmentViewModel]) {
