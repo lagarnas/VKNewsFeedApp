@@ -35,7 +35,7 @@ class NewsfeedCellGalleryCollectionView: UICollectionView {
 }
 
 
-extension NewsfeedCellGalleryCollectionView: UICollectionViewDelegate, UICollectionViewDataSource {
+extension NewsfeedCellGalleryCollectionView: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     photos.count
   }
@@ -47,7 +47,9 @@ extension NewsfeedCellGalleryCollectionView: UICollectionViewDelegate, UICollect
     return cell
   }
   
-  
+  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    CGSize(width: frame.width, height: frame.height)
+  }
 }
 
 
