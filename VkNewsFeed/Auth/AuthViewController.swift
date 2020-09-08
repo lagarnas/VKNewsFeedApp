@@ -11,11 +11,13 @@ import UIKit
 class AuthViewController: UIViewController {
   
   private var authService: AuthService!
-
+  
   override func viewDidLoad() {
-    super.viewDidLoad()
-    authService = SceneDelegate.shared().authService
-    view.backgroundColor = .red
+      super.viewDidLoad()
+
+      // Do any additional setup after loading the view.
+      //authService = AuthService()
+      authService = AppDelegate.shared().authService
   }
 
   @IBAction func signInToch(_ sender: UIButton) {

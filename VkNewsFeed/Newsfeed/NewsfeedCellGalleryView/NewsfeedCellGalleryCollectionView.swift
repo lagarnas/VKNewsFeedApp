@@ -54,7 +54,7 @@ extension NewsfeedCellGalleryCollectionView: UICollectionViewDelegate, UICollect
 }
 
 extension NewsfeedCellGalleryCollectionView: RowLayoutDelegate {
-  func collectionView(_ collectionView: UICollectionView, photoAddIndexPath indexPath: IndexPath) -> CGSize {
+  func collectionView(_ collectionView: UICollectionView, photoAtIndexPath indexPath: IndexPath) -> CGSize {
     let width = photos[indexPath.row].width
     let height = photos[indexPath.row].height
     return CGSize(width: width, height: height)

@@ -43,8 +43,8 @@ class NewsfeedCellGalleryCollectionViewCell: UICollectionViewCell {
     myImageView.layer.masksToBounds = true
     myImageView.layer.cornerRadius = 10
     self.layer.shadowRadius = 3
-    self.layer.shadowOpacity = 0.4
-    self.layer.shadowOffset = CGSize(width: 2.5, height: 4)
+    layer.shadowOpacity = 0.4
+    layer.shadowOffset = CGSize(width: 2.5, height: 4)
     
   }
   

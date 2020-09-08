@@ -17,7 +17,7 @@ final class NetworkService: Networking {
   
   private let authService: AuthService
   
-  init(authService: AuthService = SceneDelegate.shared().authService) {
+  init(authService: AuthService = AppDelegate.shared().authService) {
     self.authService = authService
   }
   
