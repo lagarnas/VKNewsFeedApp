@@ -37,6 +37,7 @@
 		88E6BBB22502A0F200E30795 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E6BBB12502A0F200E30795 /* Constraints.swift */; };
 		88E6BBB42502A61E00E30795 /* UIViewController + Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E6BBB32502A61E00E30795 /* UIViewController + Storyboard.swift */; };
 		88E6BBB62502ACB200E30795 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E6BBB52502ACB200E30795 /* Constants.swift */; };
+		88E7B60525076BB20050EFA8 /* RowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E7B60425076BB20050EFA8 /* RowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +86,7 @@
 		88E6BBB12502A0F200E30795 /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 		88E6BBB32502A61E00E30795 /* UIViewController + Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Storyboard.swift"; sourceTree = "<group>"; };
 		88E6BBB52502ACB200E30795 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		88E7B60425076BB20050EFA8 /* RowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		883D19E92506172100B2EE62 /* NewsfeedCellGalleryView */ = {
 			isa = PBXGroup;
 			children = (
+				88E7B60425076BB20050EFA8 /* RowLayout.swift */,
 				883D19EA2506174B00B2EE62 /* NewsfeedCellGalleryCollectionView.swift */,
 				883D19EC2506178700B2EE62 /* NewsfeedCellGalleryCollectionViewCell.swift */,
 			);
@@ -328,6 +331,7 @@
 				88E6BBB22502A0F200E30795 /* Constraints.swift in Sources */,
 				883D19ED2506178700B2EE62 /* NewsfeedCellGalleryCollectionViewCell.swift in Sources */,
 				88E6BBAA2501219800E30795 /* WebImageView.swift in Sources */,
+				88E7B60525076BB20050EFA8 /* RowLayout.swift in Sources */,
 				8882841D2500D01200691FF7 /* NetworkDataFetcher.swift in Sources */,
 				88E6BBB42502A61E00E30795 /* UIViewController + Storyboard.swift in Sources */,
 				88E6BB9B2500D96000E30795 /* NewsfeedWorker.swift in Sources */,
