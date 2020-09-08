@@ -18,9 +18,10 @@ class NewsfeedViewController: UIViewController, NewsfeedDisplayLogic {
   var interactor: NewsfeedBusinessLogic?
   var router: (NSObjectProtocol & NewsfeedRoutingLogic)?
   
-  private var feedViewModel = FeedViewModel(cells: [])
+  private var feedViewModel = FeedViewModel(cells: [], footerTitle: nil)
   
   private var titleView = TitleView()
+  private lazy var footerView = FooterView()
   
   private var refreshControl: UIRefreshControl = {
     let refreshControl = UIRefreshControl()
@@ -53,18 +54,11 @@ class NewsfeedViewController: UIViewController, NewsfeedDisplayLogic {
     setupTopBars()
     setupTable()
     
-
-    
-    
-    view.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
-    
     interactor?.makeRequest(request: .getNewsFeed)
     interactor?.makeRequest(request: .getUser)
   }
   
   private func setupTable() {
-//    tableVIew.register(UINib(nibName: "NewsfeedCell", bundle: nil), forCellReuseIdentifier: NewsfeedCell.reuseId)
-    
     let topInset: CGFloat = 8
     tableVIew.contentInset.top = topInset
     
@@ -72,9 +66,18 @@ class NewsfeedViewController: UIViewController, NewsfeedDisplayLogic {
     tableVIew.separatorStyle = .none
     tableVIew.backgroundColor = .clear
     tableVIew.addSubview(refreshControl)
+    tableVIew.tableFooterView = footerView
   }
   
   private func setupTopBars() {
+    
+    let topBar = UIView(frame: (UIApplication.shared.windows.first?.windowScene?.statusBarManager!.statusBarFrame)!)
+    topBar.backgroundColor = .white
+    topBar.layer.shadowColor = UIColor.black.cgColor
+    topBar.layer.shadowOpacity = 0.3
+    topBar.layer.shadowOffset = CGSize.zero
+    topBar.layer.shadowRadius = 8
+    self.view.addSubview(topBar)
     self.navigationController?.hidesBarsOnSwipe = true
     self.navigationController?.navigationBar.shadowImage = UIImage()
     self.navigationItem.titleView = titleView
@@ -89,10 +92,19 @@ class NewsfeedViewController: UIViewController, NewsfeedDisplayLogic {
     switch viewModel {
     case .dispayNewsFeed(feedViewModel: let feedViewModel):
       self.feedViewModel = feedViewModel
+      footerView.setTitle(feedViewModel.footerTitle)
       tableVIew.reloadData()
       refreshControl.endRefreshing()
     case .displayUser(userViewModel: let userViewModel):
       titleView.set(userViewModel: userViewModel)
+    case .displayFooterLoader:
+      footerView.showLoader()
+    }
+  }
+  
+  func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+    if scrollView.contentOffset.y > scrollView.contentSize.height / 1.1 {
+      interactor?.makeRequest(request: Newsfeed.Model.Request.RequestType.getNextBatch)
     }
   }
 }
@@ -104,7 +116,6 @@ extension NewsfeedViewController: UITableViewDataSource, UITableViewDelegate {
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    //    let cell = tableView.dequeueReusableCell(withIdentifier: NewsfeedCell.reuseId, for: indexPath) as! NewsfeedCell
     let cell = tableView.dequeueReusableCell(withIdentifier: NewsfeedCodeCell.reuseId, for: indexPath) as! NewsfeedCodeCell
     let cellViewModel = feedViewModel.cells[indexPath.row]
     cell.configure(viewModel: cellViewModel)
@@ -131,6 +142,4 @@ extension NewsfeedViewController: NewsfeedCodeCellDelegate {
     let cellViewModel = feedViewModel.cells[indexPath.row]
     interactor?.makeRequest(request: Newsfeed.Model.Request.RequestType.revealPost(postId: cellViewModel.postId))
   }
-  
-  
 }

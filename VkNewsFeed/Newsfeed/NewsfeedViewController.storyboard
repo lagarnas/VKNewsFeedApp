@@ -15,6 +15,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N6t-u7-2sG" customClass="GradientView" customModule="VkNewsFeed" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                        <color key="value" red="1" green="0.55294117647058827" blue="0.55294117647058827" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" red="1" green="0.81568627450980391" blue="0.55294117647058827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5ys-Ke-Aip">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -24,12 +36,16 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="5ys-Ke-Aip" firstAttribute="trailing" secondItem="exb-9e-M7b" secondAttribute="trailing" id="KTm-Ar-3h7"/>
+                            <constraint firstItem="N6t-u7-2sG" firstAttribute="top" secondItem="exb-9e-M7b" secondAttribute="top" id="Lht-eR-32F"/>
+                            <constraint firstAttribute="bottom" secondItem="N6t-u7-2sG" secondAttribute="bottom" id="PAx-7i-aeo"/>
                             <constraint firstItem="5ys-Ke-Aip" firstAttribute="top" secondItem="QM0-w7-xv5" secondAttribute="top" id="SG9-dR-wwD"/>
                             <constraint firstAttribute="bottom" secondItem="5ys-Ke-Aip" secondAttribute="bottom" id="Yu2-Yd-hN2"/>
                             <constraint firstItem="5ys-Ke-Aip" firstAttribute="leading" secondItem="exb-9e-M7b" secondAttribute="leading" id="fb9-x4-oJu"/>
+                            <constraint firstItem="N6t-u7-2sG" firstAttribute="trailing" secondItem="exb-9e-M7b" secondAttribute="trailing" id="jM9-Jm-n9n"/>
+                            <constraint firstItem="N6t-u7-2sG" firstAttribute="leading" secondItem="exb-9e-M7b" secondAttribute="leading" id="mbF-j0-9dW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="exb-9e-M7b"/>
                     </view>
@@ -39,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8WS-ey-z51" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1126.0869565217392" y="-110.49107142857143"/>
+            <point key="canvasLocation" x="-1753.6231884057972" y="-121.20535714285714"/>
         </scene>
     </scenes>
 </document>

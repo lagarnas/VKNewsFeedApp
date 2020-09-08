@@ -37,13 +37,15 @@ class NewsfeedPresenter: NewsfeedPresentationLogic {
                       revealdedPostIds: revealdedPostIds)
       }
       
-      let feedViewModel = FeedViewModel(cells: cells)
-      
+      let footerTitle = String.localizedStringWithFormat(NSLocalizedString("newsfeed cells count", comment: ""), cells.count)
+      let feedViewModel = FeedViewModel(cells: cells, footerTitle: footerTitle)
       
       viewController?.displayData(viewModel: Newsfeed.Model.ViewModel.ViewModelData.dispayNewsFeed(feedViewModel: feedViewModel))
     case .presentUserInfo(userResponse: let userResponse):
       let userViewModel = UserViewModel(photoUrlString: userResponse?.photo100)
       viewController?.displayData(viewModel: Newsfeed.Model.ViewModel.ViewModelData.displayUser(userViewModel: userViewModel))
+    case .presentFooterLoader:
+      viewController?.displayData(viewModel: Newsfeed.Model.ViewModel.ViewModelData.displayFooterLoader)
     }
   }
   
@@ -109,7 +111,6 @@ class NewsfeedPresenter: NewsfeedPresentationLogic {
       return FeedViewModel.FeedCellPhotoAttachment(photoUrlString: photo.srcBIG,
                                                    width: photo.widht,
                                                    height: photo.height)
-      
     }
   }
 }
